@@ -22,6 +22,7 @@ export function Header() {
 
 export function Home(){
     return(
+        
         <div className='logo'>
             <img className='clg-logo' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReEDpIRZmPo_oXlyZ8rli704u-K11-mQQ_8g&s' alt='Miracle College Logo' height="500px" width="500px"></img>
         </div>
@@ -797,6 +798,7 @@ export function Register(){
     return(
          <div className="main-register">
             <div className="registe">
+                
                 <div className="register-elements">
                     <input type="text" placeholder="UserName" name="username" id="username" className="username">
                     </input>
@@ -828,7 +830,7 @@ export function Register(){
                     
                 </div>
                  <div className="social-media">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
+                   <Link tclassName='facebook' ><img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img></Link>
                     <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
                 </div> 
 
@@ -841,6 +843,7 @@ export function Register(){
 
          <div className="main-register">
             <div className="registe">
+                <p className='sign'>Sign In</p>
                 <div className="register-elements">
                     <input type="text" placeholder="UserName" name="username" id="username" className="username">
                     </input>

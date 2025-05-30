@@ -1026,6 +1026,13 @@
 
 /* username Class */
   /* ================================================== */
+  .sign{
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom:30px ;
+  }
+  
   .username {
     padding: 10px;
     background-color: lightgray;
@@ -1047,11 +1054,17 @@
   /* ================================================== */
   .confirm-password {
     padding: 10px;
+    background-color: lightgray;
+    padding-left: 20px;
+    border-radius: 20px;
   }
 /* email Class */
   /* ================================================== */
   .email {
     padding: 10px;
+    background-color: lightgray;
+    padding-left: 20px;
+    border-radius: 20px;
   }
 /* verification Class */
   /* ================================================== */
@@ -1089,6 +1102,7 @@
   .sign-in-link {
     text-decoration: none;
     margin-left: 20px;
+    color: black;
 
   }
 /* sign-in Class */
@@ -1100,7 +1114,7 @@
 /* other Class */
 /* ================================================== */
   .other {
-    color: gray;
+    color: black;
     text-align: center;
     padding: 20px;
   }
@@ -1114,7 +1128,7 @@
   .social-media {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 30px;
     justify-content: center;
   }
 /* google-link Class */
@@ -1122,12 +1136,22 @@
   .google-link {
     height: 20px;
     width: 20px;
+    /* padding: 10px; */
+    /* background-color: lightgray; */
+    /* padding-left: 20px; */
+    border-radius: 20px;
   }
 /* facebook-link Class */
 /* ================================================== */
-  .facebook-link {
+
+
+.facebook-link {
     height: 20px;
     width: 20px;
+    /* padding: 10px; */
+    /* background-color: lightgray; */
+    /* padding-left: 20px; */
+    border-radius: 20px;
   }
 
 /* main-sign Class */
