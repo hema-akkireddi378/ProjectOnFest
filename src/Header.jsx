@@ -846,11 +846,13 @@ export function Register(){
                     </input>
                     <input type="password" placeholder="Password" name="password" id="password" className="password">
                     </input>
+
+                    <Link to="/ForgotPassword" className="forgot-link">Forgot Password?</Link>
                    
-                    <div className="verification">
+                    {/* <div className="verification">
                     <input type="checkbox" ></input>
                     <label>Verify you are human</label>
-                    </div>
+                    </div> */}
                     <button type="submit" className="sign-up">Sign In</button>
                 </div>
                 <div className="signin">
@@ -859,9 +861,9 @@ export function Register(){
                     {/* <Link to="/SignIn" className="sign-in-link">Sign in</Link> */}
                    
                  {/* <div className="forgot"> */}
-                 <Link to="/ForgotPassword" className="forgot-link">Forgot Password</Link>
+                 
                 
-            <Link  to="/Register" className="forgot-link">Sign Up</Link>
+            {/* <Link  to="/Register" className="forgot-link">Sign Up</Link> */}
            {/* </div> */}
                   
 
