@@ -11,7 +11,14 @@
 
   /* Logo */
   /* ================================================== */
+  /* .mrcl{
+    background-color: #3F72AF;
+  }
   
+  .miracle{
+    margin: 50px;
+    background-color: #A6B1E1;
+  } */
 
 
 .clg-logo{
@@ -1026,6 +1033,12 @@
 
 /* username Class */
   /* ================================================== */
+  .register{
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom:30px ;
+  }
   .sign{
     font-size: x-large;
     font-weight: 600;
