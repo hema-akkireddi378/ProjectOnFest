@@ -171,22 +171,26 @@
   .more {
     text-decoration: none;
     text-align: end;
-    padding: 15px;
+    padding: 10px 20px 10px 20px;
     margin-right: 0px;
-    
+    color: #3F72AF;
+    font-size: larger;
+    font-weight: 600;
   }
-
+  
   .button-link{
     padding: 10px 30px;
-    margin:0px 10px 0px 0px ;
+    margin:20px 10px 0px 0px ;
     border-radius: 20px;
     background-color: #3F72AF;
     color: #F9F7F7;
   }
-  .button-link:hover{
+  /* .button-link:hover{
       background-color: blueviolet;
       
-  }
+  } */
+
+
   /* Register File */
   /* ================================================== */
   .main-register {
@@ -256,18 +260,19 @@
 }
 
 .event-coordinator{
-  text-align: center;
-  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
   color: #3F72AF;
 }
 .event-coordinator-details{
-  padding-top: 10px;
-  padding-left: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 
 .event-details{
   margin-left: 10px;
+  color: #3F72AF;
 }
 .sub-details{
   margin-top: 10px;
@@ -357,6 +362,7 @@
 }
 .coder-content{
   padding: 10px;
+  
 }
 .date{
   padding-top: 20px;
@@ -376,8 +382,34 @@
   justify-content: center;
 }
 
+.procoder-event{
+  margin: 20px;
+  background-color:#A6B1E1 ;
+}
+.procoderEvent{
+  margin: 50px;
+}
+.procoder-event-details{
+  padding: 10px 0px 10px 0px;
+  color: #112D4E;
+}
+.procoder-sub-details{
+  font-size: large;
+  font-weight: 300;
+  padding-left: 20px;
+}
+.procoder-event-coordinator{
+  padding: 10px 0px 10px 0px;
+  color: #112D4E;
+}
+.procoder-event-coordinator-details{
+   font-size: large;
+  font-weight: 300;
+  padding-left: 20px;
+}
 
 
+/* ========================================= */
 
 .traditional{
   background-color: #F9F7F7;

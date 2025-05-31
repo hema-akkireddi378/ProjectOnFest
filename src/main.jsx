@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import {Routes, Route,BrowserRouter} from "react-router-dom"
 //import { Home, Events, Register, SignIn, MyProfile, Cricket,ForgotPassword,BannerLaunch, Traditional,FinalFest,Pubg,ProCoder, Cricket1, GuessTheOutput, Quiz, EssayWriting,MenKabaddi, CarromBoard, FreeFire, WomensThrowball, MenVolleyball, MenKhokho, EventCoordinator } from './Header';
-import { Home,Events, Register, SignIn,MyProfile, Cricket,ForgotPassword,BannerLaunch,Traditional,FinalFest,Pubg,ProCoder,Cricket1,GuessTheOutput,Quiz, EssayWriting, MenKabaddi,CarromBoard,FreeFire,WomensThrowball,MenVolleyball,MenKhokho,EventCoordinator } from './Header';
+import { Home,Events, Register, SignIn,MyProfile, Cricket,ForgotPassword,BannerLaunch,Traditional,FinalFest,Pubg,ProCoder,Cricket1,GuessTheOutput,Quiz, EssayWriting, MenKabaddi,CarromBoard,FreeFire,WomensThrowball,MenVolleyball,EventCoordinator,ProCoderEvent, GuessTheOutputEvent,MenKhokho ,QuizEvent,EssayWritingEvent,MenKabaddiEvent,MenKhoKhoEvent,MenVolleyballEvent,CarromEvent,FreeFireEvent,PubgEvent,WomensThrowballEvent} from './Header';
 import { createRoot } from "react-dom/client";
 import { Header } from './Header';
 import './App.css';
@@ -35,8 +35,18 @@ createRoot(document.getElementById('root')).render(
             <Route path='/ProCoder' element={<ProCoder></ProCoder>}></Route>
             <Route path='/Cricket1' element={<Cricket1></Cricket1>}></Route>
             <Route path='/GuessTheOutput' element={<GuessTheOutput></GuessTheOutput>}></Route>
+            <Route path='/GuessTheOutputEvent' element={<GuessTheOutputEvent></GuessTheOutputEvent>}></Route>
             <Route path='/Quiz' element={<Quiz></Quiz>}></Route>
             <Route path='/EssayWriting' element={<EssayWriting></EssayWriting>}></Route>
+
+
+             <Route path="/ProCoderEvent" element={<ProCoderEvent></ProCoderEvent>}></Route>
+             <Route path="/GuessTheOutputEvent" element={<GuessTheOutputEvent></GuessTheOutputEvent>}></Route>
+             <Route path="/QuizEvent" element={<QuizEvent></QuizEvent>}></Route>
+             <Route path="/EssayWritingEvent" element={<EssayWritingEvent></EssayWritingEvent>}></Route>
+             
+
+            
 
             <Route path='/MenKabaddi' element={<MenKabaddi></MenKabaddi>}></Route>
           <Route path='/MenKhokho' element={<MenKhokho></MenKhokho>}></Route>
@@ -47,6 +57,15 @@ createRoot(document.getElementById('root')).render(
             <Route path='/WomenThrowBall' element={<WomensThrowball></WomensThrowball>}></Route>
 
 
+
+            <Route path="/MenKabaddiEvent" element={<MenKabaddiEvent></MenKabaddiEvent>}></Route>
+             <Route path="/MenVolleyballEvent" element={<MenVolleyballEvent></MenVolleyballEvent>}></Route>
+             <Route path="/MenKhoKhoEvent" element={<MenKhoKhoEvent></MenKhoKhoEvent>}></Route>
+             <Route path="/CarromEvent" element={<CarromEvent></CarromEvent>}></Route>
+             <Route path="/FreeFireEvent" element={<FreeFireEvent></FreeFireEvent>}></Route>
+             <Route path="/PubgEvent" element={<PubgEvent></PubgEvent>}></Route>
+             <Route path="/WomensThrowballEvent" element={<WomensThrowballEvent></WomensThrowballEvent>}></Route>
+          
              <Route path="/MyProfile" element={<MyProfile></MyProfile>}></Route>
              {/* <Route path="/Cricket" element={<Cricket></Cricket>}></Route> */}
              <Route path='/FacultyDashboard' element={<FacultyDashboard></FacultyDashboard>}></Route>
