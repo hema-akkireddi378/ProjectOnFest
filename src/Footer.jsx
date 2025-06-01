@@ -23,6 +23,10 @@ export function Footer() {
     )
 }
 
+
+
+
+
 export function AdminPanel() {
     return (
         <div className="subClass">
