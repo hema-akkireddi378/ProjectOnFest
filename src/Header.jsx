@@ -419,10 +419,7 @@ export function Traditional(){
             <p className='traditional-header'>Celebrate Culture, Embrace Roots!</p>
             <img className="traditional-logo" src="https://thumbs.dreamstime.com/b/group-ethnic-college-students-diverse-dressed-traditional-attire-60381124.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='traditional-theme'>Unleash the Unseen. Ignite the Unforgettable.</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
-            {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
-            {/* <hr></hr> */}
+            
             <p className='traditional-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p>
              <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
