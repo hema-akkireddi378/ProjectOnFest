@@ -22,7 +22,7 @@ export function Footer() {
 export function AdminPanel() {
     return (
         <div className="subClass">
-            <nav className="admin-list">
+            <nav className="admin-list-main">
                 <ul className="unorder">
                     <li className="admin-list"><h2>Admin Panel</h2></li>
 

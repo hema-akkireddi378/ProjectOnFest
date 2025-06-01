@@ -451,13 +451,13 @@ export function FinalFest(){
     return(
         <div className='finalFest'>
             <p className='final-header'>Celebrate Culture, Embrace Roots!</p>
-            <img className="final-logo" src="https://preview.redd.it/grand-fest-photos-v0-emm62qvtr6pd1.jpg?width=1080&crop=smart&auto=webp&s=c9e60cb7c696b23a936c49ac3e84235ba35a5840" alt="Fest image" height="200px" width="200px"></img>
+            <img className="final-logo" src="https://preview.redd.it/grand-fest-photos-v0-emm62qvtr6pd1.jpg?width=1080&crop=smart&auto=webp&s=c9e60cb7c696b23a936c49ac3e84235ba35a5840" alt="Fest image" ></img>
             <p className='final-theme'>Ignite the Spark Where Passion Meets Purpose</p>
             {/* <p className='date'>Date:</p>
             <p className='venue'>Venue: </p> */}
             {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
             {/* <hr></hr> */}
-            <p className='final-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p>
+            <p className='final-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis ipsam ea quasi cumque? Nostrum, vitae nesciunt deleniti dignissimos maxime, at magnam dolorem animi aperiam ipsa nulla, quam consequuntur illum delectus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reprehenderit praesentium numquam sunt ipsam repellendus voluptate nostrum, iste nemo rerum veniam, consequuntur fugiat facere sapiente sint non accusantium libero reiciendis?</p>
              <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -491,7 +491,7 @@ export function ProCoder(){
             {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
             {/* <hr></hr> */}
             {/* <p className='coder-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
-            <p className='coder-content'>          ProCoder 2025 is the ultimate battleground for the brightest minds in programming. A celebration of logic, speed, and innovation — this event challenges participants to push the limits of their coding skills and solve real-world problems under pressure.</p>
+            <p className='coder-content'>          ProCoder 2025 is the ultimate battleground for the brightest minds in programming. A celebration of logic, speed, and innovation — this event challenges participants to push the limits of their coding skills and solve real-world problems under pressure. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quibusdam recusandae corporis veritatis est dolore neque eveniet, commodi itaque voluptatibus nisi. Amet delectus eos perferendis explicabo ratione dolorem numquam reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste excepturi placeat, tenetur, incidunt consequuntur odit beatae reiciendis enim optio illum ut animi nisi, est voluptatibus error esse tempore possimus assumenda!</p>
            
                  <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
@@ -542,7 +542,7 @@ export function GuessTheOutput(){
             {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
             {/* <hr></hr> */}
             {/* <p className='guess-output-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
-           <p className='guess-output-content'>Welcome to Guess the Output 2025, where logic meets intuition! This thrilling coding challenge is designed to test how well you understand what really happens under the hood of a program. Participants will face tricky snippets, mind-bending logic, and edge cases that go beyond syntax.</p>
+           <p className='guess-output-content'>Welcome to Guess the Output 2025, where logic meets intuition! This thrilling coding challenge is designed to test how well you understand what really happens under the hood of a program. Participants will face tricky snippets, mind-bending logic, and edge cases that go beyond syntax. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quisquam nulla voluptate harum aliquid dicta deserunt voluptatem mollitia atque similique illo accusantium eveniet, ut consectetur animi fugit adipisci possimus minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fugit deleniti at molestiae assumenda similique, laborum eum voluptatem rem alias a quo quod qui, debitis delectus atque adipisci dolorum? Deleniti.</p>
            <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -599,7 +599,7 @@ export function Quiz(){
             {/* <p className='quiz-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
             <p className='quiz-content'>Get ready for a battle of wits at Brain Brawl 2025, the ultimate quiz showdown where speed meets knowledge. Whether you’re a trivia master, a current affairs champ, or just love cracking clues, this event is your time to shine!
 From general knowledge and science to pop culture and puzzles — every round brings a new twist.
-Team up, buzz in, and brawl your way to the top!</p>
+Team up, buzz in, and brawl your way to the top! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, sequi! Minus fugit consectetur quasi perspiciatis non, porro iste, labore enim neque alias reiciendis. Amet omnis id eos dolores quia corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure iusto, dolor corrupti libero, eaque harum nam pariatur perferendis iste aliquid laboriosam perspiciatis recusandae, ducimus facilis? Voluptatum cumque a quo consequatur.</p>
             <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -655,7 +655,7 @@ export function EssayWriting(){
             {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
             {/* <hr></hr> */}
             {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
-            <p className='essay-content'>Inkspire 2025 invites all wordsmiths and thinkers to pour their thoughts onto paper and shape ideas that matter. This essay writing competition is your stage to reflect, reason, and express on themes that challenge the mind and stir the soul.</p>
+            <p className='essay-content'>Inkspire 2025 invites all wordsmiths and thinkers to pour their thoughts onto paper and shape ideas that matter. This essay writing competition is your stage to reflect, reason, and express on themes that challenge the mind and stir the soul. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci maxime deleniti omnis velit itaque explicabo unde nulla saepe voluptatibus. Inventore ea ex quisquam esse numquam officiis neque veniam repellendus. Iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus possimus voluptatibus reprehenderit, praesentium molestias veniam libero non consequuntur doloribus magnam repellendus eum sit provident nesciunt blanditiis sunt tempora eveniet.</p>
             <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -711,7 +711,8 @@ export function Cricket1(){
             {/* <hr></hr> */}
             {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
             <p className='cricket1-content'>The purpose of Cricket Carnival 2025 is to celebrate the spirit of sportsmanship, teamwork, and competitive zeal through the game that unites millions – Cricket. This event aims to bring together passionate players and fans, offering a platform where talent meets opportunity and every boundary hit echoes with cheer.
-Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.</p>
+Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form. 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit asperiores, ut dicta rerum aliquam deserunt laudantium veritatis et sint provident necessitatibus repellat consequatur inventore officiis aut. Beatae quos sapiente libero. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem maiores nihil exercitationem quasi et at temporibus est sint, explicabo autem, incidunt amet ipsam neque aliquam quae ad excepturi qui quo.</p>
              <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -764,7 +765,10 @@ export function MenKabaddi(){
             <p className='men-kabaddi-theme'>Raid. Resist. Rise.</p>
             {/* <p className='date'>Date:</p>
             <p className='venue'>Venue: </p> */}
-            <p className='men-kabaddi-content'>Step into the arena where tradition meets adrenaline — Mat Warriors 2025 is your call to battle in the raw and riveting game of Kabaddi. It's not just a sport; it's a test of strength, speed, strategy, and sheer willpower.</p>
+            <p className='men-kabaddi-content'>Step into the arena where tradition meets adrenaline — Mat Warriors 2025 is your call to battle in the raw and riveting game of Kabaddi. It's not just a sport; it's a test of strength, speed, strategy, and sheer willpower.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptatum voluptatibus. Unde est neque at beatae iste, veniam quis consectetur voluptates id cum, dolorum eum maxime dolor quaerat! Exercitationem, incidunt!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa animi voluptatum ratione, repellendus aperiam laudantium laborum at aliquid vero, fuga nam velit! Vero consequatur aut, enim quidem aliquam iure officia!
+            </p>
              <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -820,7 +824,10 @@ export function MenKhokho(){
             {/* <hr></hr> */}
             {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
       
-            <p className='men-khokho-content'>Get ready for the pulse-pounding excitement of Kho Kho 2025, a game where agility, alertness, and teamwork steal the spotlight! This classic Indian sport brings out the best in strategy, speed, and coordination as players dash, dive, and dodge with electrifying intensity.</p>
+            <p className='men-khokho-content'>Get ready for the pulse-pounding excitement of Kho Kho 2025, a game where agility, alertness, and teamwork steal the spotlight! This classic Indian sport brings out the best in strategy, speed, and coordination as players dash, dive, and dodge with electrifying intensity.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quasi nobis, repellat vero corporis laborum modi, fuga ex quidem ducimus nemo et sint rem? Accusamus quam eaque tenetur beatae eos.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias vitae in iste iure quas voluptas. Nam, fugit nihil nobis animi ratione officiis, repellat eligendi incidunt quis explicabo dicta veritatis molestias?
+            </p>
             <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -877,7 +884,10 @@ export function MenVolleyball(){
             {/* <hr></hr> */}
             {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
       
-            <p className='men-volleyball-content'>Get ready to rise above the net at Sky Serve 2025, the ultimate volleyball clash where precision meets passion. Watch teams soar, spike, and smash their way to victory with flawless coordination and fierce energy.</p>
+            <p className='men-volleyball-content'>Get ready to rise above the net at Sky Serve 2025, the ultimate volleyball clash where precision meets passion. Watch teams soar, spike, and smash their way to victory with flawless coordination and fierce energy.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores unde sunt omnis repellat suscipit temporibus laudantium, deleniti, commodi, cumque beatae accusantium saepe a repellendus quidem sequi quaerat tempora aut quas?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia earum, quae magni hic tenetur maxime, illum harum ipsam pariatur dignissimos quod delectus quasi mollitia aliquam qui sit unde at dolorem.
+            </p>
            <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -934,7 +944,9 @@ export function CarromBoard(){
             {/* <hr></hr> */}
             {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
             <p className='carrom-content'>The purpose of Cricket Carnival 2025 is to celebrate the spirit of sportsmanship, teamwork, and competitive zeal through the game that unites millions – Cricket. This event aims to bring together passionate players and fans, offering a platform where talent meets opportunity and every boundary hit echoes with cheer.
-Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.</p>
+Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, nulla consequatur hic, vel soluta impedit omnis ex quos esse rem aperiam non odit assumenda, accusantium maiores distinctio error sed illum?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ut quod facilis. At asperiores, quidem eveniet modi id odio consequatur, iste aut, dolorem amet provident animi dolor repudiandae quos repellat.</p>
             <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -989,7 +1001,9 @@ export function FreeFire(){
             {/* <hr></hr> */}
             {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
             <p className='free-fire-content'>The purpose of Cricket Carnival 2025 is to celebrate the spirit of sportsmanship, teamwork, and competitive zeal through the game that unites millions – Cricket. This event aims to bring together passionate players and fans, offering a platform where talent meets opportunity and every boundary hit echoes with cheer.
-Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.</p>
+Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cumque esse consequatur quis itaque cupiditate libero enim vitae laboriosam, laudantium, totam placeat a nisi tenetur sequi autem sint commodi amet!
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ex est tenetur similique quaerat nisi iusto ipsam ipsum libero, alias aliquid dicta incidunt cumque magnam culpa accusantium neque nulla et.</p>
             <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -1044,7 +1058,9 @@ export function Pubg(){
             {/* <hr></hr> */}
             {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
             <p className='pubg-content'>The purpose of Cricket Carnival 2025 is to celebrate the spirit of sportsmanship, teamwork, and competitive zeal through the game that unites millions – Cricket. This event aims to bring together passionate players and fans, offering a platform where talent meets opportunity and every boundary hit echoes with cheer.
-Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.</p>
+Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic dolore obcaecati excepturi deserunt nemo illo nam voluptas voluptate adipisci minima delectus, in eligendi veritatis a ad aut eum voluptatum.
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla praesentium voluptate saepe, distinctio error aperiam expedita suscipit quod consequuntur accusantium accusamus inventore ab placeat, nesciunt deleniti tenetur doloremque quidem?</p>
             <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
             <p className='sub-details'>Event Start Time :</p>
@@ -1098,7 +1114,8 @@ export function WomensThrowball(){
             <p className='venue'>Venue: </p> */}
             
             <p className='women-throwball-content'>Celebrate strength, skill, and sisterhood at Power Play 2025, the ultimate throwball showdown exclusively for women athletes. This event is not just about competition — it’s about confidence, collaboration, and courage on the court.
-
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsum animi odio, est vero illum sit perferendis, deserunt optio vel sapiente dolor recusandae? Quae perferendis a corrupti accusamus recusandae sequi!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet perspiciatis dolorem adipisci, a molestias similique eum reprehenderit? Maiores soluta odio aut. Quia alias voluptates reiciendis quod ad repellat qui velit.
 </p>
 
              <h3 className='event-details'>Event Details</h3>
