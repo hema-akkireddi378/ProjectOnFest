@@ -1468,11 +1468,11 @@
 }
 .certificate{
   height: 50px;
-  width: 100px;
+  width: 200x;
   /* margin-left: 200px; */
   background-color: #DCD6F7;
   /* align-items: center; */
-  margin: 25px 0px 25px 60px;
+  margin: 25px 30px 25px 30px;
   border-radius: 15px;
   border: 1px solid black;
 }
