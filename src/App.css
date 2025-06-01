@@ -1468,7 +1468,7 @@
 }
 .certificate{
   height: 50px;
-  width: 300px;
+  width: 100px;
   /* margin-left: 200px; */
   background-color: #DCD6F7;
   /* align-items: center; */
@@ -1496,7 +1496,7 @@
 /* .feedbackform{
 
 } */
-.mainFeedBackForm{
+/* .mainFeedBackForm{
  display: flex;
  flex-direction: column;
  gap: 10%;
@@ -1504,9 +1504,13 @@
 }
 .mainFeedBackForm:active{
   background-color: lightgray;
+} */
+
+.yesOrNo{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-
-
 
 
 

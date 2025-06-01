@@ -268,25 +268,39 @@ export function FeedbackForm() {
     return (
         <div className='feedbackform'>
             <div className='mainFeedBackForm'>
-            <p className='feedbackformHeader'>Post-event feedback survey</p>
-            <p className='feedbackformContent'>Thank you for your participation. The purpose of this questionnaire is to collect your feedback, which will help us improve this event in the future. All information will remain confidential. </p>
-        </div>
-        <div className='sub-feedbackform'>
-            <p className='questions'>Overall, how satisfied are you with the event?</p>
-            <img src='https://cdn.forms.office.net/forms/formsresources/intelligence/themes/star-employee.jpg' alt='Star the Event' height="300px" width="300px"></img>
-        
-            
-        
-        </div>
+                <p className='feedbackformHeader'>Post-event feedback survey</p>
+                <p className='feedbackformContent'>Thank you for your participation. The purpose of this questionnaire is to collect your feedback, which will help us improve this event in the future. All information will remain confidential. </p>
+            </div>
+            <div className='sub-feedbackform'>
+                <p className='questions'>Overall, how satisfied are you with the event?</p>
+                <img src='https://cdn.forms.office.net/forms/formsresources/intelligence/themes/star-employee.jpg' alt='Star the Event' height="300px" width="300px"></img>
+                <div className='yesOrNo'>
+                <label htmlFor="yes">
+                    <input type="radio" id="yes" name="agree" value="yes" /> Yes
+                </label>
+
+                <label htmlFor="no">
+                    <input type="radio" id="no" name="agree" value="no" /> No
+                </label>
+                </div>
+                <div>
+                    <label>Is this your first time attending events like this?</label>
+
+                    <label for="yes"><input type="radio" id="yes" name="agree" value="yes" />Yes</label>
+
+                    <label for="no"><input type="radio" id="no" name="agree" value="no" />No</label>
+                </div>
+
+            </div>
 
 
 
 
 
-            {/* <div className="elements">
-                <p>Name: </p>
+            <div className="elements">
+                {/* <p>Name: </p>
                 <p>Email :</p>
-                <p>How was your experience?</p>
+                <p>How was your experience?</p> */}
 
                 <label>
                     <input type="checkbox" name="experience" value="Excellent" />
@@ -306,9 +320,9 @@ export function FeedbackForm() {
                 <label>
                     <input type="checkbox" name="experience" value="Poor" />
                     Poor
-                </label> 
-                </div>*/}
-            
+                </label>
+            </div>
+
         </div>
     )
 }
@@ -337,49 +351,49 @@ export function TermsAndConditions() {
                 <li className='termsListItems'>Eligibility</li>
                 <p className='termsContent'>Our events are generally open to college students across India. Certain events may have specific eligibility criteria which will be clearly mentioned on their respective registration pages.</p>
                 <li className='termsListItems'> Use of the Website</li>
-                    <p className='subTermList'>You agree to use the Website only for lawful purposes and in a way that does not infringe the rights of others or restrict their use of the site.
-                        <ul className='useOfwebsite'>
-                            <li>Use our site to post false, misleading, or offensive content</li>
-                            <li>Attempt to hack or interfere with the functionality of the website</li>
-                            <li>Use automated tools (bots) to register for events</li>
-                        </ul>
-                    </p>
-                    
+                <p className='subTermList'>You agree to use the Website only for lawful purposes and in a way that does not infringe the rights of others or restrict their use of the site.
+                    <ul className='useOfwebsite'>
+                        <li>Use our site to post false, misleading, or offensive content</li>
+                        <li>Attempt to hack or interfere with the functionality of the website</li>
+                        <li>Use automated tools (bots) to register for events</li>
+                    </ul>
+                </p>
+
                 <li className='termsListItems'>Event Rules</li>
                 <p>Each event may have its own set of rules, formats, and judging criteria. Participants are expected to read and follow those rules strictly. The decisions made by the organizing committee or event judges are final and binding.</p>
                 <li className='termsListItems'> Intellectual Property</li>
-                    <p>All content on the Website, including logos, images, event descriptions, and designs, are the intellectual property of [Your Fest Name] or used with permission. You may not copy, reproduce, or use them without written permission.
+                <p>All content on the Website, including logos, images, event descriptions, and designs, are the intellectual property of [Your Fest Name] or used with permission. You may not copy, reproduce, or use them without written permission.
 
-                    </p>
-               
+                </p>
+
 
                 <li className='termsListItems'>Limitation of Liability</li>
-                    <p className='subTermList'>While we strive to keep the Website and all events running smoothly, [Your Fest Name] and [Your College Name] are not responsible for:</p>
-                    <ul className='useOfwebsite'>
-                        <li>Technical issues beyond our control</li>
+                <p className='subTermList'>While we strive to keep the Website and all events running smoothly, [Your Fest Name] and [Your College Name] are not responsible for:</p>
+                <ul className='useOfwebsite'>
+                    <li>Technical issues beyond our control</li>
 
-                        <li>Incomplete or lost registrations due to network problems</li>
+                    <li>Incomplete or lost registrations due to network problems</li>
 
-                        <li>Any personal loss or damage during participation in offline events</li>
-                    </ul>
-                
+                    <li>Any personal loss or damage during participation in offline events</li>
+                </ul>
+
                 <li className='termsListItems'>Cancellation or Changes </li>
-                    <p className='subTermList'>We reserve the right to:</p>
-                    <ul className='useOfwebsite'>
+                <p className='subTermList'>We reserve the right to:</p>
+                <ul className='useOfwebsite'>
                     <li>Cancel or reschedule events</li>
 
                     <li>Modify rules or eligibility criteria</li>
 
                     <li>Update these Terms and Conditions at any time</li>
-                    </ul>
+                </ul>
 
-                    <p>Changes will be posted on the Website and are effective immediately upon posting.</p>
-               
+                <p>Changes will be posted on the Website and are effective immediately upon posting.</p>
+
                 <li className='termsListItems'> Contact Information</li>
-                    <p>If you have any questions regarding these Terms, feel free to contact us:</p>
-                    <p>Email :</p>
-                    <p>Phone :</p>
-                
+                <p>If you have any questions regarding these Terms, feel free to contact us:</p>
+                <p>Email :</p>
+                <p>Phone :</p>
+
 
             </ol>
         </div>
