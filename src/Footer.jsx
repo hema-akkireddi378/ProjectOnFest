@@ -412,19 +412,23 @@ export function ContactUs() {
                 
 
                 <div className='getInTouch'>
+                    <p className='sendMsg'>Get In Touch</p>
                      <input type="text" placeholder="Username" name="username" id="username" className="UserName">
                     </input>
                     <input type="email" placeholder="Email" name="password" id="email" className="userEmail">
                     </input>
-                    <input type="textarea" rows="4" placeholder="Subject" name="subject" id="subject" className="subject">
+                    <textarea rows="4" placeholder="Subject" name="subject" id="subject" className="subject"/>
+                    <textarea rows ="10" placeholder='Message' name='message' id='message' className='message'/>
+                    {/* <input type="textarea" rows="4" placeholder="Subject" name="subject" id="subject" className="subject">
                     </input>
                     <input type="textarea" rows="6" placeholder="Message" name="message" id="message" className="message">
-                    </input>
-                    
-                </div>
-                <div className='sumbmitMessage'>
+                    </input> */}
+                     <div className='sumbmitMessage'>
                     <button type="submit" className="sendMessage">Send Message</button>
                 </div>
+                    
+                </div>
+               
          </div>
     )
 }
