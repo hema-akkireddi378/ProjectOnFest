@@ -279,26 +279,26 @@ export function FeedbackForm() {
                 <p className='questions'>Overall, how satisfied are you with the event?</p>
                 <img src='https://cdn.forms.office.net/forms/formsresources/intelligence/themes/star-employee.jpg' alt='Star the Event' height="300px" width="300px"></img>
                 <div className='yesOrNo'>
-                <label htmlFor="yes">
-                    <input type="radio" id="yes" name="agree" value="yes" /> Yes
-                </label>
+                    <label htmlFor="yes">
+                        <input type="radio" id="yes" name="agree" value="yes" /> Yes
+                    </label>
 
-                <label htmlFor="no">
-                    <input type="radio" id="no" name="agree" value="no" /> No
-                </label>
+                    <label htmlFor="no">
+                        <input type="radio" id="no" name="agree" value="no" /> No
+                    </label>
                 </div>
-                
-                    <label>Is this your first time attending events like this?</label>
-<div>
-     <div className='yesOrNo'>
-                <label htmlFor="yes">
-                    <input type="radio" id="yes" name="agree" value="yes" /> Yes
-                </label>
 
-                <label htmlFor="no">
-                    <input type="radio" id="no" name="agree" value="no" /> No
-                </label>
-                </div>
+                <label>Is this your first time attending events like this?</label>
+                <div>
+                    <div className='yesOrNo'>
+                        <label htmlFor="yes">
+                            <input type="radio" id="yes" name="agree" value="yes" /> Yes
+                        </label>
+
+                        <label htmlFor="no">
+                            <input type="radio" id="no" name="agree" value="no" /> No
+                        </label>
+                    </div>
                 </div>
 
             </div>
@@ -308,9 +308,9 @@ export function FeedbackForm() {
 
 
             <div className="elements">
-                {/* <p>Name: </p>
+                <p>Name: </p>
                 <p>Email :</p>
-                <p>How was your experience?</p> */}
+                <p>How was your experience?</p>
 
                 <label>
                     <input type="checkbox" name="experience" value="Excellent" />
@@ -529,11 +529,11 @@ export function ContactUs() {
                 </input>
                 <textarea rows="4" placeholder="Subject" name="subject" id="subject" className="subject" />
                 <textarea rows="10" placeholder='Message' name='message' id='message' className='message' /> */}
-                {/* <input type="textarea" rows="4" placeholder="Subject" name="subject" id="subject" className="subject">
+            {/* <input type="textarea" rows="4" placeholder="Subject" name="subject" id="subject" className="subject">
                     </input>
                     <input type="textarea" rows="6" placeholder="Message" name="message" id="message" className="message">
                     </input> */}
-                {/* <div className='sumbmitMessage'>
+            {/* <div className='sumbmitMessage'>
                     <button type="submit" className="sendMessage">Send Message</button>
                 </div>
 
