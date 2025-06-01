@@ -972,11 +972,8 @@ export function FreeFire(){
             <p className='free-fire-header'>Battle Beyond Boundaries </p>
             <img className="free-fire-logo" src="https://www.shutterstock.com/image-photo/mumbai-india-october-2-2021-600nw-2085546409.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='free-fire-theme'>Cricket Carnival 2025</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
-            {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
-            {/* <hr></hr> */}
-            {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
+          
+           
             <p className='free-fire-content'>The purpose of Cricket Carnival 2025 is to celebrate the spirit of sportsmanship, teamwork, and competitive zeal through the game that unites millions – Cricket. This event aims to bring together passionate players and fans, offering a platform where talent meets opportunity and every boundary hit echoes with cheer.
 Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum cumque esse consequatur quis itaque cupiditate libero enim vitae laboriosam, laudantium, totam placeat a nisi tenetur sequi autem sint commodi amet!
@@ -989,17 +986,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ex est tenetur sim
             <Link to="/FreeFireEvent" className="more1">
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
-            {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
-            
+           
         </div>
     )
 }
@@ -1029,11 +1016,7 @@ export function Pubg(){
             <p className='pubg-header'>Battle Beyond Boundaries </p>
             <img className="pubg-logo" src="https://www.shutterstock.com/image-photo/mumbai-india-october-2-2021-600nw-2085546409.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='pubg-theme'>Cricket Carnival 2025</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
-            {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
-            {/* <hr></hr> */}
-            {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
+            
             <p className='pubg-content'>The purpose of Cricket Carnival 2025 is to celebrate the spirit of sportsmanship, teamwork, and competitive zeal through the game that unites millions – Cricket. This event aims to bring together passionate players and fans, offering a platform where talent meets opportunity and every boundary hit echoes with cheer.
 Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet hic dolore obcaecati excepturi deserunt nemo illo nam voluptas voluptate adipisci minima delectus, in eligendi veritatis a ad aut eum voluptatum.
@@ -1047,17 +1030,6 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nulla praesentium
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
 
-            {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
-            
         </div>
     )
 }
@@ -1087,8 +1059,6 @@ export function WomensThrowball(){
             <p className='women-throwball-header'>Power Play 2025  Women’s Throwball Challenge </p>
             <img className="women-throwball-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJV8Nrb1qp9IO3MsopUd4OdzAeKyC1CiIOeWBUlROwk6LItSvsO3kkTAn_EvSCi5DmXbw&usqp=CAU" alt="Fest image" height="200px" width="200px"></img>
             <p className='women-throwball-theme'>Grace. Grit. Game On</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
             
             <p className='women-throwball-content'>Celebrate strength, skill, and sisterhood at Power Play 2025, the ultimate throwball showdown exclusively for women athletes. This event is not just about competition — it’s about confidence, collaboration, and courage on the court.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ipsum animi odio, est vero illum sit perferendis, deserunt optio vel sapiente dolor recusandae? Quae perferendis a corrupti accusamus recusandae sequi!
@@ -1103,16 +1073,7 @@ export function WomensThrowball(){
             <Link to="/WomensThrowballEvent" className="more1">
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
-            {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
+           
             
         </div>
     )
@@ -1202,23 +1163,13 @@ export function Register(){
 
                     <Link to="/ForgotPassword" className="forgot-link">Forgot Password?</Link>
                    
-                    {/* <div className="verification">
-                    <input type="checkbox" ></input>
-                    <label>Verify you are human</label>
-                    </div> */}
+                   
                     <button type="submit" className="sign-up">Sign In</button>
                 </div>
                 <div className="signin">
                 <p className="signup">
                     
-                    {/* <Link to="/SignIn" className="sign-in-link">Sign in</Link> */}
                    
-                 {/* <div className="forgot"> */}
-                 
-                
-            {/* <Link  to="/Register" className="forgot-link">Sign Up</Link> */}
-           {/* </div> */}
-                  
 
                 </p>
                 <p className="other">or you can sign in with,</p>
