@@ -15,7 +15,7 @@ export function Footer() {
                 <Support></Support>
                 <PostFest></PostFest>
 
-                
+
 
             </footer>
 
@@ -267,7 +267,23 @@ export function PostFest() {
 export function FeedbackForm() {
     return (
         <div className='feedbackform'>
-            <div className="elements">
+            <div className='mainFeedBackForm'>
+            <p className='feedbackformHeader'>Post-event feedback survey</p>
+            <p className='feedbackformContent'>Thank you for your participation. The purpose of this questionnaire is to collect your feedback, which will help us improve this event in the future. All information will remain confidential. </p>
+        </div>
+        <div className='sub-feedbackform'>
+            <p className='questions'>Overall, how satisfied are you with the event?</p>
+            <img src='https://cdn.forms.office.net/forms/formsresources/intelligence/themes/star-employee.jpg' alt='Star the Event' height="300px" width="300px"></img>
+        
+            
+        
+        </div>
+
+
+
+
+
+            {/* <div className="elements">
                 <p>Name: </p>
                 <p>Email :</p>
                 <p>How was your experience?</p>
@@ -290,8 +306,9 @@ export function FeedbackForm() {
                 <label>
                     <input type="checkbox" name="experience" value="Poor" />
                     Poor
-                </label>
-            </div>
+                </label> 
+                </div>*/}
+            
         </div>
     )
 }
@@ -313,21 +330,90 @@ export function TermsAndConditions() {
     return (
         <div className='termsandconditions'>
             <p className='terms'>Terms Of Use</p>
-            <ul className='list-of-terms'>
-                <li>Eligibility</li>
-                <li>rticipation is open to students of recognized institutions unless stated otherwise for specific events.
+            <p className='main-terms'>Welcome to [Your Fest Name], organized by [Your College Name]. By accessing or using our website (https://www.yourfest.com) and participating in our events, you agree to be bound by the following Terms and Conditions.
 
-                </li>
-                <li>Registration</li>
-                <li>All participants must complete the registration process through the official website or authorized coordinators.
+                If you do not agree with these terms, please do not use our website or register for any events.</p>
+            <ol className='list-of-terms'>
+                <li className='termsListItems'>Eligibility</li>
+                <p className='termsContent'>Our events are generally open to college students across India. Certain events may have specific eligibility criteria which will be clearly mentioned on their respective registration pages.</p>
+                <li className='termsListItems'> Use of the Website</li>
+                    <p className='subTermList'>You agree to use the Website only for lawful purposes and in a way that does not infringe the rights of others or restrict their use of the site.
+                        <ul className='useOfwebsite'>
+                            <li>Use our site to post false, misleading, or offensive content</li>
+                            <li>Attempt to hack or interfere with the functionality of the website</li>
+                            <li>Use automated tools (bots) to register for events</li>
+                        </ul>
+                    </p>
+                    
+                <li className='termsListItems'>Event Rules</li>
+                <p>Each event may have its own set of rules, formats, and judging criteria. Participants are expected to read and follow those rules strictly. The decisions made by the organizing committee or event judges are final and binding.</p>
+                <li className='termsListItems'> Intellectual Property</li>
+                    <p>All content on the Website, including logos, images, event descriptions, and designs, are the intellectual property of [Your Fest Name] or used with permission. You may not copy, reproduce, or use them without written permission.
 
-                </li>
-            </ul>
+                    </p>
+               
+
+                <li className='termsListItems'>Limitation of Liability</li>
+                    <p className='subTermList'>While we strive to keep the Website and all events running smoothly, [Your Fest Name] and [Your College Name] are not responsible for:</p>
+                    <ul className='useOfwebsite'>
+                        <li>Technical issues beyond our control</li>
+
+                        <li>Incomplete or lost registrations due to network problems</li>
+
+                        <li>Any personal loss or damage during participation in offline events</li>
+                    </ul>
+                
+                <li className='termsListItems'>Cancellation or Changes </li>
+                    <p className='subTermList'>We reserve the right to:</p>
+                    <ul className='useOfwebsite'>
+                    <li>Cancel or reschedule events</li>
+
+                    <li>Modify rules or eligibility criteria</li>
+
+                    <li>Update these Terms and Conditions at any time</li>
+                    </ul>
+
+                    <p>Changes will be posted on the Website and are effective immediately upon posting.</p>
+               
+                <li className='termsListItems'> Contact Information</li>
+                    <p>If you have any questions regarding these Terms, feel free to contact us:</p>
+                    <p>Email :</p>
+                    <p>Phone :</p>
+                
+
+            </ol>
         </div>
     )
 }
+// ===========================================================================================================================================
+export function Privacy() {
+    return (
+        <div className='privacy'>
+            <img src='https://img.icons8.com/?size=100&id=4nWdax1G8qMi&format=png&color=1A1A1A' alt='PrivacyPolicy' className='privacyPolicy-logo' />
+            <p className='privacyPolicy-header'>Privacy Policy</p>
+            <p className='privacyPolicy'>When you use our services, you’re trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control.</p>
+            {/* <p className='privacyPolicy-sub'>This Privacy Policy is meant to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.</p> */}
+            <p className='privacyPolicy-mainContent'>Welcome to [Your Fest Name], hosted by [Your College Name]. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you visit our website [Your Website URL].</p>
+            <hr></hr>
+            <p className='privacyPolicy-mainContent'>[Your Fest Name]’s Privacy Policy describes how we collect, use, and disclose your information when you use our website and associated services.
 
+                This Privacy Policy also explains the choices you have regarding your personal information, including how you can access, update, or object to certain uses of your data.</p>
+            <p className='privacyPolicy-subHeader'>Here are some important definitions to help you understand our terms and this Privacy Policy:</p>
 
+            <ol className='listOfInfo'>
+                <li className='privacy-list'>Information We Collect</li>
+                <li className='privacy-list'>How We Use Your Information</li>
+                <li className='privacy-list'> Cookies</li>
+                <li className='privacy-list'>Sharing of Information</li>
+                <li className='privacy-list'>Data Security</li>
+                <li className='privacy-list'>Third-Party Links</li>
+                <li className='privacy-list'>Your Rights</li>
+                <li className='privacy-list'>Contact Us</li>
+            </ol>
+
+        </div>
+    )
+}
 
 // About Us
 // ==============================================================================================================================================
@@ -355,7 +441,7 @@ export function AboutUs() {
         // </div>
         <div className='aboutUs'>
             <div className='aboutUs1'>
-            <img src='https://i.pinimg.com/736x/30/5f/1d/305f1d927e89b6c3ba61d2127fbcc0de.jpg' alt='We Both' height="100px" width="100px" className='weBoth'></img></div>
+                <img src='https://i.pinimg.com/736x/30/5f/1d/305f1d927e89b6c3ba61d2127fbcc0de.jpg' alt='We Both' height="100px" width="100px" className='weBoth'></img></div>
             <p className='aboutContent'>Hello there, I am J HemaVinayKumar Author of this Application</p>
 
             <div className='moreAboutUs'>
@@ -368,7 +454,7 @@ export function AboutUs() {
                 <p className='aboutus'>District :</p>
                 <p className='aboutus'>State :</p>
                 <p className='reach'>you can also reach me at,</p>
-                 <div className="author-socialmedia">
+                <div className="author-socialmedia">
                     <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="Facebook logo" className="facebook-link" ></img>
                     <img src="https://img.icons8.com/?size=100&id=GNvM541FBQu7&format=png&color=000000" alt="Google logo" className="google-link"></img>
                     <img src="https://img.icons8.com/?size=100&id=ZRiAFreol5mE&format=png&color=000000" alt="Facebook logo" className="facebook-link" ></img>
@@ -385,18 +471,18 @@ export function AboutUs() {
 export function ContactUs() {
     return (
         <div className='contact'>
-           <p className='contact-us'>Contact Us</p>
-           {/* <p className='contact-content'>We are here to help! For any queries, suggestions, or support related to MILAN, feel free to reach out to us</p> */}
-                {/* <p>Email : </p>
+            <p className='contact-us'>Contact Us</p>
+            {/* <p className='contact-content'>We are here to help! For any queries, suggestions, or support related to MILAN, feel free to reach out to us</p> */}
+            {/* <p>Email : </p>
                 <p>Phone</p>
                 <p>Address</p>
                 <p>Social Media</p> */}
-                <div className='contactUs'>
+            <div className='contactUs'>
                 <div className='phone'>
                     <img src='https://img.icons8.com/?size=100&id=9730&format=png&color=000000' alt='phone' height="20px" width="20px"></img>
                     <p>6303675308</p>
                 </div>
-                 <div className='protofolio'>
+                <div className='protofolio'>
                     <img src='https://img.icons8.com/?size=100&id=i4g6BmsilKFZ&format=png&color=000000' alt='phone' height="20px" width="20px"></img>
                     <p>Protofolio</p>
                 </div>
@@ -408,28 +494,28 @@ export function ContactUs() {
                     <img src='https://img.icons8.com/?size=100&id=96RE9rrwGcm6&format=png&color=000000' alt='phone' height="20px" width="20px"></img>
                     <p>Miracle City, Bhogapuram</p>
                 </div>
-                </div>
-                
+            </div>
 
-                <div className='getInTouch'>
-                    <p className='sendMsg'>Get In Touch</p>
-                     <input type="text" placeholder="Username" name="username" id="username" className="UserName">
-                    </input>
-                    <input type="email" placeholder="Email" name="password" id="email" className="userEmail">
-                    </input>
-                    <textarea rows="4" placeholder="Subject" name="subject" id="subject" className="subject"/>
-                    <textarea rows ="10" placeholder='Message' name='message' id='message' className='message'/>
-                    {/* <input type="textarea" rows="4" placeholder="Subject" name="subject" id="subject" className="subject">
+
+            <div className='getInTouch'>
+                <p className='sendMsg'>Get In Touch</p>
+                <input type="text" placeholder="Username" name="username" id="username" className="UserName">
+                </input>
+                <input type="email" placeholder="Email" name="password" id="email" className="userEmail">
+                </input>
+                <textarea rows="4" placeholder="Subject" name="subject" id="subject" className="subject" />
+                <textarea rows="10" placeholder='Message' name='message' id='message' className='message' />
+                {/* <input type="textarea" rows="4" placeholder="Subject" name="subject" id="subject" className="subject">
                     </input>
                     <input type="textarea" rows="6" placeholder="Message" name="message" id="message" className="message">
                     </input> */}
-                     <div className='sumbmitMessage'>
+                <div className='sumbmitMessage'>
                     <button type="submit" className="sendMessage">Send Message</button>
                 </div>
-                    
-                </div>
-               
-         </div>
+
+            </div>
+
+        </div>
     )
 }
 

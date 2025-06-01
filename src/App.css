@@ -1491,15 +1491,122 @@
 }
 
 
+/* feedbackform */
 
+/* .feedbackform{
+
+} */
+.mainFeedBackForm{
+ display: flex;
+ flex-direction: column;
+ gap: 10%;
+ 
+}
+.mainFeedBackForm:active{
+  background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================== */
 
 .terms{
-  font-size: large;
-  font-weight: 500;
+  font-size: xx-large;
+  font-weight: bold;
   color: blueviolet;
   padding-left: 20px;
   padding-top: 50px;
 }
+.main-terms{
+  padding: 5%;
+  font-size: medium;
+  font-weight: 200;
+}
+
+.termsListItems{
+  font-size: x-large;
+  font-weight: 500;
+  color: #3F72AF;
+  padding: 2%;
+}
+.termsContent{
+  font-size: medium;
+  font-weight: 100;
+  
+}
+.useOfwebsite{
+padding-left: 5%;
+}
+
+
+
+
+
+/* ========================================================================== */
+.privacy{
+  padding: 20%;
+}
+
+.privacyPolicy-header{
+  font-size: xx-large;
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+.privacyPolicy-logo{
+  height: 80px;
+  width: 80px;
+}
+.privacyPolicy-mainContent{
+  font-size: medium;
+  font-weight: 200px;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+  
+}
+.privacyPolicy-mainContent{
+  font-size: medium;
+  font-weight: 200px;
+  word-spacing: 5px;
+  padding-top: 15px;
+}
+
+.listOfInfo{
+  padding: 30px 10px;
+  line-height: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .list-of-terms{
   padding: 20px 50px 20px 50px;
@@ -1724,6 +1831,9 @@ textarea {
   resize: vertical; /* optional */
   min-height: 120px;
 }
+
+
+
 
 
 /* .contact-content{
