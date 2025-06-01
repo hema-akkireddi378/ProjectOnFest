@@ -14,22 +14,30 @@
   /* .mrcl{
     background-color: #3F72AF;
   }
+    
   
   .miracle{
     margin: 50px;
     background-color: #A6B1E1;
   } */
+.main-logo{
+  background-color: #0F4C75;
+  
 
+}
 
 .clg-logo{
-  margin: 10px;
-  height: 95%;
-  width: 95%;
-  padding: 10px 5px 10px 5px;
+  /* margin: 10px; */
+  height: 30%;
+  width: 50%;
+  /* padding: 10px 5px 10px 150px; */
   display: block;
   align-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  border-radius: 65%;
+  padding: 15% 3% 15% 3%;
+  margin-left: 100px;
 }
 
 
@@ -42,9 +50,10 @@
   /* main-header */
   /* ================================================== */
   .main-header{
-    padding: 20px 0px 10px 20px;
+    /* padding: 20px 0px 5px 20px; */
     color: whitesmoke;
-    padding: 40px 0px 0px 30px ;
+    padding: 40px 0px 0px 20px ;
+    font-family: 'Inter', sans-serif;
   }
   
   /* nav-elements Class */
@@ -56,8 +65,11 @@
     align-items: end;
     justify-content: end;
     gap: 10px;
-    padding: 0px 10px 30px 0px ;
-   
+    padding: 0px 10px 20px 0px ;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    font-weight: 300px;
+    font-family: 'Inter', sans-serif;
 
   }
 
@@ -70,7 +82,8 @@
 /* header-profile class */
 /* ================================================== */
   .header-profile {
-    padding-top: 0px;
+    margin-top: 10px;
+    padding-top: 20px;
   }
 /* Event File */
   /* ================================================== */
@@ -1724,9 +1737,9 @@
   /* ================================================== */
   .sports-header {
     padding: 10px 0px 10px 30px;
-    font-size: larger;
+    font-size: x-large;
     font-weight: 500;
-
+    color: darkmagenta;
 
   }
 
@@ -1735,6 +1748,8 @@
 
   .event-content {
     padding: 8px 15px 8px 0px;
+    font-size: large;
+    font-weight: 500px;
   }
 
   /* more Class */
@@ -1744,7 +1759,7 @@
     text-align: end;
     padding: 15px;
     margin-right: 0px;
-    font-size: large;
+    font-size: x-large;
     font-weight: 500;
     
   }
@@ -1789,7 +1804,6 @@
 }
 .bannerlaunch-header{
   text-align: center;
-  
   font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
@@ -1805,14 +1819,18 @@
 }
 
 .bannerlaunch-theme{
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+
 }
 .bannerlaunch-content{
   padding:10px 200px 10px 200px;
-  
+  font-size: large;
+  font-weight: 400px;
+  gap: 20px;
+  word-spacing: 2px;
 
 }
 .date{
@@ -1856,14 +1874,22 @@
   
 }
 .event-coordinator{
+  /* padding-left: 200px;
+  padding-top: 10px;
+  color: #3F72AF; */
+  font-size: x-large;
   padding-left: 200px;
   padding-top: 10px;
-  color: #3F72AF;
+  padding-bottom: 20px;
+  font-weight: 500;
+  color: #112D4E;
   
 }
 .event-coordinator-details{
   padding-top: 10px;
   padding-left: 300px;
+  font-size: large;
+  /* padding-left: 200px; */
   
 }
 
@@ -1879,8 +1905,7 @@
 }
 .final-header{
   text-align: center;
-  
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -1889,14 +1914,15 @@
   /* margin:100px 500px; */
   height:25%;
   width:50%;
-  margin: 5% 25% 5% 25%;
+  margin: 3% 25% 2% 25%;
 }
 
 .final-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 20px;
 }
 .final-content{
  padding:10px 200px 10px 200px;
@@ -1938,7 +1964,7 @@
 .coder-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -1952,14 +1978,15 @@
   align-items: center;
   height:25%;
   width:50%;
-  margin: 3% 25% 3% 25%;
+  margin: 2% 25% 2% 25%;
 }
 
 .coder-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .coder-content{
   padding:10px 200px 10px 200px;
@@ -1982,7 +2009,12 @@
   justify-content: center;
 }
 
-
+.procoderEvent{
+ margin: 10% 25% 10% 25%;
+}
+.procoderevent-register1{
+  padding-bottom: 20px;
+}
 
 
 .traditional{
@@ -1995,7 +2027,7 @@
 .traditional-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2007,14 +2039,15 @@
   align-items: center;
   height:25%;
   width:50%;
-  margin: 3% 25% 3% 25%;
+  margin: 2% 25% 2% 25%;
 }
 
 .traditional-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .traditional-content{
   padding:10px 200px 10px 200px;
@@ -2048,7 +2081,7 @@
 .guess-output-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2064,10 +2097,11 @@
 }
 
 .guess-output-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .guess-output-content{
   padding:10px 200px 10px 200px;
@@ -2101,7 +2135,7 @@
 .quiz-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-larger;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2117,10 +2151,11 @@
 }
 
 .quiz-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .quiz-content{
   padding:10px 200px 10px 200px;
@@ -2155,7 +2190,7 @@
 .essay-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2171,10 +2206,11 @@
 }
 
 .essay-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .essay-content{
   padding:10px 200px 10px 200px;
@@ -2208,7 +2244,7 @@
 .quiz-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2224,10 +2260,11 @@
 }
 
 .quiz-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .quiz-content{
  padding:10px 200px 10px 200px;
@@ -2261,7 +2298,7 @@
 .men-kabaddi-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2277,10 +2314,11 @@
 }
 
 .men-kabaddi-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .men-kabaddi-content{
   padding:10px 200px 10px 200px;
@@ -2314,7 +2352,7 @@
 .men-khokho-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2330,10 +2368,11 @@
 }
 
 .men-khokho-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .men-khokho-content{
   padding:10px 200px 10px 200px;
@@ -2372,7 +2411,7 @@
 .men-volleyball-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2388,10 +2427,11 @@
 }
 
 .men-volleyball-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .men-volleyball-content{
   padding:10px 200px 10px 200px;
@@ -2427,7 +2467,7 @@
 .carrom-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2443,10 +2483,11 @@
 }
 
 .carrom-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .carrom-content{
   padding:10px 200px 10px 200px;
@@ -2483,7 +2524,7 @@
 .free-fire-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2499,10 +2540,11 @@
 }
 
 .free-fire-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .free-fire-content{
   padding:10px 200px 10px 200px;
@@ -2540,15 +2582,19 @@
 .pubg-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
 .pubg-logo{
-  align-items: center;
+  /* align-items: center;
   margin-top: 20px;
  margin-left: 40px;
- margin-bottom: 20px;
+ margin-bottom: 20px; */
+  align-items: center;
+  height:25%;
+  width:50%;
+  margin: 3% 25% 3% 25%;
 }
 
 .pubg-theme{
@@ -2556,10 +2602,10 @@
   font-weight: 500;
   color: #3F72AF;
   text-align: center; */
-   align-items: center;
-  height:25%;
-  width:50%;
-  margin: 3% 25% 3% 25%;
+   font-size: x-large;
+  font-weight: 500;
+  color: #3F72AF;
+  text-align: center;
 }
 .pubg-content{
   padding:10px 200px 10px 200px;
@@ -2593,7 +2639,7 @@
 .women-throwball-header{
   text-align: center;
   
-  font-size: larger;
+  font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
 }
@@ -2609,7 +2655,7 @@
 }
 
 .women-throwball-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
@@ -2647,23 +2693,23 @@
 }
 .cricket1-header{
   text-align: center;
-  
-  font-size: larger;
-  font-weight: 500px;
+  font-size: xx-large;
+  font-weight: 600px;
   color: darkcyan;
 }
 .cricket1-logo{
-  align-items: center;
-  margin-top: 20px;
- margin-left: 40px;
- margin-bottom: 20px;
+   align-items: center;
+  height:25%;
+  width:50%;
+  margin: 3% 25% 3% 25%;
 }
 
 .cricket1-theme{
-  font-size: large;
+  font-size: x-large;
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  padding-bottom: 10px;
 }
 .cricket1-content{
   padding:10px 200px 10px 200px;

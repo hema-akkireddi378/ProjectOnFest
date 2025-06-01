@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './App.css';
+import { useLocation } from 'react-router-dom';
+
+
+
 export function Footer() {
     return (
         <div className="footer">
@@ -11,7 +15,7 @@ export function Footer() {
                 <Support></Support>
                 <PostFest></PostFest>
 
-
+                
 
             </footer>
 
@@ -41,6 +45,13 @@ export function AdminPanel() {
         </div>
     )
 }
+
+// components/Footer.js
+//import React from 'react';
+
+
+
+
 
 export function FacultyDashboard() {
     return (

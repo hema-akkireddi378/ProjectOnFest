@@ -9,7 +9,7 @@ export function Header() {
             <Link to="/Home" className="header-links">Home</Link>
             <Link to="/Events" className="header-links">Events</Link>
             <Link to="/Register" className="header-links">Register</Link>
-            <Link to="/MyProfile" className="header-profile"><img src="https://static.vecteezy.com/system/resources/thumbnails/019/879/198/small_2x/user-icon-on-transparent-background-free-png.png" alt="Profile" height="20px" width="30px"></img></Link>
+            <Link to="/MyProfile" className="header-profile"><img src="https://img.icons8.com/?size=100&id=85050&format=png&color=FFFFFF" alt="Profile" height="20px" width="30px"></img></Link>
            
        </nav>
     
@@ -22,9 +22,10 @@ export function Header() {
 
 export function Home(){
     return(
-        
+        <div className='main-logo'>
         <div className='logo'>
             <img className='clg-logo' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReEDpIRZmPo_oXlyZ8rli704u-K11-mQQ_8g&s' alt='Miracle College Logo' height="500px" width="500px"></img>
+        </div>
         </div>
         
     )
@@ -403,7 +404,7 @@ export function EventCoordinator(){
             <p className='sub-details1'>Event Date:</p>
             <p className='sub-details1'>Event Start Time :</p>
             <p className='sub-details1'>Event Venue: </p>
-            <p className='sub-details1'>Event End Time</p>
+            <p className='sub-details1'>Event End Time :</p>
 
             <h3 className='event-coordinator'>Event Coordinator Details</h3> 
             <p className='event-coordinator-details'>Name : </p>
@@ -514,14 +515,17 @@ export function ProCoder(){
 export function ProCoderEvent(){
     return(
         <div className='procoderEvent'>
-        <div>
-            <h3 className='procoder-event-details'>Event Details</h3>
-            <p className='procoder-sub-details'>Event Date:</p>
-            <p className='procoder-sub-details'>Event Start Time :</p>
-            <p className='procoder-sub-details'>Event Venue: </p>
-            <p className='procoder-sub-details'>Event End Time</p>
+            <div className='procoderevent-register'>
+                <p className='register-details'>Registration for Procoder</p>
+                <p className='register-details'>Name :</p>
+                <p className='register-details'>Branch :</p>
+                <p className='register-details'>Year :</p>
+                <p className='register-details'>Department :</p>
+                <p className='register-details'>Section :</p>
+                <p className='register-details'>Gender :</p>
+                
             </div>
-            <div >
+            <div className='n'>
             <h3 className='procoder-event-coordinator'>Event Coordinator Details</h3> 
             <p className='procoder-event-coordinator-details'>Name : </p>
             <p className='procoder-event-coordinator-details'>Email : </p>

@@ -90,6 +90,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path='PastEvents' element={<PastEvents></PastEvents>}></Route>
                 <Route path='/ContactUs' element={<ContactUs></ContactUs>}></Route>
                 
+                {/* <Route path='/Footer1' element={<Footer1></Footer1>}></Route> */}
          </Routes>
           <Footer/>
          </BrowserRouter>
