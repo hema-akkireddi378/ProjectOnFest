@@ -500,11 +500,7 @@ export function ProCoder(){
              <Link to="/ProCoderEvent" className="more1">
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
-            
+           
         </div>
     )
 }
@@ -538,11 +534,8 @@ export function GuessTheOutput(){
             <p className='guess-output-header'>Guess the Output 2025</p>
             <img className="guess-output-logo" src="https://www.shutterstock.com/image-photo/hand-drawing-ipo-input-process-260nw-2186724959.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='guess-output-theme'>Decode. Predict. Dominate.</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
-            {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
-            {/* <hr></hr> */}
-            {/* <p className='guess-output-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
+           
+           
            <p className='guess-output-content'>Welcome to Guess the Output 2025, where logic meets intuition! This thrilling coding challenge is designed to test how well you understand what really happens under the hood of a program. Participants will face tricky snippets, mind-bending logic, and edge cases that go beyond syntax. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quisquam nulla voluptate harum aliquid dicta deserunt voluptatem mollitia atque similique illo accusantium eveniet, ut consectetur animi fugit adipisci possimus minus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, fugit deleniti at molestiae assumenda similique, laborum eum voluptatem rem alias a quo quod qui, debitis delectus atque adipisci dolorum? Deleniti.</p>
            <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
@@ -553,16 +546,7 @@ export function GuessTheOutput(){
           <Link to="/GuessTheOutputEvent" className="more1">
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
-           {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
+          
             
         </div>
     )
@@ -593,11 +577,7 @@ export function Quiz(){
             <p className='quiz-header'>Brain Brawl 2025</p>
             <img className="quiz-logo" src="https://img.freepik.com/premium-vector/quiz-logo-with-speech-bubble-icon_149152-811.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='quiz-theme'>Think Fast. Answer Smart. Win Big.</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
-            {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
-            {/* <hr></hr> */}
-            {/* <p className='quiz-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
+           
             <p className='quiz-content'>Get ready for a battle of wits at Brain Brawl 2025, the ultimate quiz showdown where speed meets knowledge. Whether you’re a trivia master, a current affairs champ, or just love cracking clues, this event is your time to shine!
 From general knowledge and science to pop culture and puzzles — every round brings a new twist.
 Team up, buzz in, and brawl your way to the top! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, sequi! Minus fugit consectetur quasi perspiciatis non, porro iste, labore enim neque alias reiciendis. Amet omnis id eos dolores quia corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure iusto, dolor corrupti libero, eaque harum nam pariatur perferendis iste aliquid laboriosam perspiciatis recusandae, ducimus facilis? Voluptatum cumque a quo consequatur.</p>
@@ -610,16 +590,7 @@ Team up, buzz in, and brawl your way to the top! Lorem, ipsum dolor sit amet con
            <Link to="/QuizEvent" className="more1">
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
-            {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
+            
             
         </div>
     )
@@ -651,11 +622,7 @@ export function EssayWriting(){
             <p className='essay-header'>Inkspire 2025</p>
             <img className="essay-logo" src="https://www.shutterstock.com/image-photo/essays-english-language-part-exam-260nw-1320732236.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='essay-theme'>Write to Express. Write to Inspire.</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
-            {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
-            {/* <hr></hr> */}
-            {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
+         
             <p className='essay-content'>Inkspire 2025 invites all wordsmiths and thinkers to pour their thoughts onto paper and shape ideas that matter. This essay writing competition is your stage to reflect, reason, and express on themes that challenge the mind and stir the soul. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci maxime deleniti omnis velit itaque explicabo unde nulla saepe voluptatibus. Inventore ea ex quisquam esse numquam officiis neque veniam repellendus. Iste. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi minus possimus voluptatibus reprehenderit, praesentium molestias veniam libero non consequuntur doloribus magnam repellendus eum sit provident nesciunt blanditiis sunt tempora eveniet.</p>
             <h3 className='event-details'>Event Details</h3>
             <p className='sub-details'>Event Date:</p>
@@ -666,17 +633,7 @@ export function EssayWriting(){
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
            
-           {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
-            
+         
         </div>
     )
 }
@@ -706,11 +663,8 @@ export function Cricket1(){
             <p className='cricket1-header'>Battle Beyond Boundaries </p>
             <img className="cricket1-logo" src="https://www.shutterstock.com/image-photo/mumbai-india-october-2-2021-600nw-2085546409.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='cricket1-theme'>Cricket Carnival 2025</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
-            {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
-            {/* <hr></hr> */}
-            {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
+           
+            
             <p className='cricket1-content'>The purpose of Cricket Carnival 2025 is to celebrate the spirit of sportsmanship, teamwork, and competitive zeal through the game that unites millions – Cricket. This event aims to bring together passionate players and fans, offering a platform where talent meets opportunity and every boundary hit echoes with cheer.
 Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form. 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit asperiores, ut dicta rerum aliquam deserunt laudantium veritatis et sint provident necessitatibus repellat consequatur inventore officiis aut. Beatae quos sapiente libero. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem maiores nihil exercitationem quasi et at temporibus est sint, explicabo autem, incidunt amet ipsam neque aliquam quae ad excepturi qui quo.</p>
@@ -723,16 +677,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit asperiores, ut di
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
             
-            {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
+          
             
         </div>
     )
@@ -764,8 +709,7 @@ export function MenKabaddi(){
             <p className='men-kabaddi-header'>Mat Warriors 2025  Kabaddi Clash </p>
             <img className="men-kabaddi-logo" src="https://www.prokabaddi.com/static-assets/waf-images/84/9b/95/16-9/dgYZwDiTti.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='men-kabaddi-theme'>Raid. Resist. Rise.</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
+           
             <p className='men-kabaddi-content'>Step into the arena where tradition meets adrenaline — Mat Warriors 2025 is your call to battle in the raw and riveting game of Kabaddi. It's not just a sport; it's a test of strength, speed, strategy, and sheer willpower.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptatum voluptatibus. Unde est neque at beatae iste, veniam quis consectetur voluptates id cum, dolorum eum maxime dolor quaerat! Exercitationem, incidunt!
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa animi voluptatum ratione, repellendus aperiam laudantium laborum at aliquid vero, fuga nam velit! Vero consequatur aut, enim quidem aliquam iure officia!
@@ -779,17 +723,7 @@ export function MenKabaddi(){
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
 
-            {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
-            
+          
         </div>
     )
 }
@@ -837,18 +771,6 @@ export function MenKhokho(){
             <Link to="/MenKhoKhoEvent" className="more1">
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
-           
-           {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
-            
         </div>
     )
 }
