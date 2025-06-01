@@ -1496,7 +1496,7 @@
 /* .feedbackform{
 
 } */
-/* .mainFeedBackForm{
+.mainFeedBackForm{
  display: flex;
  flex-direction: column;
  gap: 10%;
@@ -1504,7 +1504,7 @@
 }
 .mainFeedBackForm:active{
   background-color: lightgray;
-} */
+}
 
 .yesOrNo{
   display: flex;
