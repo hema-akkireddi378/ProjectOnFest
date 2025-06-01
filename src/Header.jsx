@@ -882,12 +882,7 @@ export function MenVolleyball(){
             <p className='men-volleyball-header'>Sky Serve 2025 – Volleyball Showdown </p>
             <img className="men-volleyball-logo" src="https://t4.ftcdn.net/jpg/01/23/19/87/360_F_123198705_HHB36SHxNnTspMYX7mXqg9rAGwS5tNB0.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='men-volleyball-theme'>Elevate the Game. Dominate the Court.</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
-            {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
-            {/* <hr></hr> */}
-            {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
-      
+          
             <p className='men-volleyball-content'>Get ready to rise above the net at Sky Serve 2025, the ultimate volleyball clash where precision meets passion. Watch teams soar, spike, and smash their way to victory with flawless coordination and fierce energy.
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores unde sunt omnis repellat suscipit temporibus laudantium, deleniti, commodi, cumque beatae accusantium saepe a repellendus quidem sequi quaerat tempora aut quas?
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia earum, quae magni hic tenetur maxime, illum harum ipsam pariatur dignissimos quod delectus quasi mollitia aliquam qui sit unde at dolorem.
@@ -901,16 +896,7 @@ export function MenVolleyball(){
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
           
-           {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
+          
             
         </div>
     )
@@ -942,11 +928,7 @@ export function CarromBoard(){
             <p className='carrom-header'>Battle Beyond Boundaries </p>
             <img className="carrom-logo" src="https://www.shutterstock.com/image-photo/mumbai-india-october-2-2021-600nw-2085546409.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='carrom-theme'>Cricket Carnival 2025</p>
-            {/* <p className='date'>Date:</p>
-            <p className='venue'>Venue: </p> */}
-            {/* <p className='traditional-content'>Step into a world where creativity meets innovation. Our fest is a celebration of talent, ideas, and enthusiasm — a platform to express, explore, and excel. Whether you're a performer, a techie, or an artist at heart, this is your moment to shine. Let’s spark connections, ignite passions, and create unforgettable memories together!</p> */}
-            {/* <hr></hr> */}
-            {/* <p className='essay-content'>Get ready to flaunt your ethnic best! Traditional Day is here — a vibrant splash of colors, culture, and timeless elegance. Come dressed in your traditional attire, represent your heritage with pride, and be a part of the most colorful celebration of our fest!</p> */}
+            
             <p className='carrom-content'>The purpose of Cricket Carnival 2025 is to celebrate the spirit of sportsmanship, teamwork, and competitive zeal through the game that unites millions – Cricket. This event aims to bring together passionate players and fans, offering a platform where talent meets opportunity and every boundary hit echoes with cheer.
 Whether you're bowling with fire or batting with flair, this is your stage to shine, compete, and honor the gentleman’s game in its truest form.
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, nulla consequatur hic, vel soluta impedit omnis ex quos esse rem aperiam non odit assumenda, accusantium maiores distinctio error sed illum?
@@ -959,16 +941,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ut quod facil
             <Link to="/CarromBoardEvent" className="more1">
                       <button type='link' className='button-link'>Register</button> 
                      </Link>
-            {/* <div>
-            <h3 className='event-coordinator'>Event Coordinator Details</h3> 
-            <p className='event-coordinator-details'>Name : </p>
-            <p className='event-coordinator-details'>Email : </p>
-            <p className='event-coordinator-details'>Phone Number :</p>
-            </div> */}
-            {/* <div className="social-media1">
-                    <img src="https://i.pinimg.com/736x/bb/90/24/bb902442d0880e99732aa1aada0c08de.jpg" alt="Facebook logo" className="facebook-link" ></img>
-                    <img src="https://images.icon-icons.com/2428/PNG/512/google_black_logo_icon_147125.png" alt="Google logo" className="google-link"></img>
-                </div> */}
+          
             
         </div>
     )
