@@ -308,8 +308,8 @@ export function FeedbackForm() {
 
 
             <div className="elements">
-                <p>Name: </p>
-                <p>Email :</p>
+                {/* <p>Name: </p>
+                <p>Email :</p> */}
                 <p>How was your experience?</p>
 
                 <label>
