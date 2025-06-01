@@ -290,9 +290,15 @@ export function FeedbackForm() {
                 
                     <label>Is this your first time attending events like this?</label>
 <div>
-                    <label for="yes"><input type="radio" id="yes" name="agree" value="yes" />Yes</label>
+     <div className='yesOrNo'>
+                <label htmlFor="yes">
+                    <input type="radio" id="yes" name="agree" value="yes" /> Yes
+                </label>
 
-                    <label for="no"><input type="radio" id="no" name="agree" value="no" />No</label>
+                <label htmlFor="no">
+                    <input type="radio" id="no" name="agree" value="no" /> No
+                </label>
+                </div>
                 </div>
 
             </div>
