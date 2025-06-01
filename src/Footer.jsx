@@ -334,24 +334,47 @@ export function TermsAndConditions() {
 
 export function AboutUs() {
     return (
+        // <div className='aboutUs'>
+        //     <p className='fest-name'>MILAN</p>
+        //     <p className='clg-name'>Miracle Educational Society Group Of Institutions</p>
+        //     <p className='clg-content'>Welcome to [Fest Name], the flagship cultural and technical fest of [Your Institution Name]. We are a student-driven celebration of innovation, creativity, and tradition, bringing together talents from across the region.
+
+        //         From electrifying competitions to insightful workshops and mesmerizing performances, [Fest Name] is more than just an event — it’s an experience. Every year, we strive to create a platform where passion meets purpose, and ideas turn into action.
+
+        //         Join us as we celebrate the spirit of youth, talent, and unity through this vibrant fest!
+
+        //     </p>
+        //     <div className="social-media1">
+
+        //         <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt='Linkdin' height="20px" width="20px" className='linkdin'></img>
+        //         <img src="https://download.logo.wine/logo/Instagram/Instagram-Logo.wine.png" className='instagram' alt='Instagram' height="30px" width="30px"></img>
+        //         <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' className='github' alt='GitHub' height="20px" width="20px"></img>
+        //         <img src='https://cdn-icons-png.flaticon.com/512/20/20673.png' className='facebook' alt='FaceBook' height="20px" width="20px"></img>
+        //     </div>
+
+        // </div>
         <div className='aboutUs'>
-            <p className='fest-name'>MILAN</p>
-            <p className='clg-name'>Miracle Educational Society Group Of Institutions</p>
-            <p className='clg-content'>Welcome to [Fest Name], the flagship cultural and technical fest of [Your Institution Name]. We are a student-driven celebration of innovation, creativity, and tradition, bringing together talents from across the region.
+            <div className='aboutUs1'>
+            <img src='https://i.pinimg.com/736x/30/5f/1d/305f1d927e89b6c3ba61d2127fbcc0de.jpg' alt='We Both' height="100px" width="100px" className='weBoth'></img></div>
+            <p className='aboutContent'>Hello there, I am J HemaVinayKumar Author of this Application</p>
 
-                From electrifying competitions to insightful workshops and mesmerizing performances, [Fest Name] is more than just an event — it’s an experience. Every year, we strive to create a platform where passion meets purpose, and ideas turn into action.
-
-                Join us as we celebrate the spirit of youth, talent, and unity through this vibrant fest!
-
-            </p>
-            <div className="social-media1">
-
-                <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt='Linkdin' height="20px" width="20px" className='linkdin'></img>
-                <img src="https://download.logo.wine/logo/Instagram/Instagram-Logo.wine.png" className='instagram' alt='Instagram' height="30px" width="30px"></img>
-                <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' className='github' alt='GitHub' height="20px" width="20px"></img>
-                <img src='https://cdn-icons-png.flaticon.com/512/20/20673.png' className='facebook' alt='FaceBook' height="20px" width="20px"></img>
+            <div className='moreAboutUs'>
+                <p className='aboutus'>Name :</p>
+                <p className='aboutus'>Year :</p>
+                <p className='aboutus'>Branch :</p>
+                <p className='aboutus'>Section :</p>
+                <p className='aboutus'>Mobile no :</p>
+                <p className='aboutus'>Village :</p>
+                <p className='aboutus'>District :</p>
+                <p className='aboutus'>State :</p>
+                <p className='reach'>you can also reach me at,</p>
+                 <div className="author-socialmedia">
+                    <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="Facebook logo" className="facebook-link" ></img>
+                    <img src="https://img.icons8.com/?size=100&id=GNvM541FBQu7&format=png&color=000000" alt="Google logo" className="google-link"></img>
+                    <img src="https://img.icons8.com/?size=100&id=ZRiAFreol5mE&format=png&color=000000" alt="Facebook logo" className="facebook-link" ></img>
+                    <img src="https://img.icons8.com/?size=100&id=CtrV2SV33rD9&format=png&color=000000" alt="Google logo" className="google-link"></img>
+                </div>
             </div>
-
         </div>
     )
 }
@@ -364,11 +387,45 @@ export function ContactUs() {
         <div className='contact'>
            <p className='contact-us'>Contact Us</p>
            {/* <p className='contact-content'>We are here to help! For any queries, suggestions, or support related to MILAN, feel free to reach out to us</p> */}
-                <p>Email : </p>
+                {/* <p>Email : </p>
                 <p>Phone</p>
                 <p>Address</p>
-                <p>Social Media</p>
+                <p>Social Media</p> */}
+                <div className='contactUs'>
+                <div className='phone'>
+                    <img src='https://img.icons8.com/?size=100&id=9730&format=png&color=000000' alt='phone' height="20px" width="20px"></img>
+                    <p>6303675308</p>
                 </div>
+                 <div className='protofolio'>
+                    <img src='https://img.icons8.com/?size=100&id=i4g6BmsilKFZ&format=png&color=000000' alt='phone' height="20px" width="20px"></img>
+                    <p>Protofolio</p>
+                </div>
+                <div className='Email'>
+                    <img src='https://img.icons8.com/?size=100&id=Ww1lcGqgduif&format=png&color=000000' alt='phone' height="20px" width="20px"></img>
+                    <p>akkireddihema@gmail.com</p>
+                </div>
+                <div className='location'>
+                    <img src='https://img.icons8.com/?size=100&id=96RE9rrwGcm6&format=png&color=000000' alt='phone' height="20px" width="20px"></img>
+                    <p>Miracle City, Bhogapuram</p>
+                </div>
+                </div>
+                
+
+                <div className='getInTouch'>
+                     <input type="text" placeholder="Username" name="username" id="username" className="UserName">
+                    </input>
+                    <input type="email" placeholder="Email" name="password" id="email" className="userEmail">
+                    </input>
+                    <input type="textarea" rows="4" placeholder="Subject" name="subject" id="subject" className="subject">
+                    </input>
+                    <input type="textarea" rows="6" placeholder="Message" name="message" id="message" className="message">
+                    </input>
+                    
+                </div>
+                <div className='sumbmitMessage'>
+                    <button type="submit" className="sendMessage">Send Message</button>
+                </div>
+         </div>
     )
 }
 

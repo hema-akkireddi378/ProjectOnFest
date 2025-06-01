@@ -9,7 +9,7 @@ export function Header() {
             <Link to="/Home" className="header-links">Home</Link>
             <Link to="/Events" className="header-links">Events</Link>
             <Link to="/Register" className="header-links">Register</Link>
-            <Link to="/MyProfile" className="header-profile"><img src="https://img.icons8.com/?size=100&id=85050&format=png&color=FFFFFF" alt="Profile" height="20px" width="30px"></img></Link>
+            <Link to="/MyProfile" className="header-profile"><img src="https://img.icons8.com/?size=100&id=85050&format=png&color=FFFFFF" alt="Profile" height="20px" width="20px"></img></Link>
            
        </nav>
     
