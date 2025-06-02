@@ -1459,11 +1459,17 @@
 
   .facultyContent{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
+  .assignTheCoordinators{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
 
 
