@@ -1699,7 +1699,7 @@ padding-left: 5%;
 .contact{
  margin: 2%;
   border: 2px solid black;
-  
+  padding: 20%g;
   border-top-right-radius: 70%;
   border-top-left-radius: 70%;
 }
@@ -1707,7 +1707,7 @@ padding-left: 5%;
   text-align: center;
   font-size: x-large;
   font-weight: bolder;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 
@@ -1715,7 +1715,7 @@ padding-left: 5%;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin: 100px 50px 100px 50px;
+  margin: 50px 50px 10px 50px;
   line-height: 1.8rem;
   /* align-items: center; */
   justify-content: center;
