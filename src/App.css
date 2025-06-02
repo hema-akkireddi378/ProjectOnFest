@@ -1451,17 +1451,16 @@
   /* ================================================== */
 
   .facultyprofile{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+   padding:20px 50px  ;
   }
 
   .facultyContent{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    padding-left:30% ;
+    line-height: 1.5rem;
   }
 
   .assignTheCoordinators{
@@ -1470,6 +1469,85 @@
     align-items: center;
     justify-content: center;
   }
+
+  .assignCoordinatorHeader{
+    background-color: lightcoral;
+    margin: 10px 0px;
+    padding: 3%;
+    border-radius: 5%;
+  }
+
+  .SelectOptions{
+    margin: 20px 20px 20px 0px;
+    padding: 1% 1%;
+    border: 2px solid black;
+    outline: none;
+  }
+  .options{
+    height: 100vh;
+   width: 100%;
+  }
+
+  .coordinators{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding:5%  20%;
+    line-height: 1.5rem;
+    gap: 20px;
+    background-color: whitesmoke;
+
+  }
+  .coordinators:hover{
+    /* border: 1px solid black; */
+    
+  }
+  .coordinatorDetails{
+    outline: none;
+    border: none;
+    padding: 5px 5px;
+    font-size: medium;
+    font-weight: 300;
+  }
+  .coordinatorDetails:hover{
+    border: 2px solid black;
+    color: #0F4C75;
+  }
+ .setCoordinator{
+  background-color: lightcoral;
+  
+    margin: 10px 70px;
+    padding: 3% 10%;
+    border-radius: 5%;
+
+ }
+ .assignEventHeader{
+   background-color: lightgreen;
+  
+    margin: 10px 70px;
+    padding: 3% 15%;
+    border-radius: 5%;
+
+ }
+ .setEvent{
+  background-color: lightgreen;
+  
+    margin: 10px 70px;
+    padding: 3% 15%;
+    border-radius: 5%;
+ }
+
+.hoddetails{
+  padding: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ font-size: medium;
+ font-weight: 400;
+}
+
+
+
 
 
 
