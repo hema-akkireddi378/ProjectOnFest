@@ -62,14 +62,14 @@ export function FacultyDashboard() {
         <div>
             <div className='facultyDetails'>
                 <div className='facultyprofile'>
-             <img src="https://static.thenounproject.com/png/3918329-200.png" alt="Profile" className="profile-image"></img></div>
-             <div className='facultyContent'>
-             <p>Name :</p>
-             <p>Branch :</p>
-             <p>Designation :</p>
-             </div>
-             </div>
-             <div className='assignTheCoordinators'>
+                    <img src="https://static.thenounproject.com/png/3918329-200.png" alt="Profile" className="profile-image"></img></div>
+                <div className='facultyContent'>
+                    <p>Name :</p>
+                    <p>Branch :</p>
+                    <p>Designation :</p>
+                </div>
+            </div>
+            <div className='assignTheCoordinators'>
                 <p className='assignCoordinatorHeader'>Assign the Event Coordinators</p>
                 <select className='SelectOptions'>
                     <option value="none" className='options'>None</option>
@@ -85,25 +85,25 @@ export function FacultyDashboard() {
                     <option value="Free Fire" className='options'>Free Fire</option>
                     <option value="Women Throw Ball" className='options'>Women Throw Ball</option>
                 </select>
-              
-             </div>
-             <div className='coordinators'>
+
+            </div>
+            <div className='coordinators'>
                 <input type='text' placeholder='Name' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Branch' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Year' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Department' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Section' className='coordinatorDetails'></input>
 
-                  {/* <p className='coordinatorDetails'>Coordinator Name</p>
+                {/* <p className='coordinatorDetails'>Coordinator Name</p>
                 <p className='coordinatorDetails'>Brach</p>
                 <p className='coordinatorDetails'>Year</p>
                 <p className='coordinatorDetails'>Department</p>
                 <p className='coordinatorDetails'>Section</p> */}
-             </div>
-              <p className='setCoordinator'>Set As A Coordinator</p>
+            </div>
+            <p className='setCoordinator'>Set As A Coordinator</p>
 
 
-              <div className='assignTheCoordinators'>
+            <div className='assignTheCoordinators'>
                 <p className='assignEventHeader'>Assign the Events</p>
                 <select className='SelectOptions'>
                     <option value="none" className='options'>None</option>
@@ -119,24 +119,24 @@ export function FacultyDashboard() {
                     <option value="Free Fire" className='options'>Free Fire</option>
                     <option value="Women Throw Ball" className='options'>Women Throw Ball</option>
                 </select>
-              
-             </div>
-             <div className='coordinators'>
+
+            </div>
+            <div className='coordinators'>
                 <input type='text' placeholder='Event Date (DD-MM-YYYY)' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Event Start Time ex 9am' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Event End Time ex 5pm' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Section' className='coordinatorDetails'></input>
 
-                  {/* <p className='coordinatorDetails'>Coordinator Name</p>
+                {/* <p className='coordinatorDetails'>Coordinator Name</p>
                 <p className='coordinatorDetails'>Brach</p>
                 <p className='coordinatorDetails'>Year</p>
                 <p className='coordinatorDetails'>Department</p>
                 <p className='coordinatorDetails'>Section</p> */}
-             </div>
-              <p className='setEvent'>Set As A Event</p>
-              <p className='hoddetails'>Only access to ,<br></br>
-              Head Of the Department, CSE HOD<br></br>
-              Mr Raja Sheaker</p>
+            </div>
+            <p className='setEvent'>Set As A Event</p>
+            <p className='hoddetails'>Only access to ,<br></br>
+                Head Of the Department, CSE HOD<br></br>
+                Mr Raja Sheaker</p>
         </div>
     )
 }
@@ -174,8 +174,8 @@ export function Assignment() {
         <div className='assignment'>
             <p>Voolenter's Assignment</p>
             <div className='voolenterAssignment'>
-                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUUfjZ7Q43DeyVE-9CdgprQDBY0uX0o2dzUw&s'alt='Mss' className='sponsorlogo'></img>
-               <p className='sponsorContent'>Mss</p>
+                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUUfjZ7Q43DeyVE-9CdgprQDBY0uX0o2dzUw&s' alt='Mss' className='sponsorlogo'></img>
+                <p className='sponsorContent'>Mss</p>
             </div>
         </div>
     )
@@ -314,7 +314,29 @@ export function Support() {
 
 export function FAQ() {
     return (
-        <div></div>
+        <div className=''>
+            <div className='faq'> <p className='faqHeader'>FAQ</p></div>
+            <div className='faqMore'>
+                <div className='faqsection'>
+                    <p className='question'>
+                        When and where is the fest happening?
+                    </p>
+                    <p className='answer'> The fest will be held on [Start Date] to [End Date] at [Venue/College Campus].</p>
+                </div>
+                <div className='faqsection'>
+                    <p className='question'> Do I need to pay any registration fees? Is the fest open to other colleges?
+                    </p>
+                    <p className='answer'> Most events are free. Some workshops or competitions may have minimal charges. Refer to each event’s page for details.</p>
+                </div>
+                <div className='faqsection'>
+                    <p className='question'>
+                        How can I become a volunteer?
+                    </p>
+                    <p className='answer'>Visit the Volunteers page and fill out the sign-up form. You'll be contacted by the team lead if shortlisted</p>
+                </div>
+            </div>
+        </div>
+
     )
 }
 

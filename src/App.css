@@ -1725,19 +1725,53 @@ padding-left: 5%;
 
 
 
-
-
-
-
-
-
-
-
-
-
 .list-of-terms{
   padding: 20px 50px 20px 50px;
 }
+
+
+
+
+/* ============================== */
+.faq{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  
+}
+.faqHeader{
+  font-size: large;
+  font-weight: bold;
+  background-color: gray;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+
+}
+.faqMore{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 10%;
+  gap: 20px;
+}
+.faqsection{
+  background-color: lightgray;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+.ansewer, .question:hover{
+  background-color: whitesmoke;
+  padding: 5%;
+}
+
+/* ========================================= */
 
 
 .feedbackform{
