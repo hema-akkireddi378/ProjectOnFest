@@ -59,7 +59,35 @@ export function AdminPanel() {
 
 export function FacultyDashboard() {
     return (
-        <div>Hema</div>
+        <div>
+            <div className='facultyDetails'>
+                <div className='facultyprofile'>
+             <img src="https://static.thenounproject.com/png/3918329-200.png" alt="Profile" className="profile-image"></img></div>
+             <div className='facultyContent'>
+             <p>Name :</p>
+             <p>Branch :</p>
+             <p>Designation :</p>
+             </div>
+             </div>
+             <div className='assignTheCoordinators'>
+                <p>Assign the Event Coordinators</p>
+                <select>
+                    <option value="none">None</option>
+                    <option value="Banner Launch">Banner Launch</option>
+                    <option value="Traditional Day">Traditional Day</option>
+                    <option value="Final Fest">Final Fest</option>
+                    <option value="Men's Cricket">Men's Cricket</option>
+                    <option value="Men's Kabaddi">Men's Kabaddi</option>
+                    <option value="Men's Volley Ball">Men's Volley Ball</option>
+                    <option value="Men's Kho Kho">Men's Kho Kho</option>
+                    <option value="Carroms">Carroms</option>
+                    <option value=" Pubg">Pubg</option>
+                    <option value="Free Fire">Free Fire</option>
+                    <option value="Women Throw Ball">Women Throw Ball</option>
+                </select>
+
+             </div>
+        </div>
     )
 }
 export function StudentDashboard() {
@@ -92,7 +120,13 @@ export function StudentDashboard() {
 }
 export function Assignment() {
     return (
-        <div></div>
+        <div className='assignment'>
+            <p>Voolenter's Assignment</p>
+            <div className='voolenterAssignment'>
+                <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUUfjZ7Q43DeyVE-9CdgprQDBY0uX0o2dzUw&s'alt='Mss' className='sponsorlogo'></img>
+               <p className='sponsorContent'>Mss</p>
+            </div>
+        </div>
     )
 }
 
@@ -238,7 +272,9 @@ export function FAQ() {
 
 export function Emergency() {
     return (
-        <div></div>
+        <div>
+
+        </div>
     )
 }
 

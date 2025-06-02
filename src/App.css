@@ -1449,6 +1449,32 @@
 
   /* admin-list  Class (List) */
   /* ================================================== */
+
+  .facultyprofile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .facultyContent{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
   .admin-list {
     list-style: none;
     line-height: 1.8rem;
@@ -1696,8 +1722,25 @@ padding-left: 5%;
   padding: 20px;
 }
 
+
+.voolenterAssignment{
+  margin: 20%;
+  height: 200px;
+  width: 200px;
+  
+}
+.sponsorlogo{
+  margin: 30px;
+}
+
+.sponsorContent{
+  text-align: center;
+  font-size: large;
+  font-weight: 400;
+}
+
 .contact{
- margin: 2%;
+ margin: 20%;
   border: 2px solid black;
   padding: 20%g;
   border-top-right-radius: 70%;
