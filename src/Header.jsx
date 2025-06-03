@@ -50,6 +50,7 @@ export function Events(){
                     <p className="event-content">Event date :</p>
                     <p className="event-content">Event start time :</p>
                     <p className="event-content">Event Venue :</p>
+                    <p className='event-content'>Event End Time :</p>
                     </div>
                     <hr></hr>
                    
@@ -1147,9 +1148,9 @@ export function ForgotPassword(){
             <div className="inner-profile">
                 <div className="inner-profile-details">
                     <img src="https://static.thenounproject.com/png/3918329-200.png" alt="Profile"  className="profile-image"></img>
-                    <img src='https://img.icons8.com/?size=100&id=QWY6uhBxcr1I&format=png&color=1A1A1A' alt='edit' className='profile-image' height="20px" width="30px"></img>
+                    <img src='https://img.icons8.com/?size=100&id=QWY6uhBxcr1I&format=png&color=1A1A1A' alt='edit'  height="30px" width="30px"></img>
                 </div>
-                    <hr></hr>
+                    {/* <hr></hr> */}
                     <div className="main-profile-details">
                         <p className='profile1-details'>Name :</p>
                         <p className='profile1-details'>Year :</p>

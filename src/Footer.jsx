@@ -203,7 +203,7 @@ export function Gamification() {
         <div className="subClass">
             <ul className="unorder">
                 <li className="gamification"><h2>Gamification</h2></li>
-                <li className="gamification"><Link to="/ClassicalEvents" className="gamification-links">Classical Events</Link></li>
+                <li className="gamification"><Link to="/Sports" className="gamification-links">Sprots</Link></li>
                 <li className="gamification"><Link to="/TechnicalEvents" className="gamification-links">Technical Events</Link></li>
                 <li className="gamification"><Link to="/CulturalEvents" className="gamification-links">Cultural Events</Link></li>
 
@@ -218,21 +218,265 @@ export function Gamification() {
     )
 }
 
-export function ClassicalEvents() {
+export function Sports() {
     return (
         <div>
+            <h1 className='footerEventsHeader'>Men's Cricket</h1>
+            <img className="cricket1-logo" src="https://www.shutterstock.com/image-photo/mumbai-india-october-2-2021-600nw-2085546409.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/Cricket1Event" className="footer-more1">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+
+            <h1 className='footerEventsHeader'>Men's Kabaddi</h1>
+            <img className="men-kabaddi-logo" src="https://www.prokabaddi.com/static-assets/waf-images/84/9b/95/16-9/dgYZwDiTti.jpg" alt="Fest image" height="200px" width="80%"></img>
+
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/MenKabaddiEvent" className="footer-more1">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+
+
+            <h1 className='footerEventsHeader'>Men's Kho Kho</h1>
+            <img className="men-khokho-logo" src="https://img.etimg.com/thumb/width-1200,height-1200,imgsize-96978,resizemode-75,msid-93825988/news/sports/passion-dreams-hardships-unite-kho-kho-league-players.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/MenKhoKhoEvent" className="footer-more1">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+
+
+            <h1 className='footerEventsHeader'>Men's Volley Ball</h1>
+            <img className="men-volleyball-logo" src="https://t4.ftcdn.net/jpg/01/23/19/87/360_F_123198705_HHB36SHxNnTspMYX7mXqg9rAGwS5tNB0.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/MenVolleyballEvent" className="footer-more1">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+
+            <h1 className='footerEventsHeader'>Carroms</h1>
+            <img className="carrom-logo" src="https://d29fhpw069ctt2.cloudfront.net/photo/53128/preview/carrom-board-coins_preview_5e42.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/EssayWritingEvent" className="footer-more">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+            <h1 className='footerEventsHeader'>Free Fire</h1>
+            <img className="free-fire-logo" src="https://dl.dir.freefiremobile.com/common/web_event/hash/54f31449f5f91cf0cc223cc635cd5952jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/FreeFireEvent" className="footer-more">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+
+            <h1 className='footerEventsHeader'>Pubg</h1>
+            <img className="cricket1-logo" src="https://www.india.com/wp-content/uploads/2021/07/pubg-mobile-redeem-codes-1.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/PubgEvent" className="footer-more1">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+
+
+            <h1 className='footerEventsHeader'>Women's Throw Ball</h1>
+            <img className="women-throwball-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJV8Nrb1qp9IO3MsopUd4OdzAeKyC1CiIOeWBUlROwk6LItSvsO3kkTAn_EvSCi5DmXbw&usqp=CAU" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/WomensThrowballEvent" className="footer-more1">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
 
         </div>
     )
 }
 export function TechnicalEvents() {
     return (
-        <div></div>
+        <div>
+            <h1 className='footerEventsHeader'>Pro Coder</h1>
+            <img className="coder-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSHMK0GpTCLI3HsquC4NyhPnd-eUW06I5b7Q&s" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/ProCoderEvent" className="footer-more">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+
+            <h1 className='footerEventsHeader'>Guess The Output</h1>
+            <img className="guess-output-logo" src="https://www.shutterstock.com/image-photo/hand-drawing-ipo-input-process-260nw-2186724959.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/GuessTheOutputEvent" className="footer-more">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+            <h1 className='footerEventsHeader'>Quiz</h1>
+            <img className="quiz-logo" src="https://img.freepik.com/premium-vector/quiz-logo-with-speech-bubble-icon_149152-811.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/QuizEvent" className="footer-more">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+            <h1 className='footerEventsHeader'>Essay Writing</h1>
+            <img className="essay-logo" src="https://www.shutterstock.com/image-photo/essays-english-language-part-exam-260nw-1320732236.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/EssayWritingEvent" className="footer-more">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+
+        </div>
     )
 }
 export function CulturalEvents() {
     return (
-        <div></div>
+        <div>
+              <h1 className='footerEventsHeader'>Banner Launch</h1>
+            <img className="bannerlaunch-logo" src="https://miracle.edu.in/wp-content/uploads/Mes-Milan-National-level-fest.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+             <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+
+              <h1 className='footerEventsHeader'>Traditional Day</h1>
+            <img className="traditional-logo" src="https://thumbs.dreamstime.com/b/group-ethnic-college-students-diverse-dressed-traditional-attire-60381124.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+             <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+
+              <h1 className='footerEventsHeader'>Final Fest</h1>
+            <img className="final-logo" src="https://preview.redd.it/grand-fest-photos-v0-emm62qvtr6pd1.jpg?width=1080&crop=smart&auto=webp&s=c9e60cb7c696b23a936c49ac3e84235ba35a5840" alt="Fest image" height="200px" width="80%" ></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+             <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+
+        </div>
     )
 }
 
@@ -473,7 +717,7 @@ export function TermsAndConditions() {
                 <li className='termsListItems'>Eligibility</li>
                 <p className='termsContent'>Our events are generally open to college students across India. Certain events may have specific eligibility criteria which will be clearly mentioned on their respective registration pages.</p>
                 <li className='termsListItems'> Use of the Website</li>
-                <p className='subTermList'>You agree to use the Website only for lawful purposes and in a way that does not infringe the rights of others or restrict their use of the site.
+                <p className='termsContent'>You agree to use the Website only for lawful purposes and in a way that does not infringe the rights of others or restrict their use of the site.
                     <ul className='useOfwebsite'>
                         <li>Use our site to post false, misleading, or offensive content</li>
                         <li>Attempt to hack or interfere with the functionality of the website</li>
@@ -482,15 +726,15 @@ export function TermsAndConditions() {
                 </p>
 
                 <li className='termsListItems'>Event Rules</li>
-                <p>Each event may have its own set of rules, formats, and judging criteria. Participants are expected to read and follow those rules strictly. The decisions made by the organizing committee or event judges are final and binding.</p>
+                <p className='termsContent'>Each event may have its own set of rules, formats, and judging criteria. Participants are expected to read and follow those rules strictly. The decisions made by the organizing committee or event judges are final and binding.</p>
                 <li className='termsListItems'> Intellectual Property</li>
-                <p>All content on the Website, including logos, images, event descriptions, and designs, are the intellectual property of [Your Fest Name] or used with permission. You may not copy, reproduce, or use them without written permission.
+                <p className='termsContent'>All content on the Website, including logos, images, event descriptions, and designs, are the intellectual property of [Your Fest Name] or used with permission. You may not copy, reproduce, or use them without written permission.
 
                 </p>
 
 
                 <li className='termsListItems'>Limitation of Liability</li>
-                <p className='subTermList'>While we strive to keep the Website and all events running smoothly, [Your Fest Name] and [Your College Name] are not responsible for:</p>
+                <p className='termsContent'>While we strive to keep the Website and all events running smoothly, [Your Fest Name] and [Your College Name] are not responsible for:</p>
                 <ul className='useOfwebsite'>
                     <li>Technical issues beyond our control</li>
 
@@ -500,7 +744,7 @@ export function TermsAndConditions() {
                 </ul>
 
                 <li className='termsListItems'>Cancellation or Changes </li>
-                <p className='subTermList'>We reserve the right to:</p>
+                <p className='sublist'>We reserve the right to:</p>
                 <ul className='useOfwebsite'>
                     <li>Cancel or reschedule events</li>
 
@@ -509,10 +753,10 @@ export function TermsAndConditions() {
                     <li>Update these Terms and Conditions at any time</li>
                 </ul>
 
-                <p>Changes will be posted on the Website and are effective immediately upon posting.</p>
+                <p className='termsContent'>Changes will be posted on the Website and are effective immediately upon posting.</p>
 
                 <li className='termsListItems'> Contact Information</li>
-                <p>If you have any questions regarding these Terms, feel free to contact us:</p>
+                <p className='termsContent'>If you have any questions regarding these Terms, feel free to contact us:</p>
                 <p>Email :</p>
                 <p>Phone :</p>
 
