@@ -508,18 +508,21 @@ export function GallerySponser() {
 export function StallsInfo() {
     return (
         <div className='stallsInfo'>
-            <div className='stallsCard'>
+            {/* <div className='stallsCard'>
                 <img className="stallsLogo" src='https://c8.alamy.com/comp/EXD916/stalls-selling-various-food-and-beverage-during-ramadhan-month-EXD916.jpg' alt='Food and Beverage Stalls'height='30px' width="30px" ></img>
                 <h2 className='stallsName'> Food & Beverage Stalls</h2>
 
-            </div>
+            </div> */}
             <div className='previousCards'>
-                    <img className='previousFestLogo' src='https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?semt=ais_hybrid&w=740' alt='Sprots Image' height="200px" width="80%"></img>
-                    <h1 className='previousEventHeader'>Sports</h1>
+                    <img className='previousFestLogo' src='https://c8.alamy.com/comp/EXD916/stalls-selling-various-food-and-beverage-during-ramadhan-month-EXD916.jpg' alt='Sprots Image' height="200px" width="80%"></img>
+                    <h1 className='previousEventHeader'>Food & Beverage Stalls</h1>
                     <p className='previousEventContent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo harum ex nostrum id nesciunt soluta sapiente numquam unde repudiandae corporis. Perspiciatis, harum! Vel ullam distinctio harum, quasi deleniti ab at.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id, optio quos earum cupiditate, adipisci corrupti nisi assumenda accusamus odio ullam est ab incidunt nam delectus dolorum perspiciatis autem omnis.
                         
                     </p>
+                    <p className='previousEventDetails'>Venue :</p>
+                    <p className='previousEventDetails'>Start Date :</p>
+                    <p className='previousEventDetails'>End Date :</p>
                 </div>
         </div>
     )

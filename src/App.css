@@ -1888,7 +1888,10 @@ border: 3px solid black;
 
 
 
-
+.previousEventDetails{
+  padding-left:10% ;
+  line-height: 1.8rem;
+}
 
 
 
