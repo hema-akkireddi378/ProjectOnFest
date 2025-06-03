@@ -7,7 +7,7 @@ import { Header } from './Header';
 import './App.css';
 //import Footer from './Footer';
              
-import { Accessibility, Assignment, ClassicalEvents, CulturalEvents, FacultyDashboard, Footer, StallsInfo, StudentDashboard, TechnicalEvents ,LiveEvent,PreviousFest, Support,FAQ,ContactUs,Emergency, ResultsAndWinners,FeedbackForm,TermsAndConditions,AboutUs,PastEvents,Certificate,Privacy} from './Footer';
+import { Accessibility, Assignment, ClassicalEvents, CulturalEvents, FacultyDashboard, Footer, StallsInfo, StudentDashboard, TechnicalEvents ,LiveEvent,PreviousFest, Support,FAQ,ContactUs,Emergency, ResultsAndWinners,FeedbackForm,TermsAndConditions,AboutUs,PastEvents,Certificate,Privacy, Sponser} from './Footer';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    
@@ -79,6 +79,7 @@ createRoot(document.getElementById('root')).render(
               <Route path='/StallsInfo' element={<StallsInfo></StallsInfo>}></Route>
               <Route path="/LiveEvent" element={<LiveEvent></LiveEvent>}></Route>
                 <Route path="/PreviousFest" element={<PreviousFest></PreviousFest>}></Route>
+                <Route path='/Sponser' element={<Sponser></Sponser>}></Route>
               <Route path="/Support" element={<Support></Support>}></Route>
                 <Route path ="/FAQ" element={<FAQ></FAQ>}></Route>
                 {/* <Route path= "/Contact" element= {<Contact></Contact>}></Route> */}

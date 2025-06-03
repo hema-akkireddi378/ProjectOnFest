@@ -1766,9 +1766,18 @@ padding-left: 5%;
   border: 1px solid black;
   border-radius: 5%;
 }
+.question{
+  font-size: medium;
+  font-weight: bold;
+}
+.answer{
+  font-size: medium;
+  font-weight: 300;
+}
 .ansewer, .question:hover{
   background-color: whitesmoke;
   padding: 5%;
+
 }
 
 /* ========================================= */
@@ -1886,11 +1895,11 @@ padding-left: 5%;
 
 
 .contactUs{
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   gap: 10px;
   margin: 50px 50px 10px 50px;
-  line-height: 1.8rem;
+  line-height: 1.8rem; */
   /* align-items: center; */
   justify-content: center;
   /* border: 1px solid black; */

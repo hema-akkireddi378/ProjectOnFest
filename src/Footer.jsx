@@ -276,7 +276,10 @@ export function PreviousFest() {
 }
 export function Sponser() {
     return (
-        <div></div>
+        <div className='sponsers'>
+            <h3 className='sponser-header'>Our Sponsers And their Logos</h3>
+
+        </div>
     )
 }
 export function About() {
