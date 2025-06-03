@@ -7,7 +7,7 @@ import { Header } from './Header';
 import './App.css';
 //import Footer from './Footer';
              
-import { Accessibility, Assignment, CulturalEvents, FacultyDashboard, Footer, StallsInfo, StudentDashboard, TechnicalEvents ,LiveEvent,PreviousFest, Support,FAQ,ContactUs,Emergency, ResultsAndWinners,FeedbackForm,TermsAndConditions,AboutUs,PastEvents,Certificate,Privacy, Sponser, Sports} from './Footer';
+import { Accessibility, Assignment, CulturalEvents, FacultyDashboard, Footer, StallsInfo, StudentDashboard, TechnicalEvents ,LiveEvent,PreviousFest, Support,FAQ,ContactUs,Emergency, ResultsAndWinners,FeedbackForm,TermsAndConditions,AboutUs,PastEvents,Certificate,Privacy, Sponser, Sports,About, LiveChat} from './Footer';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    
@@ -79,11 +79,15 @@ createRoot(document.getElementById('root')).render(
               <Route path='/StallsInfo' element={<StallsInfo></StallsInfo>}></Route>
               <Route path="/LiveEvent" element={<LiveEvent></LiveEvent>}></Route>
                 <Route path="/PreviousFest" element={<PreviousFest></PreviousFest>}></Route>
+                <Route path='/About' element={<About/>}></Route>
                 <Route path='/Sponser' element={<Sponser></Sponser>}></Route>
               <Route path="/Support" element={<Support></Support>}></Route>
                 <Route path ="/FAQ" element={<FAQ></FAQ>}></Route>
                 {/* <Route path= "/Contact" element= {<Contact></Contact>}></Route> */}
                 <Route path="/Emergency" element= {<Emergency></Emergency>}></Route>
+                <Route path='/LiveChat' element={<LiveChat></LiveChat>}></Route>
+
+
                 <Route path='/FeedbackForm' element={<FeedbackForm></FeedbackForm>}></Route>
                 <Route path='/ResultsAndWinners' element={<ResultsAndWinners></ResultsAndWinners>}></Route>
                 <Route path='/TermsAndConditions' element={<TermsAndConditions></TermsAndConditions>}></Route>

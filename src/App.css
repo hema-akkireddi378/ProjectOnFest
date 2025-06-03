@@ -22,22 +22,25 @@
   } */
 .main-logo{
   background-color: #0F4C75;
-  
-
+  padding: 50% 30% 50% 30%;
 }
+
 
 .clg-logo{
   /* margin: 10px; */
-  height: 30%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   /* padding: 10px 5px 10px 150px; */
   display: block;
-  align-content: center;
+  /* align-content: center; */
   /* margin-top: 50px;
   margin-bottom: 50px; */
   border-radius: 65%;
-  padding: 15% 3% 15% 3%;
-  margin-left: 100px;
+  /* padding: 15% 3% 15% 3%; */
+  /* margin-left: 100px; */
 }
 
 
@@ -1437,7 +1440,7 @@
    
     
     text-align: center;
-    gap: 0.5rem;
+    gap: 2rem;
   }
 
   /* subClass Class */
@@ -1688,10 +1691,64 @@
 
 
 
+/* =============================================== */
+.previousMainHeader{
+  text-align: center;
+  padding: 3% 1%;
+}
+.previousMainContent{
+  text-align: center;
+  padding: 3%;
+  color: #0A2647;
+  font-size: large;
+  font-weight: 500;
+}
+.previousFestHeader{
+  padding-left: 10%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.previousFestInfo{
+  display: flex;
+  flex-direction: column;
+   
+}
 
 
+.previousCards{
+  height: auto;
+  width: 80%;
+  background-color: lightgray;
+  margin: 10%;
 
+  
+}
+.previousEventHeader{
+  text-align: center;
+  
+}
+.previousEventHeader{
+  text-align: center;
+}
+.previousEventContent{
+  text-indent: 30%;
+  padding: 6%;
+  font-size: large;
+  font-weight: 300;
 
+}
+previousCards ,.previousFestLogo{
+   height: 200px;
+  width: 100%;
+}
+.previousoFoterSocial{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
 
 /* ==================================================== */
 
@@ -1783,6 +1840,79 @@ font-weight: 300;
 
 
 
+/* ============================================== */
+.sponser-header{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  font-weight: 500;
+  padding-left:20px ;
+}
+.sponser-cards{
+  background-color: lightgray;
+  height: auto;
+  width: 300px;
+  margin: 10%;
+  border: 1px solid black;
+}
+.sponser-card-header{
+  text-align: center;
+}
+.sponser-logo{
+ height: 200px;
+ width: 100%;
+}
+.sponser-card-content{
+  padding: 20px 0px 0px 0px;
+  text-indent: 40px;
+}
+.sponser-main-type{
+  height: 80px;
+  width: 70%;
+  padding-left: 30%;
+}
+.sponser-type{
+ background-color: #3F72AF;
+/* height: 20px;
+width: 50%; */
+text-align: center;
+padding: 2%;
+/* margin-left: 80px; */
+/* margin-bottom: 20px; */
+/* padding: 30px 0px;
+margin-bottom: 20px; */
+border: 3px solid black;
+}
+
+/* Stalls Info */
+/* ===================================================== */
+
+
+
+
+
+
+
+
+
+
+
+/* About fest */
+/* ======================================= */
+.aboutFestHeader{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  padding: 10px;
+  font-weight: 400;
+}
+.clg-fest-logo{
+  margin: 40px;
+}
+
+.about-fest-content{
+  padding: 5px 10% 10% 10%;
+  word-spacing: 10px;
+}
 
 /* ============================== */
 .faq{

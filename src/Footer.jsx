@@ -183,7 +183,9 @@ export function Assignment() {
 
 export function Accessibility() {
     return (
-        <div></div>
+        <div>
+
+        </div>
     )
 }
 export function Certificate() {
@@ -437,40 +439,40 @@ export function TechnicalEvents() {
 export function CulturalEvents() {
     return (
         <div>
-              <h1 className='footerEventsHeader'>Banner Launch</h1>
+            <h1 className='footerEventsHeader'>Banner Launch</h1>
             <img className="bannerlaunch-logo" src="https://miracle.edu.in/wp-content/uploads/Mes-Milan-National-level-fest.jpg" alt="Fest image" height="200px" width="80%"></img>
             <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
 
             </p>
-             <h3 className='footer-event-details'>Event Details</h3>
+            <h3 className='footer-event-details'>Event Details</h3>
             <p className='footer-sub-details'>Event Date:</p>
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
 
-              <h1 className='footerEventsHeader'>Traditional Day</h1>
+            <h1 className='footerEventsHeader'>Traditional Day</h1>
             <img className="traditional-logo" src="https://thumbs.dreamstime.com/b/group-ethnic-college-students-diverse-dressed-traditional-attire-60381124.jpg" alt="Fest image" height="200px" width="80%"></img>
             <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
 
             </p>
-             <h3 className='footer-event-details'>Event Details</h3>
+            <h3 className='footer-event-details'>Event Details</h3>
             <p className='footer-sub-details'>Event Date:</p>
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
 
-              <h1 className='footerEventsHeader'>Final Fest</h1>
+            <h1 className='footerEventsHeader'>Final Fest</h1>
             <img className="final-logo" src="https://preview.redd.it/grand-fest-photos-v0-emm62qvtr6pd1.jpg?width=1080&crop=smart&auto=webp&s=c9e60cb7c696b23a936c49ac3e84235ba35a5840" alt="Fest image" height="200px" width="80%" ></img>
             <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
 
             </p>
-             <h3 className='footer-event-details'>Event Details</h3>
+            <h3 className='footer-event-details'>Event Details</h3>
             <p className='footer-sub-details'>Event Date:</p>
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
@@ -505,7 +507,21 @@ export function GallerySponser() {
 }
 export function StallsInfo() {
     return (
-        <div></div>
+        <div className='stallsInfo'>
+            <div className='stallsCard'>
+                <img className="stallsLogo" src='https://c8.alamy.com/comp/EXD916/stalls-selling-various-food-and-beverage-during-ramadhan-month-EXD916.jpg' alt='Food and Beverage Stalls'height='30px' width="30px" ></img>
+                <h2 className='stallsName'> Food & Beverage Stalls</h2>
+
+            </div>
+            <div className='previousCards'>
+                    <img className='previousFestLogo' src='https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?semt=ais_hybrid&w=740' alt='Sprots Image' height="200px" width="80%"></img>
+                    <h1 className='previousEventHeader'>Sports</h1>
+                    <p className='previousEventContent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo harum ex nostrum id nesciunt soluta sapiente numquam unde repudiandae corporis. Perspiciatis, harum! Vel ullam distinctio harum, quasi deleniti ab at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id, optio quos earum cupiditate, adipisci corrupti nisi assumenda accusamus odio ullam est ab incidunt nam delectus dolorum perspiciatis autem omnis.
+                        
+                    </p>
+                </div>
+        </div>
     )
 }
 export function LiveEvent() {
@@ -515,20 +531,82 @@ export function LiveEvent() {
 }
 export function PreviousFest() {
     return (
-        <div></div>
+        <div>
+            <h1 className='previousMainHeader'>Technovate</h1>
+            <p className='previousMainContent'>Technovate	Innovate. Integrate. Ignite.</p>
+            <div className='previousFestInfo'>
+                <h2 className='previousFestHeader'>Gallery</h2>
+                <div className='previousCards'>
+                    <img className='previousFestLogo' src='https://img.freepik.com/free-photo/sports-tools_53876-138077.jpg?semt=ais_hybrid&w=740' alt='Sprots Image' height="200px" width="80%"></img>
+                    <h1 className='previousEventHeader'>Sports</h1>
+                    <p className='previousEventContent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo harum ex nostrum id nesciunt soluta sapiente numquam unde repudiandae corporis. Perspiciatis, harum! Vel ullam distinctio harum, quasi deleniti ab at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id, optio quos earum cupiditate, adipisci corrupti nisi assumenda accusamus odio ullam est ab incidunt nam delectus dolorum perspiciatis autem omnis.
+                        
+                    </p>
+                </div>
+
+
+                <div className='previousCards'>
+                    <img className='previousFestLogo' src='https://i.pinimg.com/736x/40/8c/58/408c5810bee69986854907d477ccee89.jpg' alt='Traditional Image' height="200px" width="80%"></img>
+                    <h1 className='previousEventHeader'>Traditional</h1>
+                    <p className='previousEventContent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo harum ex nostrum id nesciunt soluta sapiente numquam unde repudiandae corporis. Perspiciatis, harum! Vel ullam distinctio harum, quasi deleniti ab at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id, optio quos earum cupiditate, adipisci corrupti nisi assumenda accusamus odio ullam est ab incidunt nam delectus dolorum perspiciatis autem omnis.
+                        
+                    </p>
+                </div>
+                <div className='previousCards'>
+                    <img className='previousFestLogo' src='https://preview.redd.it/grand-fest-photos-v0-emm62qvtr6pd1.jpg?width=1080&crop=smart&auto=webp&s=c9e60cb7c696b23a936c49ac3e84235ba35a5840' alt='Final Fest Image' height="200px" width="80%"></img>
+                    <h1 className='previousEventHeader'>Final Fest</h1>
+                    <p className='previousEventContent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo harum ex nostrum id nesciunt soluta sapiente numquam unde repudiandae corporis. Perspiciatis, harum! Vel ullam distinctio harum, quasi deleniti ab at.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id, optio quos earum cupiditate, adipisci corrupti nisi assumenda accusamus odio ullam est ab incidunt nam delectus dolorum perspiciatis autem omnis.
+                        
+                    </p>
+                </div>
+                <div className="previousoFoterSocial">
+                    
+                <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="Facebook logo" className="facebook-link" ></img>
+                    <img src="https://img.icons8.com/?size=100&id=GNvM541FBQu7&format=png&color=000000" alt="Google logo" className="google-link"></img>
+                    <img src="https://img.icons8.com/?size=100&id=ZRiAFreol5mE&format=png&color=000000" alt="Facebook logo" className="facebook-link" ></img>
+                    <img src="https://img.icons8.com/?size=100&id=CtrV2SV33rD9&format=png&color=000000" alt="Google logo" className="google-link"></img>
+                
+                </div>
+
+              
+               
+            </div>
+        </div>
     )
 }
 export function Sponser() {
     return (
         <div className='sponsers'>
             <h3 className='sponser-header'>Our Sponsers And their Logos</h3>
-
+            <div className='listOfCards'>
+            <div className='sponser-cards'>
+            <img src='https://t3.ftcdn.net/jpg/04/86/89/86/360_F_486898660_UJaOUA0MbM0HpU0JPSr3QG0bcTk6w8DJ.jpg' alt='Mss Sponsers' className='sponser-logo'></img>
+            <p className='sponser-card-header'>MSS</p>
+                
+            </div>
+            <div className='sponser-main-type'>
+                 <p className='sponser-type'>Diamond Sponser</p>
+            </div>
+            </div>
         </div>
     )
 }
 export function About() {
     return (
-        <div></div>
+        <div className='aboutFest'>
+            <h2 className='aboutFestHeader'>Fest Title</h2>
+            <img className="clg-fest-logo" src='https://media.collegedekho.com/media/img/news/college_fests.jpg?height=310&width=615' alt='Fest Image' height="200px" width="80%"></img>
+            <p className='about-fest-content'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum vel quam molestias incidunt tempora aut pariatur eaque facere maiores! Deleniti iusto ullam et tenetur suscipit voluptates odit neque veniam minima.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa velit expedita labore voluptatem pariatur at iure, officiis totam ullam natus quas saepe maiores quos illo autem. Repellat aut veniam perspiciatis.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa repudiandae voluptate aperiam maxime? Eaque inventore quos ut illum tempore! Totam accusantium et recusandae placeat. Cum assumenda id ad dolor dolores?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi aut nostrum aliquam eveniet sint ut quod dolore quos ab quisquam doloremque debitis, tempora aspernatur omnis maiores vitae quia harum est?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim neque totam eum ducimus. Placeat error unde excepturi nulla voluptatum commodi recusandae aspernatur, alias assumenda voluptatibus quibusdam, neque ipsa suscipit numquam.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus sit neque, eius cumque nemo nisi optio maxime assumenda aliquid voluptate. Omnis quasi facilis quis, harum nisi esse porro dolore vero.
+            </p>
+        </div>
     )
 }
 export function Support() {
@@ -536,10 +614,9 @@ export function Support() {
         <div className="subClass">
             <ul className="unorder">
                 <li className="support"><h2>Support & Accessibility</h2></li>
-                <li className="support"><Link to="/Support" className="support-links">Support And Accessibility</Link></li>
                 <li className="support"><Link to="/faq" className="support-links">FAQ</Link></li>
-                <li className="support"><Link to="/contact" className="support-links">Contact Form</Link></li>
                 <li className="support"><Link to="/Emergency" className="support-links">Emergency Numbers</Link></li>
+                <li className="support"><Link to="/LiveChat" className="support-links">Live Chat Support</Link></li>
 
 
             </ul>
@@ -565,6 +642,10 @@ export function FAQ() {
             <div className='faq'> <p className='faqHeader'>FAQ</p></div>
             <div className='faqMore'>
                 <div className='faqsection'>
+                    {/* <select className='SelectOptions'>
+                        <option value="none" className='options'>When and where is the fest happening?</option>
+                        <option value="none" className='options'>The fest will be held on [Start Date] to [End Date] at [Venue/College Campus].</option>
+                    </select> */}
                     <p className='question'>
                         When and where is the fest happening?
                     </p>
@@ -598,6 +679,11 @@ export function Emergency() {
     )
 }
 
+export function LiveChat(){
+    return(
+        <div></div>
+    )
+}
 
 
 export function PostFest() {
@@ -608,6 +694,7 @@ export function PostFest() {
                 <li className="post-fest"><Link to="FeedbackForm" className="post-fest-links">FeedBack Form</Link></li>
                 <li className="post-fest"><Link to="/Results" className="post-fest-links">Results and Winner Display</Link></li>
                 <li className="post-fest"><Link to="/TermsAndConditions" className="post-fest-links">Terms and Conditions</Link></li>
+                <li className="post-fest"><Link to="/ContactUs" className="post-fest-links">Results And Winners</Link></li>
                 <li className="post-fest"><Link to="/Privacy" className="post-fest-links">Privacy Policy</Link></li>
                 <li className="post-fest"><Link to="/AboutUs" className="post-fest-links">About Us</Link></li>
                 <li className="post-fest"><Link to="/ContactUs" className="post-fest-links">Contact Us</Link></li>
@@ -698,7 +785,26 @@ export function FeedbackForm() {
 
 export function ResultsAndWinners() {
     return (
-        <div></div>
+        <div>
+              <div className='assignTheCoordinators'>
+                <p className='assignEventHeader'>Assign the Events</p>
+                <select className='SelectOptions'>
+                    <option value="none" className='options'>None</option>
+                    <option value="Banner Launch" className='options'>Banner Launch</option>
+                    <option value="Traditional Day" className='options'>Traditional Day</option>
+                    <option value="Final Fest" className='options'>Final Fest</option>
+                    <option value="Men's Cricket" className='options'>Men's Cricket</option>
+                    <option value="Men's Kabaddi" className='options'>Men's Kabaddi</option>
+                    <option value="Men's Volley Ball" className='options'>Men's Volley Ball</option>
+                    <option value="Men's Kho Kho" className='options'>Men's Kho Kho</option>
+                    <option value="Carroms" className='options'>Carroms</option>
+                    <option value=" Pubg" className='options'>Pubg</option>
+                    <option value="Free Fire" className='options'>Free Fire</option>
+                    <option value="Women Throw Ball" className='options'>Women Throw Ball</option>
+                </select>
+
+            </div>
+        </div>
     )
 }
 
