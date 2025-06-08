@@ -6,24 +6,10 @@ export function Footer() {
 
     switch (loc.pathname) {
 
-        // case "/":
-        //     return (
-        //         <div className="footer-bottom-div2">
-        //             <li className="footer-bottom">Copyright &copy; 2025</li>
-        //             <li>|</li>
-        //             <li className="footer-bottom-2">
-        //                 <Link to="TermsAndConditions">Terms</Link>
-        //             </li>
-        //             <li className="footer-bottom-2">
-        //                 <Link to="Privacy">Privacy</Link>
-        //             </li>
-        //         </div>
-        //     );
-        //     break;
-        case "/Register":
+        case "/":
             return (
-                <div>
-                    <li className="footer-bottom">Copyright &copy; 2025</li>
+                <div className="footer-bottom-div2">
+                    <li className="footer-bottom-2">Copyright &copy; 2025</li>
                     <li>|</li>
                     <li className="footer-bottom-2">
                         <Link to="TermsAndConditions">Terms</Link>
@@ -34,16 +20,32 @@ export function Footer() {
                 </div>
             );
             break;
+        case "/Register":
+            return (
+                <div className="bottomFooter">
+                    <li className="footer-bottom-2">Copyright &copy; 2025</li>
+                    <li className="footer-bottom-2">|</li>
+                    <li className="footer-bottom-2">
+                        <Link to="TermsAndConditions" className="bottomFooter-links">Terms</Link>
+                    </li>
+                    <li className="footer-bottom-2">|</li>
+                    <li className="footer-bottom-2">
+                        <Link to="Privacy" className="bottomFooter-links">Privacy</Link>
+                    </li>
+                </div>
+            );
+            break;
         case "/SignIn":
             return (
-                <div>
-                    <li className="footer-bottom">Copyright &copy; 2025</li>
-                    <li>|</li>
+                <div className="bottomFooter">
+                    <li className="footer-bottom-2">Copyright &copy; 2025</li>
+                    <li className="footer-bottom-2">|</li>
                     <li className="footer-bottom-2">
-                        <Link to="TermsAndConditions">Terms</Link>
+                        <Link to="TermsAndConditions" className="bottomFooter-links">Terms</Link>
                     </li>
+                    <li className="footer-bottom-2">|</li>
                     <li className="footer-bottom-2">
-                        <Link to="Privacy">Privacy</Link>
+                        <Link to="Privacy" className="bottomFooter-links">Privacy</Link>
                     </li>
                 </div>
             );
@@ -68,7 +70,7 @@ export function Footer() {
                     <li className="footer-bottom">Copyright &copy; 2025</li>
                     <li>|</li>
                     <li className="footer-bottom-2">
-                        <link to="TermsAndConditions">Terms</link>
+                        <Link to="TermsAndConditions">Terms</Link>
                     </li>
                     <li className="footer-bottom-2">
                         <Link to="Privacy">Privacy</Link>
@@ -79,33 +81,25 @@ export function Footer() {
 
         default:
             return (
-                <div>
-                    <div className="subClass">
-                        <nav className="admin-list-main">
-                            <ul className="unorder">
-                                <li className="admin-list"><h2>Admin Panel</h2></li>
-                                <li className="admin-list"><Link to="/FacultyDashboard" className="admin-links">Faculty Dashboard</Link></li>
-                                <li className="admin-list"><Link to="/StudentDashboard" className="admin-links">Student Dashboard</Link></li>
-                                <li className="admin-list"><Link to="/EventCoordinatorDB" className="admin-links">Event Coordinator Dashboard</Link></li>
-                                <li className="admin-list"><Link to="/Assignment" className="admin-links">Voolenter's Assignment</Link></li>
-                                <li className="admin-list"><Link to="/Support" className="admin-links">Support & QA</Link></li>
-                                <li className="admin-list"><Link to="/Certificate" className="admin-links">Certificate Download</Link></li>
 
-                            </ul>
-                        </nav>
-                    </div>
-                    <div className="subClass">
-                        <ul className="unorder">
+                <div className="footer">
+                    <nav className="footernav">
+                        <ul className="footerul">
+                            <li className="admin-list"><h2>Admin Panel</h2></li>
+                            <li className="admin-list">
+                                <Link to="/FacultyDashboard" className="admin-links">Faculty DashBoard</Link>
+                            </li>
+                            <li className="admin-list"><Link to="/StudentDashboard" className="admin-links">Student Dashboard</Link></li>
+                            <li className="admin-list"><Link to="/EventCoordinatorDB" className="admin-links">Event Coordinator Dashboard</Link></li>
+                            <li className="admin-list"><Link to="/Assignment" className="admin-links">Voolenter's Assignment</Link></li>
+                            <li className="admin-list"><Link to="/Support" className="admin-links">Support & QA</Link></li>
+                            <li className="admin-list"><Link to="/Certificate" className="admin-links">Certificate Download</Link></li>
+
                             <li className="gamification"><h2>Gamification</h2></li>
                             <li className="gamification"><Link to="/Sports" className="gamification-links">Sprots</Link></li>
                             <li className="gamification"><Link to="/TechnicalEvents" className="gamification-links">Technical Events</Link></li>
                             <li className="gamification"><Link to="/CulturalEvents" className="gamification-links">Cultural Events</Link></li>
 
-                        </ul>
-                    </div>
-
-                    <div className="subClass">
-                        <ul className="unorder">
                             <li className="gallery"><h2>Gallery & Sponsers</h2></li>
                             <li className="gallery"><Link to="/StallsInfo" className="gallery-links">Stalls Info</Link></li>
                             <li className="gallery"><Link to="LiveEvent" className="gallery-links">Live Event Tracker</Link></li>
@@ -113,19 +107,11 @@ export function Footer() {
                             <li className="gallery"><Link to="/Sponser" className="gallery-links">Sponser Logos and Offers</Link></li>
                             <li className="gallery"><Link to="/About" className="gallery-links">About Fest</Link></li>
 
-                        </ul>
-
-                    </div>
-                    <div className="subClass">
-                        <ul className="unorder">
                             <li className="support"><h2>Support & Accessibility</h2></li>
                             <li className="support"><Link to="/faq" className="support-links">FAQ</Link></li>
                             <li className="support"><Link to="/Emergency" className="support-links">Emergency Numbers</Link></li>
                             <li className="support"><Link to="/LiveChat" className="support-links">Live Chat Support</Link></li>
-                        </ul>
-                    </div>
-                    <div className="subClass">
-                        <ul className="unorder">
+
                             <li className="post-fest"><h2>Post-Fest</h2></li>
                             <li className="post-fest"><Link to="FeedbackForm" className="post-fest-links">FeedBack Form</Link></li>
                             <li className="post-fest"><Link to="/Results" className="post-fest-links">Results and Winner Display</Link></li>
@@ -135,20 +121,25 @@ export function Footer() {
                             <li className="post-fest"><Link to="/AboutUs" className="post-fest-links">About Us</Link></li>
                             <li className="post-fest"><Link to="/ContactUs" className="post-fest-links">Contact Us</Link></li>
                             <li className="post-fest"><Link to="/archive" className="post-fest-links">Archive of past Events</Link></li>
-                        </ul>
 
-                    </div>
-                    <div>
-                        <li className="footer-bottom">Copyright &copy; 2025</li>
-                        <li>|</li>
-                        <li className="footer-bottom-2">
-                            <Link to="TermsAndConditions">Terms</Link>
-                        </li>
-                        <li className="footer-bottom-2">
-                            <Link to="Privacy">Privacy</Link>
-                        </li>
-                    </div>
+
+                            <div className="bottomFooter">
+                                <li className="footer-bottom-2">Copyright &copy; 2025</li>
+                                <li className="footer-bottom-2">|</li>
+                                <li className="footer-bottom-2">
+                                    <Link to="TermsAndConditions" className="bottomFooter-links">Terms</Link>
+                                </li>
+                                <li className="footer-bottom-2">|</li>
+                                <li className="footer-bottom-2">
+                                    <Link to="Privacy" className="bottomFooter-links">Privacy</Link>
+                                </li>
+                            </div>
+
+                        </ul>
+                    </nav>
+
                 </div>
+
             )
     }
 

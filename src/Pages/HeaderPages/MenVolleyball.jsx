@@ -1,4 +1,6 @@
-export function MenVolleyball() {
+import { Link } from "react-router-dom";
+
+function MenVolleyball() {
     return (
         <div className='menvolleyball'>
             <p className='men-volleyball-header'>Sky Serve 2025 – Volleyball Showdown </p>
@@ -19,3 +21,4 @@ export function MenVolleyball() {
         </div>
     )
 }
+export default MenVolleyball

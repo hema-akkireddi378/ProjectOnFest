@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Cricket1() {
     return (
         <div className='cricket1'>

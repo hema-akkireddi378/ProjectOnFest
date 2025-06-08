@@ -1,4 +1,4 @@
-export default function StudentDashboard() {
+function StudentDashboard() {
     return (
         <div className='student-dashboard'>
             <div className='student-profile'>
@@ -23,3 +23,4 @@ export default function StudentDashboard() {
         </div>
     )
 }
+export default StudentDashboard
