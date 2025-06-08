@@ -1,30 +1,39 @@
-import { StrictMode } from 'react'
-import {Routes, Route,BrowserRouter} from "react-router-dom"
-//import { Home, Events, Register, SignIn, MyProfile, Cricket,ForgotPassword,BannerLaunch, Traditional,FinalFest,Pubg,ProCoder, Cricket1, GuessTheOutput, Quiz, EssayWriting,MenKabaddi, CarromBoard, FreeFire, WomensThrowball, MenVolleyball, MenKhokho, EventCoordinator } from './Header';
-import { Home,Events, Register, SignIn,MyProfile, Cricket,ForgotPassword,BannerLaunch,Traditional,FinalFest,Pubg,ProCoder,Cricket1,GuessTheOutput,Quiz, EssayWriting, MenKabaddi,CarromBoard,FreeFire,WomensThrowball,MenVolleyball,EventCoordinator,ProCoderEvent, GuessTheOutputEvent,MenKhokho ,QuizEvent,EssayWritingEvent,MenKabaddiEvent,MenKhoKhoEvent,MenVolleyballEvent,CarromEvent,FreeFireEvent,PubgEvent,WomensThrowballEvent} from './Header';
+import { StrictMode } from "react";
+import { Routes,Route, BrowserRouter } from "react-router-dom";
 import { createRoot } from "react-dom/client";
-import { Header } from './Header';
+import { MainHeader } from "./Components/Header";
+import { Footer } from "./Components/Footer";
+import BannerLaunch from "./Pages/HeaderPages/BannerLaunchContent";
+import Register  from "./Pages/HeaderPages/Register";
+import SignIn from "./Pages/HeaderPages/SignIn";
+import Events from "./Pages/HeaderPages/Events";
 import './App.css';
-//import Footer from './Footer';
-             
-import { Accessibility, Assignment, CulturalEvents, FacultyDashboard, Footer, StallsInfo, StudentDashboard, TechnicalEvents ,LiveEvent,PreviousFest, Support,FAQ,ContactUs,Emergency, ResultsAndWinners,FeedbackForm,TermsAndConditions,AboutUs,PastEvents,Certificate,Privacy, Sponser, Sports,About, LiveChat} from './Footer';
+// import AboutFest from "./Pages/FooterPages/AboutFest";         
+import AboutUs from "./Pages/FooterPages/AboutUs";
+import AboutFest from "./Pages/FooterPages/AboutFest";
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    
     
     <BrowserRouter>
-     <Header/>
+     <MainHeader/>
      <Routes>
      
-            <Route path="/Home" element={<Home></Home>}></Route>
+            {/* <Route path="/Home" element={<Home></Home>}></Route> */}
              <Route path="/Events" element={<Events></Events>}></Route>
              <Route path="/Register" element={<Register></Register>}></Route>
              <Route path="/SignIn" element={<SignIn></SignIn>}></Route>
-              <Route path="/ForgotPassword" element={<ForgotPassword></ForgotPassword>}></Route>
+            <Route path="BannerLaunch" element={<BannerLaunch/>}></Route>
+
+
+
+
+
+              {/* <Route path="/ForgotPassword" element={<ForgotPassword></ForgotPassword>}></Route> */}
                 {/* <Route path="/Register" element={<Register></Register>}></Route> */}
-              <Route path='/Cricket' element={<Cricket></Cricket>}></Route>
+              {/* <Route path='/Cricket' element={<Cricket></Cricket>}></Route> */}
 
-
+{/* 
               <Route path='/EventCoordinator' element={<EventCoordinator></EventCoordinator>}></Route>
 
 
@@ -44,11 +53,11 @@ createRoot(document.getElementById('root')).render(
              <Route path="/GuessTheOutputEvent" element={<GuessTheOutputEvent></GuessTheOutputEvent>}></Route>
              <Route path="/QuizEvent" element={<QuizEvent></QuizEvent>}></Route>
              <Route path="/EssayWritingEvent" element={<EssayWritingEvent></EssayWritingEvent>}></Route>
-             
+              */}
 
             
 
-            <Route path='/MenKabaddi' element={<MenKabaddi></MenKabaddi>}></Route>
+            {/* <Route path='/MenKabaddi' element={<MenKabaddi></MenKabaddi>}></Route>
           <Route path='/MenKhokho' element={<MenKhokho></MenKhokho>}></Route>
           <Route path='/MenVolleyball' element={<MenVolleyball></MenVolleyball>}></Route>
             <Route path='/CarromBoard' element={<CarromBoard></CarromBoard>}></Route>
@@ -66,9 +75,9 @@ createRoot(document.getElementById('root')).render(
              <Route path="/PubgEvent" element={<PubgEvent></PubgEvent>}></Route>
              <Route path="/WomensThrowballEvent" element={<WomensThrowballEvent></WomensThrowballEvent>}></Route>
           
-             <Route path="/MyProfile" element={<MyProfile></MyProfile>}></Route>
+             <Route path="/MyProfile" element={<MyProfile></MyProfile>}></Route> */}
              {/* <Route path="/Cricket" element={<Cricket></Cricket>}></Route> */}
-             <Route path='/FacultyDashboard' element={<FacultyDashboard></FacultyDashboard>}></Route>
+             {/* <Route path='/FacultyDashboard' element={<FacultyDashboard></FacultyDashboard>}></Route>
              <Route path='/StudentDashboard' element ={<StudentDashboard></StudentDashboard>}></Route>
              <Route path="/Assignment" element={<Assignment></Assignment>}></Route>
              <Route path= "/Accesibility" element={<Accessibility></Accessibility>}></Route>
@@ -79,24 +88,24 @@ createRoot(document.getElementById('root')).render(
               <Route path='/StallsInfo' element={<StallsInfo></StallsInfo>}></Route>
               <Route path="/LiveEvent" element={<LiveEvent></LiveEvent>}></Route>
                 <Route path="/PreviousFest" element={<PreviousFest></PreviousFest>}></Route>
-                <Route path='/About' element={<About/>}></Route>
+                <Route path='/AboutFest' element={<AboutFest/>}></Route>
                 <Route path='/Sponser' element={<Sponser></Sponser>}></Route>
               <Route path="/Support" element={<Support></Support>}></Route>
-                <Route path ="/FAQ" element={<FAQ></FAQ>}></Route>
+                <Route path ="/FAQ" element={<FAQ></FAQ>}></Route> */}
                 {/* <Route path= "/Contact" element= {<Contact></Contact>}></Route> */}
-                <Route path="/Emergency" element= {<Emergency></Emergency>}></Route>
+                {/* <Route path="/Emergency" element= {<Emergency></Emergency>}></Route>
                 <Route path='/LiveChat' element={<LiveChat></LiveChat>}></Route>
 
 
                 <Route path='/FeedbackForm' element={<FeedbackForm></FeedbackForm>}></Route>
                 <Route path='/ResultsAndWinners' element={<ResultsAndWinners></ResultsAndWinners>}></Route>
-                <Route path='/TermsAndConditions' element={<TermsAndConditions></TermsAndConditions>}></Route>
+                <Route path='/TermsAndConditions' element={<TermsAndConditions></TermsAndConditions>}></Route> */}
                 {/* <Route path='/Privacy' element={<Privacy/>}></Route> */}
-                <Route path='/Privacy' element={<Privacy></Privacy>}></Route>
+                {/* <Route path='/Privacy' element={<Privacy></Privacy>}></Route>
                 <Route path='/AboutUs' element={<AboutUs></AboutUs>}></Route>
                 <Route path='PastEvents' element={<PastEvents></PastEvents>}></Route>
                 <Route path='/ContactUs' element={<ContactUs></ContactUs>}></Route>
-                
+                 */}
                 {/* <Route path='/Footer1' element={<Footer1></Footer1>}></Route> */}
          </Routes>
           <Footer/>
@@ -104,3 +113,27 @@ createRoot(document.getElementById('root')).render(
         
   </StrictMode>,
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import { StrictMode } from 'react'
+// import {Routes, Route,BrowserRouter} from "react-router-dom"
+// //import { Home, Events, Register, SignIn, MyProfile, Cricket,ForgotPassword,BannerLaunch, Traditional,FinalFest,Pubg,ProCoder, Cricket1, GuessTheOutput, Quiz, EssayWriting,MenKabaddi, CarromBoard, FreeFire, WomensThrowball, MenVolleyball, MenKhokho, EventCoordinator } from './Header';
+// // import { Home,Events, Register, SignIn,MyProfile, Cricket,ForgotPassword,BannerLaunch,Traditional,FinalFest,Pubg,ProCoder,Cricket1,GuessTheOutput,Quiz, EssayWriting, MenKabaddi,CarromBoard,FreeFire,WomensThrowball,MenVolleyball,EventCoordinator,ProCoderEvent, GuessTheOutputEvent,MenKhokho ,QuizEvent,EssayWritingEvent,MenKabaddiEvent,MenKhoKhoEvent,MenVolleyballEvent,CarromEvent,FreeFireEvent,PubgEvent,WomensThrowballEvent} from './Header';
+// import { createRoot } from "react-dom/client";
+// // import { Header } from './Header';
+// import './App.css';
+// //import Footer from './Footer';
+// import AboutFest from "./Pages/FooterPages/AboutFest";         
+// // import { Accessibility, Assignment, CulturalEvents, FacultyDashboard, Footer, StallsInfo, StudentDashboard, TechnicalEvents ,LiveEvent,PreviousFest, Support,FAQ,ContactUs,Emergency, ResultsAndWinners,FeedbackForm,TermsAndConditions,PastEvents,Certificate,Privacy, Sponser, Sports, LiveChat} from './Footer';

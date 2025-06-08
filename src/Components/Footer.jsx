@@ -1,0 +1,156 @@
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+
+export function Footer() {
+    const loc = useLocation();
+
+    switch (loc.pathname) {
+
+        // case "/":
+        //     return (
+        //         <div className="footer-bottom-div2">
+        //             <li className="footer-bottom">Copyright &copy; 2025</li>
+        //             <li>|</li>
+        //             <li className="footer-bottom-2">
+        //                 <Link to="TermsAndConditions">Terms</Link>
+        //             </li>
+        //             <li className="footer-bottom-2">
+        //                 <Link to="Privacy">Privacy</Link>
+        //             </li>
+        //         </div>
+        //     );
+        //     break;
+        case "/Register":
+            return (
+                <div>
+                    <li className="footer-bottom">Copyright &copy; 2025</li>
+                    <li>|</li>
+                    <li className="footer-bottom-2">
+                        <Link to="TermsAndConditions">Terms</Link>
+                    </li>
+                    <li className="footer-bottom-2">
+                        <Link to="Privacy">Privacy</Link>
+                    </li>
+                </div>
+            );
+            break;
+        case "/SignIn":
+            return (
+                <div>
+                    <li className="footer-bottom">Copyright &copy; 2025</li>
+                    <li>|</li>
+                    <li className="footer-bottom-2">
+                        <Link to="TermsAndConditions">Terms</Link>
+                    </li>
+                    <li className="footer-bottom-2">
+                        <Link to="Privacy">Privacy</Link>
+                    </li>
+                </div>
+            );
+            break;
+        case "/TermsAndConditions":
+            return (
+                <div>
+                    <li className="footer-bottom">Copyright &copy; 2025</li>
+                    <li>|</li>
+                    <li className="footer-bottom-2">
+                        <Link to="TermsAndConditions">Terms</Link>
+                    </li>
+                    <li className="footer-bottom-2">
+                        <Link to="Privacy">Privacy</Link>
+                    </li>
+                </div>
+            );
+            break;
+        case "/PrivacyPolicy":
+            return (
+                <div>
+                    <li className="footer-bottom">Copyright &copy; 2025</li>
+                    <li>|</li>
+                    <li className="footer-bottom-2">
+                        <link to="TermsAndConditions">Terms</link>
+                    </li>
+                    <li className="footer-bottom-2">
+                        <Link to="Privacy">Privacy</Link>
+                    </li>
+                </div>
+            );
+            break;
+
+        default:
+            return (
+                <div>
+                    <div className="subClass">
+                        <nav className="admin-list-main">
+                            <ul className="unorder">
+                                <li className="admin-list"><h2>Admin Panel</h2></li>
+                                <li className="admin-list"><Link to="/FacultyDashboard" className="admin-links">Faculty Dashboard</Link></li>
+                                <li className="admin-list"><Link to="/StudentDashboard" className="admin-links">Student Dashboard</Link></li>
+                                <li className="admin-list"><Link to="/EventCoordinatorDB" className="admin-links">Event Coordinator Dashboard</Link></li>
+                                <li className="admin-list"><Link to="/Assignment" className="admin-links">Voolenter's Assignment</Link></li>
+                                <li className="admin-list"><Link to="/Support" className="admin-links">Support & QA</Link></li>
+                                <li className="admin-list"><Link to="/Certificate" className="admin-links">Certificate Download</Link></li>
+
+                            </ul>
+                        </nav>
+                    </div>
+                    <div className="subClass">
+                        <ul className="unorder">
+                            <li className="gamification"><h2>Gamification</h2></li>
+                            <li className="gamification"><Link to="/Sports" className="gamification-links">Sprots</Link></li>
+                            <li className="gamification"><Link to="/TechnicalEvents" className="gamification-links">Technical Events</Link></li>
+                            <li className="gamification"><Link to="/CulturalEvents" className="gamification-links">Cultural Events</Link></li>
+
+                        </ul>
+                    </div>
+
+                    <div className="subClass">
+                        <ul className="unorder">
+                            <li className="gallery"><h2>Gallery & Sponsers</h2></li>
+                            <li className="gallery"><Link to="/StallsInfo" className="gallery-links">Stalls Info</Link></li>
+                            <li className="gallery"><Link to="LiveEvent" className="gallery-links">Live Event Tracker</Link></li>
+                            <li className="gallery"><Link to="/PreviousFest" className="gallery-links">Previous Fest Info</Link></li>
+                            <li className="gallery"><Link to="/Sponser" className="gallery-links">Sponser Logos and Offers</Link></li>
+                            <li className="gallery"><Link to="/About" className="gallery-links">About Fest</Link></li>
+
+                        </ul>
+
+                    </div>
+                    <div className="subClass">
+                        <ul className="unorder">
+                            <li className="support"><h2>Support & Accessibility</h2></li>
+                            <li className="support"><Link to="/faq" className="support-links">FAQ</Link></li>
+                            <li className="support"><Link to="/Emergency" className="support-links">Emergency Numbers</Link></li>
+                            <li className="support"><Link to="/LiveChat" className="support-links">Live Chat Support</Link></li>
+                        </ul>
+                    </div>
+                    <div className="subClass">
+                        <ul className="unorder">
+                            <li className="post-fest"><h2>Post-Fest</h2></li>
+                            <li className="post-fest"><Link to="FeedbackForm" className="post-fest-links">FeedBack Form</Link></li>
+                            <li className="post-fest"><Link to="/Results" className="post-fest-links">Results and Winner Display</Link></li>
+                            <li className="post-fest"><Link to="/TermsAndConditions" className="post-fest-links">Terms and Conditions</Link></li>
+                            <li className="post-fest"><Link to="/ContactUs" className="post-fest-links">Results And Winners</Link></li>
+                            <li className="post-fest"><Link to="/Privacy" className="post-fest-links">Privacy Policy</Link></li>
+                            <li className="post-fest"><Link to="/AboutUs" className="post-fest-links">About Us</Link></li>
+                            <li className="post-fest"><Link to="/ContactUs" className="post-fest-links">Contact Us</Link></li>
+                            <li className="post-fest"><Link to="/archive" className="post-fest-links">Archive of past Events</Link></li>
+                        </ul>
+
+                    </div>
+                    <div>
+                        <li className="footer-bottom">Copyright &copy; 2025</li>
+                        <li>|</li>
+                        <li className="footer-bottom-2">
+                            <Link to="TermsAndConditions">Terms</Link>
+                        </li>
+                        <li className="footer-bottom-2">
+                            <Link to="Privacy">Privacy</Link>
+                        </li>
+                    </div>
+                </div>
+            )
+    }
+
+
+}

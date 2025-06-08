@@ -7,40 +7,35 @@
 
 /* Mobile (480 px) */
 /* ================================================== */
-@media only screen and (max-width: 480px) {
-
-  /* Logo */
-  /* ================================================== */
-  /* .mrcl{
-    background-color: #3F72AF;
-  }
-    
-  
-  .miracle{
-    margin: 50px;
-    background-color: #A6B1E1;
-  } */
-.main-logo{
-  background-color: #0F4C75;
-  padding: 50% 30% 50% 30%;
+            
+.register-header{
+  background-color: #3F72AF;
+  color: white;
 }
 
 
+
+
+@media only screen and (max-width: 480px) {
+  /* Body Of Home  */
+  /* ================================================== */
+  /* main-logo */
+  /* ==================================================== */
+.main-logo{
+  background-color: #0F4C75;
+  /* padding: 50% 30% 50% 30%; */
+  min-height: 50vh;
+  padding: 50% 15% 50% 15%;
+}
+/* ========================================================= */
+/* clg-logo */
 .clg-logo{
-  /* margin: 10px; */
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* padding: 10px 5px 10px 150px; */
-  display: block;
-  /* align-content: center; */
-  /* margin-top: 50px;
-  margin-bottom: 50px; */
+  height: 250px;
+  width: 245px;
+ margin: auto;
   border-radius: 65%;
-  /* padding: 15% 3% 15% 3%; */
-  /* margin-left: 100px; */
+  border: 10px solid whitesmoke;
+  padding: 0px;
 }
 
 
@@ -73,20 +68,21 @@
     font-size: small;
     font-weight: 300px;
     font-family: 'Inter', sans-serif;
-
+    background-color: #3F72AF;
   }
 
   /* link Class */
   /* ================================================== */
   .header-links {
     text-decoration: none;
-    color: whitesmoke;
+    color: #0A2647;
   } 
 /* header-profile class */
 /* ================================================== */
   .header-profile {
     margin-top: 10px;
     padding-top: 20px;
+    color: #0F4C75;
   }
 /* Event File */
   /* ================================================== */
@@ -1198,7 +1194,8 @@
 /* sign-up Class */
   /* ================================================== */
   .sign-up {
-    padding: 5px 80px 5px 80px;
+    /* padding: 5px 80px 5px 80px; */
+    padding: 5em;
     background-color: #112D4E;
     color: white;
     border-radius: 10px;
