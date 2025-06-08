@@ -3,7 +3,7 @@ import { Routes,Route, BrowserRouter } from "react-router-dom";
 import './App.css';
 import { MainHeader } from "./Components/Header";
 import { Footer } from "./Components/Footer";
-import MainPage from "./Pages/HeaderPages/MainPage";
+// import MainPage from "./Pages/HeaderPages/MainPage";
 
 import Home from "./Pages/HeaderPages/Home";
 import Events from "./Pages/HeaderPages/Events";
@@ -73,7 +73,7 @@ function App(){
      <MainHeader/>
      <Routes>
 
-            <Route path="/MainPage" element={<MainPage/>}></Route>
+            {/* <Route path="/MainPage" element={<MainPage/>}></Route> */}
           
             <Route path="/Home" element={<Home/>}></Route>
              <Route path="/Events" element={<Events/>}></Route>
