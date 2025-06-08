@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 export default function SignIn() {
     return (
-        <div className="main-register">
+        <div className="main-SignIn">
             <div className="registe">
                 <p className='sign'>Sign In</p>
                 <div className="register-elements">

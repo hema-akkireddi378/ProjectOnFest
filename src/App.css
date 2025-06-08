@@ -24,20 +24,49 @@
     flex-direction: row;
     justify-content: space-evenly;
     background-color: gray;
+   
   }
   
   .footer-bottom-2{
     text-decoration: none;
     list-style: none;
     margin: 20px 0px;
+     font-size: small;
+    font-weight: 500;
+    color: black;
     
   }
   .bottomFooter-links{
     text-decoration: none;
+    color: black;
   }
   .main-footer-1{
     display: flex;
     flex-direction: column;
+  }
+  .SignInMainHeader{
+    background-color: #A6B1E1;
+  }
+  .SignInHeader{
+    padding:10% ;
+    color: black;
+    font-size: xx-large;
+    font-weight: 500;
+
+  }
+  .RegisterMainHeader{
+    background-color: #A6B1E1;
+  }
+  .RegisterHeader{
+    padding: 10%;
+    color: black;
+    font-size: xx-large;
+    font-weight: 500;
+  }
+
+  .SignUp{
+    text-decoration: none;
+    color: black;
   }
   /* main-logo */
   /* ==================================================== */
@@ -1226,6 +1255,9 @@
   
 /* sign-in Class */
   /* ================================================== */
+  .main-SignIn{
+    padding: 40% 0px; 
+  }
   .signin {
     padding: 10px;
   }
@@ -3894,7 +3926,7 @@ border: 3px solid black;
     text-decoration: none
   }
 
-}
+
 
 
 

@@ -4,16 +4,14 @@ export function MainHeader() {
     const loc = useLocation();
 
     switch (loc.pathname) {
-
+       
         case "/Register":
             return (
-                <header className="register-header">
+                <header className="RegisterMainHeader">
+                    
+                            <h1 className='RegisterHeader'>MRCL</h1>
 
-                    <ul className="main-header-list">
-                        <li className='main-header'>MRCL</li>
-
-                    </ul>
-
+                        
                 </header>
             )
             break;
@@ -42,31 +40,33 @@ export function MainHeader() {
                 </header>
             )
             break;
-        // case "/":
-        //     return (
-        //         <header>
-        //             <nav>
-        //                 <ul>
-        //                     <li className='main-header'>MRCL</li>
-
-        //                 </ul>
-        //             </nav>
-        //         </header>
-        //     )
-        //     break;
-        case "SignUp":
+        
+        case "/SignIn":
             return (
-                <header>
-                    <nav>
-                        <ul>
-                            <li className='main-header'>MRCL</li>
+                <header className="SignInMainHeader">
+                    
+                            <h1 className='SignInHeader'>MRCL</h1>
 
-                        </ul>
-                    </nav>
+                        
                 </header>
             )
             break;
+             case "/":
+            return (
+                <div className='header'>
 
+                  <h1 className='main-header'>MRCL</h1>
+
+                <nav className="nav-elements">
+                    
+                    <Link to="/AboutFest" className="header-links">About Fest</Link>
+                    <Link to="/Register" className="header-links">Register</Link>
+                    
+                </nav>
+                </div>
+            )
+            
+            break;
         default:
             return (
                 <div className='header'>
@@ -77,7 +77,8 @@ export function MainHeader() {
                     
                     <Link to="/Home" className="header-links">Home</Link>
                     <Link to="/Events" className="header-links">Events</Link>
-                    <Link to="/Register" className="header-links">Register</Link>
+                    {/* <Link to="/Register" className="header-links">Register</Link> */}
+                    <Link to="/AboutUs" className="header-links">About Us</Link>
                     <Link to="/MyProfile" className="header-profile"><img src="https://img.icons8.com/?size=100&id=85050&format=png&color=FFFFFF" alt="Profile" height="13px" width="13px"></img></Link>
 
                 </nav>
