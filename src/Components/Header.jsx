@@ -9,31 +9,40 @@ export function MainHeader() {
             return (
                 <header className="RegisterMainHeader">
                     
-                            <h1 className='RegisterHeader'>MRCL</h1>
+                            <h1 className='RegisterHeader'>MIRACLE</h1>
 
                         
                 </header>
             )
             break;
 
-        case "TermsAndConditions":
+         case "/AboutFest":
+            return (
+                <header className="AboutFestMainHeader">
+                    
+                            <h1 className='AboutFestHeader'>MIRACLE</h1>    
+                </header>
+            )
+            break;
+
+        case "/TermsAndConditions":
             return (
                 <header>
                     <nav>
                         <ul>
-                            <li className='main-header'>MRCL</li>
+                            <li className='main-header'>MIRACLE</li>
 
                         </ul>
                     </nav>
                 </header>
             )
             break;
-        case "PrivacyPolicy":
+        case "/PrivacyPolicy":
             return (
                 <header>
                     <nav>
                         <ul>
-                            <li className='main-header'>MRCL</li>
+                            <li className='main-header'>MIRACLE</li>
 
                         </ul>
                     </nav>
@@ -45,7 +54,7 @@ export function MainHeader() {
             return (
                 <header className="SignInMainHeader">
                     
-                            <h1 className='SignInHeader'>MRCL</h1>
+                            <h1 className='SignInHeader'>MIRACLE</h1>
 
                         
                 </header>
@@ -55,12 +64,12 @@ export function MainHeader() {
             return (
                 <div className='header'>
 
-                  <h1 className='main-header'>MRCL</h1>
+                  <h1 className='main-header'>MIRACLE</h1>
 
-                <nav className="nav-elements">
+                <nav className="mainHeader-nav-elements">
                     
-                    <Link to="/AboutFest" className="header-links">About Fest</Link>
-                    <Link to="/Register" className="header-links">Register</Link>
+                    <Link to="/AboutFest" className="header-link-aboutfest">About Fest</Link>
+                    <Link to="/Register" className="header-links-register">Register</Link>
                     
                 </nav>
                 </div>
@@ -71,7 +80,7 @@ export function MainHeader() {
             return (
                 <div className='header'>
 
-                  <h1 className='main-header'>MRCL</h1>
+                  <h1 className='main-header'>MIRACLE</h1>
 
                 <nav className="nav-elements">
                     

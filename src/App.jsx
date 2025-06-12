@@ -12,6 +12,8 @@ import SignIn from "./Pages/HeaderPages/SignIn";
 import MyProfile from "./Pages/HeaderPages/MyProfile";
 
 
+import LandingPageContent from "./Pages/HeaderPages/LandingPageContent";
+
 import BannerLaunch from "./Pages/HeaderPages/BannerLaunchContent";
 import Traditional from "./Pages/HeaderPages/Traditional";
 import FinalFest from "./Pages/HeaderPages/FinalFest";
@@ -74,7 +76,7 @@ function App(){
      <Routes>
 
             {/* <Route path="/MainPage" element={<MainPage/>}></Route> */}
-          
+            <Route path="/" element={<LandingPageContent/>}></Route>
             <Route path="/Home" element={<Home/>}></Route>
              <Route path="/Events" element={<Events/>}></Route>
              <Route path="/Register" element={<Register/>}></Route>

@@ -1,3 +1,4 @@
+/* Css Reset */
 * {
   margin: 0;
   padding: 0;
@@ -7,100 +8,22 @@
 
 /* Mobile (480 px) */
 /* ================================================== */
-            
-.register-header{
-  background-color: #3F72AF;
-  color: white;
-}
-
-
-
-
 @media only screen and (max-width: 480px) {
   /* Body Of Home  */
   /* ================================================== */
-  .bottomFooter{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: gray;
-   
-  }
-  
-  .footer-bottom-2{
-    text-decoration: none;
-    list-style: none;
-    margin: 20px 0px;
-     font-size: small;
-    font-weight: 500;
-    color: black;
-    
-  }
-  .bottomFooter-links{
-    text-decoration: none;
-    color: black;
-  }
-  .main-footer-1{
-    display: flex;
-    flex-direction: column;
-  }
-  .SignInMainHeader{
-    background-color: #A6B1E1;
-  }
-  .SignInHeader{
-    padding:10% ;
-    color: black;
-    font-size: xx-large;
-    font-weight: 500;
-
-  }
-  .RegisterMainHeader{
-    background-color: #A6B1E1;
-  }
-  .RegisterHeader{
-    padding: 10%;
-    color: black;
-    font-size: xx-large;
-    font-weight: 500;
-  }
-
-  .SignUp{
-    text-decoration: none;
-    color: black;
-  }
-  /* main-logo */
-  /* ==================================================== */
-.main-logo{
-  background-color: #0F4C75;
-  /* padding: 50% 30% 50% 30%; */
-  min-height: 50vh;
-  padding: 50% 15% 50% 15%;
-}
-/* ========================================================= */
-/* clg-logo */
-.clg-logo{
-  height: 250px;
-  width: 245px;
- margin: auto;
-  border-radius: 65%;
-  border: 10px solid whitesmoke;
-  padding: 0px;
-}
-
-
-  /* Header */
+   /* Header */
   /* ================================================== */
    .header{
-    background-color:#A6B1E1;
+    background-color:#222831;
     
   }
   /* main-header */
   /* ================================================== */
   .main-header{
     /* padding: 20px 0px 5px 20px; */
-    color: whitesmoke;
-    padding: 40px 0px 0px 20px ;
-    font-family: 'Inter', sans-serif;
+    color: white;
+    padding: 40px 0px 0px 10px ;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   /* nav-elements Class */
@@ -121,12 +44,145 @@
     /* background-color: #3F72AF; */
   }
 
+
+  .bottomFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #EEEEEE;
+    width: 100%;
+   
+  }
+             
+.register-header{
+  background-color: #3F72AF;
+  color: white;
+}
+
+  .footer-bottom-2{
+    text-decoration: none;
+    list-style: none;
+    margin: 20px 0px;
+     font-size: small;
+    font-weight: 500;
+    color: black;
+    
+  }
+  .bottomFooter-links{
+    text-decoration: none;
+    color: black;
+  }
+  .main-footer-1{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .SignInHeader{
+    padding:10% ;
+    color: black;
+    font-size: xx-large;
+    font-weight: 500;
+
+  }
+  .RegisterMainHeader{
+    background-color:black;
+  }
+  .RegisterHeader{
+    padding: 10%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+  }
+
+  .SignUp{
+    text-decoration: none;
+    color: black;
+  }
+
+  .AboutFestMainHeader{
+   background-color: #000;
+  }
+  .AboutFestHeader{
+     padding: 10%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+  }s
+
+ 
+ 
+  
+  /* main-logo */
+  /* ==================================================== */
+
+/* ========================================================= */
+/* clg-logo */
+.clg-logo{
+  height: 250px;
+  width: 245px;
+ margin: auto;
+  border-radius: 65%;
+  border: 10px solid whitesmoke;
+  padding: 0px;
+}
+
+
+ 
   /* link Class */
   /* ================================================== */
   .header-links {
     text-decoration: none;
-    color: #0A2647;
+    color: white;
   } 
+   .landingpagecontent{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    
+  }
+  .mainHeader-nav-elements{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+  color: white;
+  padding-bottom: 5%;
+ }
+ .header-link-aboutfest{
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  font-weight: 400;
+ }
+ .header-links-register{
+  text-decoration: none;
+  color: white;
+   font-size: small;
+  font-weight: 400;
+  margin-right: 3%;
+  background-color: rgb(157, 8, 8);
+  padding: 1%;
+  border-radius: 5%;
+  border: 2px solid red;
+  
+ }
+ .main-logo{
+  background-color: #0F4C75;
+  /* padding: 50% 30% 50% 30%; */
+  min-height: 50vh;
+  padding: 50% 15% 50% 15%;
+}
+.logo{
+  height: 50vh;
+}
+.clg-logo{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 10%;
+}
 /* header-profile class */
 /* ================================================== */
   .header-profile {
@@ -1478,7 +1534,7 @@
   .footer {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: #EEEEEE;
     padding: 10px;
     width: 100%;
 
@@ -1970,7 +2026,7 @@ border: 3px solid black;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: xx-large;
-  padding: 10px;
+  padding:30px 10px 0px 10px;
   font-weight: 400;
 }
 .clg-fest-logo{
@@ -1980,6 +2036,11 @@ border: 3px solid black;
 .about-fest-content{
   padding: 5px 10% 10% 10%;
   word-spacing: 10px;
+  text-align: justify;
+  font-size: large;
+  font-weight: 600;
+  line-height: 1.5rem;
+  text-indent: 3em;
 }
 
 /* ============================== */
