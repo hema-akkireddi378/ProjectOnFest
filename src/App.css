@@ -13,6 +13,53 @@
   /* ================================================== */
    /* Header */
   /* ================================================== */
+
+  .eventsregistration{
+    height: 80vh;
+    margin: 20% 10%;
+  }
+  .eventContentHeader{
+    font-size: large;
+    font-weight: 500;
+  }
+  .eventNav{
+    margin: 5% 5%;
+  }
+  .registerDetails{
+    line-height: 2.5rem;
+    margin: 0px 10%;
+    font-size: medium;
+    font-weight: 400;
+    color: lightgray;
+  }
+  .registerCandidateDetails{
+    border: none;
+    padding: 2% 5%;
+  }
+  .registerDetails .registerCandidateDetails{
+    border: none;
+  }
+  .eventRegisteSubmit{
+    margin: 5% 10% ;
+    padding: 2% 5%;
+    font: inherit;
+    color: white;
+    background-color: rgb(246, 3, 3);
+    border: none;
+    border-radius: 5px;
+  }
+  .eventContent{
+    line-height: 1.8rem;
+    font-size: small;
+    font-weight: 600;
+    
+  }
+  .EventSelectOptions{
+    margin: 0;
+    padding: 0;
+  }
+
+
    .header{
     background-color:#222831;
     
@@ -399,8 +446,9 @@
 }
 .bannerlaunch-content{
   padding: 10px;
-  word-spacing: 10px;
+  
   font-weight: bold;
+  text-align: justify;
 }
 .date{
   padding-top: 20px;
@@ -473,7 +521,7 @@
 }
 .final-content{
   padding: 10px;
-  word-spacing: 10px;
+  text-align: justify;
   font-weight: bold;
 }
 .date{
@@ -608,7 +656,7 @@
 }
 .traditional-content{
   padding: 10px;
-  word-spacing: 10px;
+  text-align: justify;
   font-weight: bold;
 
 }
@@ -659,7 +707,7 @@
 }
 .guess-output-content{
   padding: 10px;
-  word-spacing: 10px;
+  text-align: justify;
   font-weight: bold;
 }
 .date{
@@ -2220,7 +2268,7 @@ border: 3px solid black;
 }
 
 .contact{
- margin:20% 5%;
+ margin:20% 10%;
   border: 2px solid black;
   /* padding: 20%; */
   border-top-right-radius: 70%;
@@ -2580,16 +2628,20 @@ border: 3px solid black;
   font-weight: 500px;
   color: darkcyan;
 }
-.bannerlaunch-logo{
+/* .bannerlaunch-logo{
  
-  margin-top: 20px;
+  margin-top: 0px;
  margin-left: 300px;
  margin-bottom: 20px;
- height: 400px;
- width: 800px;
+ height: 100%;
+ width: 1000%;
  border-radius: 20px;
-}
+} */
 
+.bannerlaunch-logo{
+  padding: 0;
+  margin: 0;
+}
 .bannerlaunch-theme{
   font-size: xx-large;
   font-weight: 500;
@@ -2602,8 +2654,7 @@ border: 3px solid black;
   font-size: large;
   font-weight: 400px;
   gap: 20px;
-  word-spacing: 2px;
-
+  
 }
 .date{
   padding-top: 20px;

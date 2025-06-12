@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 export default function ProCoder() {
     return (
         <div className='proCoder'>
@@ -13,7 +13,7 @@ export default function ProCoder() {
             <p className='sub-details'>Event Venue: </p>
             <p className='sub-details'>Event End Time</p>
 
-            <Link to="/ProCoderEvent" className="more1">
+            <Link to="/ProCoderRegistration" className="more1">
                 <button type='link' className='button-link'>Register</button>
             </Link>
 

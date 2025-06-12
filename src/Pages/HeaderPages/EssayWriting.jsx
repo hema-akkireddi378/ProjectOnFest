@@ -13,7 +13,7 @@ export default function EssayWriting() {
             <p className='sub-details'>Event Start Time :</p>
             <p className='sub-details'>Event Venue: </p>
             <p className='sub-details'>Event End Time</p>
-            <Link to="/EssayWritingEvent" className="more1">
+            <Link to="/EssayWritingRegistration" className="more1">
                 <button type='link' className='button-link'>Register</button>
             </Link>
 

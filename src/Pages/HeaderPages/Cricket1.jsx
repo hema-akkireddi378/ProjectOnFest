@@ -14,7 +14,7 @@ export default function Cricket1() {
             <p className='sub-details'>Event Start Time :</p>
             <p className='sub-details'>Event Venue: </p>
             <p className='sub-details'>Event End Time</p>
-            <Link to="/Cricket1Event" className="more1">
+            <Link to="/MensCricketRegistration" className="more1">
                 <button type='link' className='button-link'>Register</button>
             </Link>
         </div>

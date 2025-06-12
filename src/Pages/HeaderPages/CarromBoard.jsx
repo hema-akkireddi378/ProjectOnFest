@@ -16,7 +16,7 @@ export default function CarromBoard() {
             <p className='sub-details'>Event Start Time :</p>
             <p className='sub-details'>Event Venue: </p>
             <p className='sub-details'>Event End Time</p>
-            <Link to="/CarromBoardEvent" className="more1">
+            <Link to="/CarromBoardRegistration" className="more1">
                 <button type='link' className='button-link'>Register</button>
             </Link>
         </div>

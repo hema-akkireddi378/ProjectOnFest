@@ -14,7 +14,7 @@ export default function WomensThrowball() {
             <p className='sub-details'>Event Start Time :</p>
             <p className='sub-details'>Event Venue: </p>
             <p className='sub-details'>Event End Time:</p>
-            <Link to="/WomensThrowballEvent" className="more1">
+            <Link to="/WomensThrowBallRegistration" className="more1">
                 <button type='link' className='button-link'>Register</button>
             </Link>
         </div>

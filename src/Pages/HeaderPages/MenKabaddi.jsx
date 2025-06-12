@@ -15,7 +15,7 @@ export default function MenKabaddi() {
             <p className='sub-details'>Event Start Time :</p>
             <p className='sub-details'>Event Venue: </p>
             <p className='sub-details'>Event End Time</p>
-            <Link to="/MenKabaddiEvent" className="more1">
+            <Link to="/MensKabaddiRegistration" className="more1">
                 <button type='link' className='button-link'>Register</button>
             </Link>
         </div>
