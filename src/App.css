@@ -77,13 +77,7 @@
     flex-direction: column;
   }
   
-  .SignInHeader{
-    padding:10% ;
-    color: black;
-    font-size: xx-large;
-    font-weight: 500;
-
-  }
+  
   .RegisterMainHeader{
     background-color:black;
   }
@@ -93,7 +87,26 @@
     font-size: xx-large;
     font-weight: 500;
   }
-
+  .LoginMainHeader{
+    background-color:black;
+  }
+  .LoginHeader{
+    padding: 10%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+  }
+   .MainPrivacyHeader{
+    background-color:black;
+  }
+  .PrivacyHeader{
+    padding: 10%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+  }
+  
+  
   .SignUp{
     text-decoration: none;
     color: black;
@@ -107,10 +120,26 @@
     color: white;
     font-size: xx-large;
     font-weight: 500;
-  }s
+  }
 
- 
- 
+ .TermsAndConditionsMainHeader{
+   background-color: #000;
+  }
+  .TermsAndConditionsHeader{
+     padding: 10%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+  }
+ .PrivacyPolicyMainHeader{
+   background-color: #000;
+  }
+  .PrivacyPolicyHeader{
+     padding: 10%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+  }
   
   /* main-logo */
   /* ==================================================== */
@@ -1354,8 +1383,8 @@
 /* google-link Class */
 /* ================================================== */
   .google-link {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 25px;
     /* padding: 10px; */
     /* background-color: lightgray; */
     /* padding-left: 20px; */
@@ -1366,8 +1395,8 @@
 
 
 .facebook-link {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     /* padding: 10px; */
     /* background-color: lightgray; */
     /* padding-left: 20px; */

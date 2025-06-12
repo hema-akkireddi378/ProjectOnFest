@@ -53,32 +53,49 @@ export function Footer() {
             break;
         case "/TermsAndConditions":
             return (
-                <div>
-                    <li className="footer-bottom">Copyright &copy; 2025</li>
-                    <li>|</li>
+                <div className="bottomFooter">
+                    <li className="footer-bottom-2">Copyright &copy; 2025</li>
+                    <li className="footer-bottom-2">|</li>
                     <li className="footer-bottom-2">
-                        <Link to="TermsAndConditions">Terms</Link>
+                        <Link to="TermsAndConditions" className="bottomFooter-links">Terms</Link>
                     </li>
+                    <li className="footer-bottom-2">|</li>
                     <li className="footer-bottom-2">
-                        <Link to="Privacy">Privacy</Link>
+                        <Link to="Privacy" className="bottomFooter-links">Privacy</Link>
                     </li>
                 </div>
             );
             break;
-        case "/PrivacyPolicy":
+        case "/Privacy":
+           return (
+                <div className="bottomFooter">
+                    <li className="footer-bottom-2">Copyright &copy; 2025</li>
+                    <li className="footer-bottom-2">|</li>
+                    <li className="footer-bottom-2">
+                        <Link to="TermsAndConditions" className="bottomFooter-links">Terms</Link>
+                    </li>
+                    <li className="footer-bottom-2">|</li>
+                    <li className="footer-bottom-2">
+                        <Link to="Privacy" className="bottomFooter-links">Privacy</Link>
+                    </li>
+                </div>
+            );
+            break;
+           case "/AboutFest":
             return (
-                <div>
-                    <li className="footer-bottom">Copyright &copy; 2025</li>
-                    <li>|</li>
+                <div className="bottomFooter">
+                    <li className="footer-bottom-2">Copyright &copy; 2025</li>
+                    <li className="footer-bottom-2">|</li>
                     <li className="footer-bottom-2">
-                        <Link to="TermsAndConditions">Terms</Link>
+                        <Link to="TermsAndConditions" className="bottomFooter-links">Terms</Link>
                     </li>
+                    <li className="footer-bottom-2">|</li>
                     <li className="footer-bottom-2">
-                        <Link to="Privacy">Privacy</Link>
+                        <Link to="Privacy" className="bottomFooter-links">Privacy</Link>
                     </li>
                 </div>
             );
-            break;
+            break; 
 
         default:
             return (
@@ -135,14 +152,10 @@ export function Footer() {
                                     <Link to="Privacy" className="bottomFooter-links">Privacy</Link>
                                 </li>
                             </div>
-
                         </ul>
                     </nav>
 
                 </div>
-
             )
     }
-
-
 }
