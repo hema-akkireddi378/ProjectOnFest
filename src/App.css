@@ -385,7 +385,7 @@
   
   .button-link{
     padding: 10px 30px;
-    margin:20px 10px 0px 0px ;
+    margin: 5% 10%;
     border-radius: 20px;
     background-color: #3F72AF;
     color: #F9F7F7;
@@ -397,7 +397,7 @@
 
 
   /* Register File */
-  /* ================================================== */
+  /* ================================================== */ 
   .main-register {
     background-color: #0F4C75;
     padding-top: 100px;
@@ -417,19 +417,20 @@
   }
 /* Banner launch */
   /* ================================================== */
-  .bannerlaunch{
+  /* .bannerlaunch{
   background-color: #F9F7F7;
   margin: 20px;
-  padding: 20px;
+  padding: 20px; */
   /* border: 1px solid black;
   borde */
-}
+/* } */
 .bannerlaunch-header{
   text-align: center;
   
   font-size: x-large;
   font-weight: bolder;
   color: darkcyan;
+  margin: 5% 0px;
 }
 .bannerlaunch-logo{
   align-items: center;
@@ -443,16 +444,17 @@
   font-weight: 500;
   color: #3F72AF;
   text-align: center;
+  margin: 3% 5%;
 }
 .bannerlaunch-content{
   padding: 10px;
-  
+  margin: 3% 10%;
   font-weight: bold;
   text-align: justify;
 }
 .date{
   padding-top: 20px;
-  padding-left: 10px;
+  padding-left: 30px;
 }
 .venue{
   padding-left: 10px;
@@ -469,38 +471,40 @@
 
 .event-coordinator{
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 10%;
   color: #3F72AF;
 }
 .event-coordinator-details{
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 20%;
 }
 
-
+.EventCoordinator{
+  margin-bottom: 10%;
+}
 .event-details{
-  margin-left: 10px;
+  margin-left: 10%;
   color: #3F72AF;
 }
 .sub-details{
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 20%;
 }
 
 
 
 
 
-.finalFest{
+/* .finalFest{
   background-color: #F9F7F7;
   margin: 20px;
-  padding: 20px;
+  padding: 20px; */
   /* border: 1px solid black;
   borde */
-}
+/* } */
 .final-header{
   text-align: center;
-  
+  margin: 10% 15% 1% 15%;
   font-size: larger;
   font-weight: 500px;
   color: darkcyan;
@@ -523,6 +527,7 @@
   padding: 10px;
   text-align: justify;
   font-weight: bold;
+  margin: 5% 8%;
 }
 .date{
   padding-top: 20px;
@@ -544,25 +549,26 @@
 
 
 
-.proCoder{
+/* .proCoder{
   background-color: #F9F7F7;
   margin: 20px;
-  padding: 20px;
+  padding: 20px; */
   /* border: 1px solid black;
   borde */
-}
+/* } */
 .coder-header{
   text-align: center;
-  
+  margin: 10% 15% 1% 15%;
   font-size: x-large;
   font-weight: bolder;
   color: darkcyan;
 }
 .coder-logo{
   align-items: center;
-  margin-top: 20px;
+  margin-top: 10px;
  margin-left: 40px;
  margin-bottom: 20px;
+
 }
 
 .coder-theme{
@@ -573,9 +579,9 @@
 }
 .coder-content{
   padding: 10px;
-  word-spacing: 10px;
   font-weight: bold;
-  
+  text-align: justify;
+  margin: 5% 8%;
 }
 .date{
   padding-top: 20px;
@@ -624,25 +630,25 @@
 
 /* ========================================= */
 
-.traditional{
+/* .traditional{
   background-color: #F9F7F7;
   margin: 20px;
-  padding: 20px;
+  padding: 20px; */
   /* border: 1px solid black;
   borde */
-}
+/* } */
 .traditional-header{
   text-align: center;
   word-spacing: 10px;
   font-weight: bold;
-  
+  margin: 10% 5% 5% 6%;
  font-size: x-large;
   font-weight: bolder;
   color: darkcyan;
 }
 .traditional-logo{
   align-items: center;
-  margin-top: 20px;
+  margin-top:3%;
  margin-left: 40px;
  margin-bottom: 20px;
 }
@@ -653,11 +659,13 @@
   color: #3F72AF;
   text-align: center;
   padding-bottom: 10px;
+  margin: 3% 5%;
 }
 .traditional-content{
   padding: 10px;
   text-align: justify;
   font-weight: bold;
+  margin: 1% 8%;
 
 }
 .date{
@@ -729,13 +737,7 @@
 }
 
 
-.quiz{
-  background-color: #F9F7F7;
-  margin: 20px;
-  padding: 20px;
-  /* border: 1px solid black;
-  borde */
-}
+
 .quiz-header{
   text-align: center;
   font-size: x-large;
@@ -858,7 +860,7 @@
 }
 .quiz-content{
   padding: 10px;
-  word-spacing: 10px;
+  text-align: justify;
   font-weight: bold;
 }
 .date{
@@ -1863,6 +1865,7 @@
   font-weight: 500;
   text-indent: 20%;
   word-spacing: 10px;
+  text-align: justify;
 }
 .footer-event-details{
   font-size: x-large;
@@ -2617,8 +2620,8 @@ border: 3px solid black;
 
   .bannerlaunch{
   background-color: #F9F7F7;
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   /* border: 1px solid black;
   borde */
 }
@@ -2641,6 +2644,7 @@ border: 3px solid black;
 .bannerlaunch-logo{
   padding: 0;
   margin: 0;
+
 }
 .bannerlaunch-theme{
   font-size: xx-large;
@@ -2894,13 +2898,7 @@ border: 3px solid black;
 }
 
 
-.guessTheOutput{
-  background-color: #F9F7F7;
-  margin: 20px;
-  padding: 20px;
-  /* border: 1px solid black;
-  borde */
-}
+
 .guess-output-header{
   text-align: center;
   

@@ -2,22 +2,40 @@ import { Link } from "react-router-dom";
 
 export default function MenKabaddi() {
     return (
-        <div className='menKabaddi'>
-            <p className='men-kabaddi-header'>Mat Warriors 2025  Kabaddi Clash </p>
-            <img className="men-kabaddi-logo" src="https://www.prokabaddi.com/static-assets/waf-images/84/9b/95/16-9/dgYZwDiTti.jpg" alt="Fest image" height="200px" width="200px"></img>
-            <p className='men-kabaddi-theme'>Raid. Resist. Rise.</p>
-            <p className='men-kabaddi-content'>Step into the arena where tradition meets adrenaline — Mat Warriors 2025 is your call to battle in the raw and riveting game of Kabaddi. It's not just a sport; it's a test of strength, speed, strategy, and sheer willpower.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptatum voluptatibus. Unde est neque at beatae iste, veniam quis consectetur voluptates id cum, dolorum eum maxime dolor quaerat! Exercitationem, incidunt!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa animi voluptatum ratione, repellendus aperiam laudantium laborum at aliquid vero, fuga nam velit! Vero consequatur aut, enim quidem aliquam iure officia!
+        <div>
+            <h1 className='footerEventsHeader'>Men's Kabaddi</h1>
+            <img className="men-kabaddi-logo" src="https://www.prokabaddi.com/static-assets/waf-images/84/9b/95/16-9/dgYZwDiTti.jpg" alt="Fest image" height="200px" width="80%"></img>
+
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
             </p>
-            <h3 className='event-details'>Event Details</h3>
-            <p className='sub-details'>Event Date:</p>
-            <p className='sub-details'>Event Start Time :</p>
-            <p className='sub-details'>Event Venue: </p>
-            <p className='sub-details'>Event End Time</p>
-            <Link to="/MensKabaddiRegistration" className="more1">
-                <button type='link' className='button-link'>Register</button>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/MensKabaddiRegistration" className="footer-more1">
+                <button type='link' className='footer-button-link'>Register</button>
             </Link>
+
+              {/* <h1 className='footerEventsHeader'>Men's Kabaddi</h1>
+            <img className="men-kabaddi-logo" src="https://www.prokabaddi.com/static-assets/waf-images/84/9b/95/16-9/dgYZwDiTti.jpg" alt="Fest image" height="200px" width="80%"></img>
+
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/MensKabaddiRegistration" className="footer-more1">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link> */}
         </div>
     )
 }

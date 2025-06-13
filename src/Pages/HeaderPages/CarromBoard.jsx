@@ -2,8 +2,23 @@ import { Link } from "react-router-dom";
 
 export default function CarromBoard() {
     return (
-        <div className='carromboard'>
-            <p className='carrom-header'>Battle Beyond Boundaries </p>
+        <div>
+            <h1 className='footerEventsHeader'>Carroms</h1>
+            <img className="carrom-logo" src="https://d29fhpw069ctt2.cloudfront.net/photo/53128/preview/carrom-board-coins_preview_5e42.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/CarromBoardRegistration" className="footer-more">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+            {/* <p className='carrom-header'>Battle Beyond Boundaries </p>
             <img className="carrom-logo" src="https://www.shutterstock.com/image-photo/mumbai-india-october-2-2021-600nw-2085546409.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='carrom-theme'>Cricket Carnival 2025</p>
 
@@ -18,7 +33,7 @@ export default function CarromBoard() {
             <p className='sub-details'>Event End Time</p>
             <Link to="/CarromBoardRegistration" className="more1">
                 <button type='link' className='button-link'>Register</button>
-            </Link>
+            </Link> */}
         </div>
     )
 }

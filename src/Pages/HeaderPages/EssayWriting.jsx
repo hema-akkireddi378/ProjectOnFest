@@ -2,8 +2,25 @@ import { Link } from "react-router-dom";
 
 export default function EssayWriting() {
     return (
-        <div className='essayWriting'>
-            <p className='essay-header'>Inkspire 2025</p>
+        <div>
+
+              <h1 className='footerEventsHeader'>Essay Writing</h1>
+            <img className="essay-logo" src="https://www.shutterstock.com/image-photo/essays-english-language-part-exam-260nw-1320732236.jpg" alt="Fest image" height="200px" width="80%"></img>
+            <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!
+
+            </p>
+            <h3 className='footer-event-details'>Event Details</h3>
+            <p className='footer-sub-details'>Event Date:</p>
+            <p className='footer-sub-details'>Event Start Time :</p>
+            <p className='footer-sub-details'>Event Venue: </p>
+            <p className='footer-sub-details'>Event End Time</p>
+            <Link to="/EssayWritingEvent" className="footer-more">
+                <button type='link' className='footer-button-link'>Register</button>
+            </Link>
+
+            {/* <p className='essay-header'>Inkspire 2025</p>
             <img className="essay-logo" src="https://www.shutterstock.com/image-photo/essays-english-language-part-exam-260nw-1320732236.jpg" alt="Fest image" height="200px" width="200px"></img>
             <p className='essay-theme'>Write to Express. Write to Inspire.</p>
 
@@ -15,7 +32,8 @@ export default function EssayWriting() {
             <p className='sub-details'>Event End Time</p>
             <Link to="/EssayWritingRegistration" className="more1">
                 <button type='link' className='button-link'>Register</button>
-            </Link>
+            </Link> */}
+
 
 
         </div>

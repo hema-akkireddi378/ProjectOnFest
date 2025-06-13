@@ -14,7 +14,7 @@ export default function Sports() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-            <Link to="/Cricket1Event" className="footer-more1">
+            <Link to="/MensCricketRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
 
@@ -32,7 +32,7 @@ export default function Sports() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-            <Link to="/MenKabaddiEvent" className="footer-more1">
+            <Link to="/MensKabaddiRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
 
@@ -50,7 +50,7 @@ export default function Sports() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-            <Link to="/MenKhoKhoEvent" className="footer-more1">
+            <Link to="/MensKhoKhoRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
 
@@ -68,7 +68,7 @@ export default function Sports() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-            <Link to="/MenVolleyballEvent" className="footer-more1">
+            <Link to="/MensVolleyBallRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
 
@@ -85,7 +85,7 @@ export default function Sports() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-            <Link to="/EssayWritingEvent" className="footer-more">
+            <Link to="/CarromBoardRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
             <h1 className='footerEventsHeader'>Free Fire</h1>
@@ -100,7 +100,7 @@ export default function Sports() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-            <Link to="/FreeFireEvent" className="footer-more">
+            <Link to="/FreeFireRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
 
@@ -117,7 +117,7 @@ export default function Sports() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-            <Link to="/PubgEvent" className="footer-more1">
+            <Link to="/PubgRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
             <h1 className='footerEventsHeader'>Women's Throw Ball</h1>
@@ -132,7 +132,7 @@ export default function Sports() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-            <Link to="/WomensThrowballEvent" className="footer-more1">
+            <Link to="/WomensThrowBallRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
         </div>
