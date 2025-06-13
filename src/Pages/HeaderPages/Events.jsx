@@ -182,7 +182,7 @@ export default function Events() {
                     </div>
                     <hr></hr>
 
-                    <Link to="/Cricket1" className='more'>more</Link>
+                    <Link to="/MensCricket" className='more'>more</Link>
                     {/* <Link to="/Cricket1"className="more">
                       <button type='link' className='button-link'>Register</button> 
                      </Link> */}
@@ -310,7 +310,7 @@ export default function Events() {
                     </div>
                     <hr></hr>
 
-                    <Link to="/WomenThrowBall" className='more'>more</Link>
+                    <Link to="/WomensThrowball" className='more'>more</Link>
                     {/* <Link to="/WomenThrowBall" className="more">
                      <button type='link' className='button-link'>Register</button> 
                      </Link> */}

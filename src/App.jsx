@@ -25,7 +25,7 @@ import GuessTheOutPut from "./Pages/HeaderPages/GuessTheOutPut";
 import Quiz from "./Pages/HeaderPages/Quiz";
 import EssayWriting from "./Pages/HeaderPages/EssayWriting";
 
-
+import MensCricket from "./Pages/HeaderPages/MensCricket";
 import MensKabaddi from "./Pages/HeaderPages/MenKabaddi";
 import MenKhoKho from "./Pages/HeaderPages/MenKhoKho";
 import MenVolleyball from "./Pages/HeaderPages/MenVolleyball";
@@ -106,6 +106,7 @@ function App() {
         <Route path="/Quiz" element={<Quiz />}></Route>
         <Route path="/EssayWriting" element={<EssayWriting />}></Route>
         {/* <Route path="/Cricket1" element={<Criket1/>}></Route> */}
+        <Route path="/MensCricket" element={<MensCricket/>}></Route>
         <Route path="/MenKabaddi" element={<MenKabaddi />}></Route>
         <Route path="/MenKhoKho" element={<MenKhoKho />}></Route>
         <Route path="/MenVolleyball" element={<MenVolleyball />}></Route>
@@ -122,7 +123,7 @@ function App() {
         <Route path="/MensKabaddiRegistration" element={<MensKabaddiRegistration />}></Route>
         <Route path="/MensVolleyBallRegistration" element={<MensVolleyBallRegistration/>}></Route>
         <Route path="/MensKhoKhoRegistration" element={<MensKhoKhoRegistration />}></Route>
-        <Route path="/CarrromBoardRegistration" element={<CarromBoardRegistration />}></Route>
+        <Route path="/CarromBoardRegistration" element={<CarromBoardRegistration />}></Route>
         <Route path="/FreeFireRegistration" element={<FreeFireRegistration />}></Route>
         <Route path="/PubgRegistration" element={<PubgRegistration />}></Route>
         <Route path="/WomensThrowBallRegistration" element={<WomensThrowBallRegistration />}></Route>

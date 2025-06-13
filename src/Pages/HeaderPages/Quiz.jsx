@@ -14,7 +14,7 @@ export default function Quiz() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-            <Link to="/QuizEvent" className="footer-more">
+            <Link to="/QuizRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
             {/* <p className='quiz-header'>Brain Brawl 2025</p>

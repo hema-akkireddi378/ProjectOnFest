@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 export default function WomensThrowball() {
     return (
-        <div className='womenthrowball'>
+        <div>
             
             <h1 className='footerEventsHeader'>Women's Throw Ball</h1>
             <img className="women-throwball-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJV8Nrb1qp9IO3MsopUd4OdzAeKyC1CiIOeWBUlROwk6LItSvsO3kkTAn_EvSCi5DmXbw&usqp=CAU" alt="Fest image" height="200px" width="80%"></img>

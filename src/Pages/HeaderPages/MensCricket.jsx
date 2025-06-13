@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-export default function Cricket1() {
+export default function MensCricket() {
     return (
-        <div className='cricket1'>
+        <div>
             <h1 className='footerEventsHeader'>Men's Cricket</h1>
             <img className="cricket1-logo" src="https://www.shutterstock.com/image-photo/mumbai-india-october-2-2021-600nw-2085546409.jpg" alt="Fest image" height="200px" width="80%"></img>
             <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
