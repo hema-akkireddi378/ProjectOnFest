@@ -14,12 +14,12 @@ export default function BannerLaunch() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-             <div className="EventCoordinator">
-                <h3 className='event-coordinator'>Event Coordinator Details</h3>
-                <p className='event-coordinator-details'>Name : </p>
-                <p className='event-coordinator-details'>Email : </p>
-                <p className='event-coordinator-details'>Phone Number :</p>
-            </div>
+             
+                <h3 className='footer-event-coordinator'>Event Coordinator Details</h3>
+                <p className='footer-event-coordinator-details'>Name : </p>
+                <p className='footer-event-coordinator-details'>Email : </p>
+                <p className='footer-event-coordinator-details'>Phone Number :</p>
+           
             {/* <p className='bannerlaunch-header'>MILAN TECH FEST</p>
             <img className="bannerlaunch-logo" src="https://miracle.edu.in/wp-content/uploads/Mes-Milan-National-level-fest.jpg" alt="Fest image" height="200px" width="80%"></img>
             <p className='bannerlaunch-theme'>Unleash the Unseen. Ignite the Unforgettable.</p>

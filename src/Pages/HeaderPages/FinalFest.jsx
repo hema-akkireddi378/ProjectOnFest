@@ -13,7 +13,10 @@ export default function FinalFest() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-
+            <h3 className='footer-event-coordinator'>Event Coordinator Details</h3>
+            <p className='footer-event-coordinator-details'>Name : </p>
+            <p className='footer-event-coordinator-details'>Email : </p>
+            <p className='footer-event-coordinator-details'>Phone Number :</p>
             {/* <p className='final-header'>Celebrate Culture, Embrace Roots!</p>
             <img className="final-logo" src="https://preview.redd.it/grand-fest-photos-v0-emm62qvtr6pd1.jpg?width=1080&crop=smart&auto=webp&s=c9e60cb7c696b23a936c49ac3e84235ba35a5840" alt="Fest image" height="200px" width="80%"></img>
             <p className='final-theme'>Ignite the Spark Where Passion Meets Purpose</p>
