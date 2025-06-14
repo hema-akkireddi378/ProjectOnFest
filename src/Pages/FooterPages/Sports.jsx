@@ -88,6 +88,7 @@ export default function Sports() {
             <Link to="/CarromBoardRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
+
             <h1 className='footerEventsHeader'>Free Fire</h1>
             <img className="free-fire-logo" src="https://dl.dir.freefiremobile.com/common/web_event/hash/54f31449f5f91cf0cc223cc635cd5952jpg" alt="Fest image" height="200px" width="80%"></img>
             <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
@@ -120,6 +121,7 @@ export default function Sports() {
             <Link to="/PubgRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
+           
             <h1 className='footerEventsHeader'>Women's Throw Ball</h1>
             <img className="women-throwball-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJV8Nrb1qp9IO3MsopUd4OdzAeKyC1CiIOeWBUlROwk6LItSvsO3kkTAn_EvSCi5DmXbw&usqp=CAU" alt="Fest image" height="200px" width="80%"></img>
             <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
