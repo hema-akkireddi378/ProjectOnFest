@@ -13,10 +13,10 @@ export default function Traditional() {
             <p className='footer-sub-details'>Event Start Time :</p>
             <p className='footer-sub-details'>Event Venue: </p>
             <p className='footer-sub-details'>Event End Time</p>
-             <h3 className='footer-event-coordinator'>Event Coordinator Details</h3>
-                <p className='footer-event-coordinator-details'>Name : </p>
-                <p className='footer-event-coordinator-details'>Email : </p>
-                <p className='footer-event-coordinator-details'>Phone Number :</p>
+            <h3 className='footer-event-coordinator'>Event Coordinator Details</h3>
+            <p className='footer-event-coordinator-details'>Name : </p>
+            <p className='footer-event-coordinator-details'>Email : </p>
+            <p className='footer-event-coordinator-details'>Phone Number :</p>
             {/* <p className='traditional-header'>Celebrate Culture, Embrace Roots!</p>
             <footer>
             <img className="traditional-logo" src="https://thumbs.dreamstime.com/b/group-ethnic-college-students-diverse-dressed-traditional-attire-60381124.jpg" alt="Fest image" height="200px" width="80%"></img>

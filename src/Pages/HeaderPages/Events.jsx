@@ -43,6 +43,7 @@ export default function Events() {
                         <p className="event-content">Event date :</p>
                         <p className="event-content">Event start time :</p>
                         <p className="event-content">Event Venue :</p>
+                        <p className='event-content'>Event End Time :</p>
                     </div>
                     <hr></hr>
 
@@ -66,6 +67,7 @@ export default function Events() {
                         <p className="event-content">Event date :</p>
                         <p className="event-content">Event start time :</p>
                         <p className="event-content">Event Venue :</p>
+                        <p className='event-content'>Event End Time :</p>
                     </div>
                     <hr></hr>
 

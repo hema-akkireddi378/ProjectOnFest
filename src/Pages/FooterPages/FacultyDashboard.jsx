@@ -1,18 +1,11 @@
 export default function FacultyDashboard() {
     return (
-        <div>
-            <div className='facultyDetails'>
-                <div className='facultyprofile'>
-                    <img src="https://static.thenounproject.com/png/3918329-200.png" alt="Profile" className="profile-image"></img></div>
-                <div className='facultyContent'>
-                    <p>Name :</p>
-                    <p>Branch :</p>
-                    <p>Designation :</p>
-                </div>
-            </div>
+        <div className="facultyDashboard">
+            <div className="assignStudents">
             <div className='assignTheCoordinators'>
-                <p className='assignCoordinatorHeader'>Assign the Event Coordinators</p>
-                <select className='SelectOptions'>
+                <p className='assignCoordinatorHeader'><span>Assign  Event Coordinator</span></p>
+                <div className="coordinator">
+                <select >
                     <option value="none" className='options'>None</option>
                     <option value="Banner Launch" className='options'>Banner Launch</option>
                     <option value="Traditional Day" className='options'>Traditional Day</option>
@@ -27,19 +20,18 @@ export default function FacultyDashboard() {
                     <option value="Women Throw Ball" className='options'>Women Throw Ball</option>
                 </select>
 
-            </div>
-            <div className='coordinators'>
+                
                 <input type='text' placeholder='Name' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Branch' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Year' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Department' className='coordinatorDetails'></input>
                 <input type='text' placeholder='Section' className='coordinatorDetails'></input>
-            </div>
-            <p className='setCoordinator'>Set As A Coordinator</p>
-
+                </div>
+            <p className='setCoordinator'><span>Set As A Coordinator</span></p>
+        </div>
 
             <div className='assignTheCoordinators'>
-                <p className='assignEventHeader'>Assign the Events</p>
+                <p className='assignEventHeader'><span>Assign the Events</span></p>
                 <select className='SelectOptions'>
                     <option value="none" className='options'>None</option>
                     <option value="Banner Launch" className='options'>Banner Launch</option>
@@ -55,17 +47,21 @@ export default function FacultyDashboard() {
                     <option value="Women Throw Ball" className='options'>Women Throw Ball</option>
                 </select>
 
-            </div>
-            <div className='coordinators'>
-                <input type='text' placeholder='Event Date (DD-MM-YYYY)' className='coordinatorDetails'></input>
-                <input type='text' placeholder='Event Start Time ex 9am' className='coordinatorDetails'></input>
-                <input type='text' placeholder='Event End Time ex 5pm' className='coordinatorDetails'></input>
-                <input type='text' placeholder='Section' className='coordinatorDetails'></input>
-            </div>
+           
+                <input type='text' placeholder='Event Date (D-M-Y)' className='event-coordinatorDetails'></input>
+                <input type='text' placeholder='Event Venue' className='event-coordinatorDetails'></input>
+                <input type='text' placeholder='Event Start Time ex 9hr' className='event-coordinatorDetails'></input>
+                <input type='text' placeholder='Event End Time ex 5hr' className='event-coordinatorDetails'></input>
+                
+            
             <p className='setEvent'>Set As A Event</p>
+            </div>
+            </div>
+            <div className="hod">
             <p className='hoddetails'>Only access to ,<br></br>
                 Head Of the Department, CSE HOD<br></br>
                 Mr Raja Sheaker</p>
+                </div>
         </div>
     )
 }

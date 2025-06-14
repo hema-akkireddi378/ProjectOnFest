@@ -1371,6 +1371,8 @@
  margin-bottom: 20px;
 }
 
+
+
 .cricket1-theme{
   font-size: large;
   font-weight: 500;
@@ -1558,13 +1560,9 @@
     border-radius: 20px;
   }
   .google-link{
-    height: 30px;
-    width: 30px;
+   
   }
-  .facebook-link{
-    height: 30px;
-    width: 30px;
-  }
+  
 
 /* main-sign Class */
 /* ================================================== */
@@ -1981,16 +1979,16 @@
   text-align: justify;
 }
 .footer-event-details{
-  font-size: x-large;
-  font-weight: 600;
+  font-size: xx-large;
+  font-weight: 700;
   padding: 5% 0px 1% 10% ;
-  color: #112D4E;
+  color: #0F4C75;
 }
 
 .footer-sub-details{
   padding: 1% 0px 1% 15% ;
-  font-size: medium;
-  font-weight: 300;
+  font-size: large;
+  font-weight: 400;
 }
 
 
@@ -2466,6 +2464,7 @@ border: 3px solid black;
 }
 
 
+
 /* .contact{
   
   margin: 20px;
@@ -2597,10 +2596,10 @@ border: 3px solid black;
   flex-direction: row;
   
 }
-aboutUs1{
-  padding: 50px  0px  50px 120px;
+/* .aboutUs1{
+  padding: 50px  0px  50px 12px;
     
-}
+} */
 .aboutContent{
   text-align: center;
   padding: 0px 30% 5% 30%;
@@ -2755,7 +2754,7 @@ aboutUs1{
     flex-direction: row;
     align-items: end;
     justify-content: end;
-    gap: 10px;
+    gap: 40px;
     padding: 20px 20px 30px 0px;
     font-size: large;
     font-weight: 1000px;
@@ -2779,12 +2778,15 @@ aboutUs1{
    .bottomFooter{
     display: flex;
     flex-direction: row;
+    gap: 0px;
+    /* display: flex;
+    flex-direction: row;
     justify-content: center;
     background-color: #EEEEEE;
     width: 100%;
-   gap: 2%;
+   gap: 1px;
    padding: 1% 0%;
-   background-color: #F9F7F7;
+   background-color: #F9F7F7; */
   }
              
 /* .register-header{
@@ -2886,7 +2888,7 @@ aboutUs1{
     justify-content: center;
     background-color: #EEEEEE;
     width: 100%;
-    gap: 3%;
+   gap: 1%;
    
   }
          
@@ -2940,7 +2942,7 @@ aboutUs1{
     padding-bottom: 20px;
     color: whitesmoke;
     padding-top: 20px;
-    
+    font-family: 'Times New Roman', Times, serif;
 
   }
 
@@ -2952,6 +2954,110 @@ aboutUs1{
     font-weight: 500px;
   }
 
+
+/* ============================================================================================================= */
+/* Stalls */
+.stallsInfo{
+background-color: #393E46;
+    padding: 5%;
+    
+}
+.stalls-header{
+   font-size: xx-large;
+    font-weight: 100;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.main-stall-header{
+  color: #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    font-weight: 500px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+
+  /* ============================================================================================================ */
+  /* Banner Launch */
+  .bannerlaunch{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 5%;
+    
+  }
+
+  /* .footerEventsHeader{
+    margin: 0%;
+    padding: 1%;
+  } */
+
+
+
+
+
+  .footerEventsHeader{
+  padding: 10% 10% 0px 10%;
+}
+.footerEventContent{
+  padding: 1% 10% 1% 10%;
+  font-size: x-large;
+  font-weight: 400;
+  text-indent: 20%;
+  word-spacing: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+}
+.footer-event-details{
+  font-size: x-large;
+  font-weight: 600;
+  padding: 5% 0px 1% 10% ;
+  color: #112D4E;
+}
+
+.footer-sub-details{
+  padding: 1% 0px 1% 15% ;
+  font-size: medium;
+  font-weight: 300;
+}
+
+
+  .footer-event-coordinator{
+  font-size: x-large;
+  font-weight: 600;
+  padding: 5% 0px 1% 10% ;
+  color: #112D4E;
+  
+}
+
+.footer-event-coordinator-details{
+  padding: 1% 0px 1% 15% ;
+  font-size: large;
+  font-weight: 300;
+}
+
+
+.footer-button-link{
+ padding: 1% 8%;
+ margin:10px 0px 5% 10% ;
+ border-radius: 10px;
+ background-color:red;
+ color: white;
+ outline: none;
+ 
+ border: 2px solid black;
+ 
+}
+
+
+
+
+
+
+
   /* events Class */
   /* ================================================== */
   .events {
@@ -2961,6 +3067,17 @@ aboutUs1{
     /* grid-template-rows: repeat(3,1fr); */
 
   }
+
+  .stalls{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+  }
+
+  .stalls-more{
+    padding: 5%;
+  }
+
 /* cultural-header Class */
   /* ================================================== */
 
@@ -2988,21 +3105,50 @@ aboutUs1{
     color: #3F72AF;
   }
 
-  /* cricket Class */
-  /* ================================================== */
 
-  .cricket {
-    background-color: lightblue;
+/* Stalls Class */
+/* ============================================= */
+/* .stalls{
+  background-color: #00ADB5;
     display: flex;
     flex-direction: column; 
     border-radius: 15px;
     margin: 5% 5% 5% 5%;
-    border: 1px solid gray;
-  }
+    border: 3px solid whitesmoke;
+} */
 
+  /* cricket Class */
+  /* ================================================== */
+
+  .cricket {
+    background-color: #00ADB5;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 15px;
+    margin: 5% 5% 5% 5%;
+    border: 3px solid whitesmoke;
+  }
+.biriyanifastfood-stalls{
+ background-color: #00ADB5;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 15px;
+    margin: 5% 5% 5% 5%;
+    border: 3px solid whitesmoke;
+}
+
+.drink-stalls{
+  background-color: #00ADB5;
+    display: flex;
+    flex-direction: column; 
+    border-radius: 15px;
+    margin: 5% 5% 5% 5%;
+    border: 3px solid whitesmoke;
+}
   /* content Class */
   .content {
     margin-left: 20px;
+    padding: 2% 0%;
   }
 
   /* sports-header */
@@ -3011,10 +3157,15 @@ aboutUs1{
     padding: 10px 0px 10px 30px;
     font-size: x-large;
     font-weight: 500;
-    color: darkmagenta;
+    color: #EEEEEE;
 
   }
-
+.fastfood-header{
+  padding: 10px 0px 10px 30px;
+    font-size: x-large;
+    font-weight: 500;
+    color: #EEEEEE;
+}
   /* content Class */
   /* ================================================== */
 
@@ -3103,19 +3254,23 @@ aboutUs1{
       font-size: medium;
       font-weight: 400;
    }
-  .bannerlaunch{
+
+
+
+
+  /* .bannerlaunch{
   background-color: #F9F7F7;
   margin: 10px;
-  padding: 10px;
+  padding: 10px; */
   /* border: 1px solid black;
   borde */
-}
-.bannerlaunch-header{
+/* } */
+/* .bannerlaunch-header{
   text-align: center;
   font-size: xx-large;
   font-weight: 500px;
   color: darkcyan;
-}
+} */
 /* .bannerlaunch-logo{
  
   margin-top: 0px;
@@ -3126,7 +3281,7 @@ aboutUs1{
  border-radius: 20px;
 } */
 
-.bannerlaunch-logo{
+/* .bannerlaunch-logo{
   padding: 0;
   margin: 0;
 
@@ -3151,9 +3306,9 @@ aboutUs1{
 }
 .venue{
   padding-left: 10px;
-}
+} */
 
-.social-media1{
+/* .social-media1{
   padding-top: 20px;
   
   display: flex;
@@ -3174,9 +3329,9 @@ aboutUs1{
   font-weight: 500;
   color: #112D4E;
   
-}
+} */
 
-.event-details1{
+/* .event-details1{
   font-size: x-large;
   padding-left: 200px;
   padding-top: 100px;
@@ -3185,11 +3340,11 @@ aboutUs1{
   color: #112D4E;
   
 }
-.event-coordinator{
+.event-coordinator{ */
   /* padding-left: 200px;
   padding-top: 10px;
   color: #3F72AF; */
-  font-size: xx-large;
+  /* font-size: xx-large;
   padding-left: 20%;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -3202,10 +3357,10 @@ aboutUs1{
 .event-coordinator-details{
   padding-top: 10px;
   padding-left: 0%;
-  font-size: large;
+  font-size: large; */
   /* padding-left: 200px; */
   
-}
+/* } */
 
 
 
@@ -4007,11 +4162,103 @@ aboutUs1{
 }
 .cricket1-logo{
    align-items: center;
-  height:25%;
-  width:50%;
-  margin: 3% 25% 3% 25%;
+  height: 50%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.men-kabaddi-logo{
+   align-items: center;
+  height: 50%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.men-khokho-logo{
+  align-items: center;
+  height: 10%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.men-volleyball-logo{
+align-items: center;
+  height: 50%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.carrom-logo{
+align-items: center;
+  height: 50%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.free-fire-logo{
+align-items: center;
+  height: 50%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
 }
 
+.pubg-logo{
+  align-items: center;
+  height: 40%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.women-throwball-logo{
+align-items: center;
+  height: 50%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+
+
+.coder-logo{
+  align-items: center;
+  height: 40%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.guess-output-logo{
+  align-items: center;
+  height: 40%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.quiz-logo{
+  align-items: center;
+  height: 40%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.essay-logo{
+  align-items: center;
+  height: 40%;
+  width: 80%;
+  margin: 3% 10% 3% 10%;
+  border-radius: 50px;
+}
+.bannerlaunch-logo{
+  align-items: center;
+  height: 20%;
+  width: 80%;
+  margin: 2% auto;
+  border-radius: 50px;
+  display: block;
+}
+
+
+
+/* ========================================================================================================================== */
 .cricket1-theme{
   font-size: x-large;
   font-weight: 500;
@@ -4178,7 +4425,7 @@ aboutUs1{
   .social-media {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
   }
 /* google-link Class */
@@ -4519,6 +4766,32 @@ aboutUs1{
   font-weight: 700px;
 }
 
+.contact{
+ margin:20% 40%;
+  border: 2px solid black;
+  /* padding: 20%; */
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+}
+.contact-us{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin: 30px;
+  padding: 20% 10% 0px 10%;
+  color: #112D4E;
+}
+
+
+.contactUs{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 70% 10px 5%;
+  font-size: medium;
+  font-weight: 500;
+}
 
   /* admin-links */
   
@@ -4579,6 +4852,198 @@ aboutUs1{
     color: black;
     text-decoration: none;
   }
+
+
+
+
+  /* ============================================ */
+  /* Faculty Dashboard */
+ .facultyDashboard{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 10% 30%;
+  
+ }
+.assignStudents{
+  display: flex;
+  flex-direction: row;
+  gap: 40%;
+}
+.assignTheCoordinators{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  line-height: 2rem;
+
+}
+
+.coordinator{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+select{
+  border: none;
+  padding: 2% 6%;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
+.SelectOptions{
+  border: none;
+  padding: 2% 22% 2% 12%;
+  margin-left: 10%;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  
+}
+.coordinatorDetails{
+  border: none;
+  padding: 2% 6%;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  
+}
+.event-coordinatorDetails{
+  border: none;
+  padding: 2% 6%;
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  margin-left: 10%;
+  margin-right: 0%;
+  
+}
+.assignCoordinatorHeader span{
+   background-color: red;
+  width: 100%;
+  padding: 5% 10% 5% 10%;
+  text-wrap: nowrap;
+  margin-left: -10%;
+  border-radius: 5px;
+}
+.setCoordinator span{
+  background-color: green;
+  width: 100%;
+  padding: 5% 20% 5% 30%;
+  text-wrap: nowrap;
+  margin-left: -25%;
+  
+}
+.assignEventHeader{
+  background-color: red;
+ 
+  padding: 5% 40% 5% 20%;
+  text-wrap: nowrap;
+  margin-left: 10%;
+  border-radius: 5px;
+}
+  /* .facultyDashboard{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .assignStudents{
+    display: flex;
+    flex-direction: row;
+   
+  }
+
+  .assignTheCoordinators{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+  } */
+
+  /* .assignStudents{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+  }
+  .assignCoordinatorHeader span{
+    background-color: red;
+    padding: 6% 5%;
+    text-wrap: nowrap;
+    border-radius: 5px;
+  }
+
+  select{
+   
+    margin-top: 10%;
+    margin-left: 0%;
+ display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+   */
+
+  
+  /* .coordinators{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    padding: 2% 19%;
+    line-height: 1.5rem;
+    gap: 20px;
+    font-size: small;
+    font-weight: 300;
+    
+    
+
+  }
+ 
+  .coordinatorDetails{
+    outline: none;
+    border: none;
+    padding: 5px 1%; */
+    /* text-align: center; */
+    /* font-size: medium;
+    font-weight: 300;
+    margin: 5px 1%;
+  }
+  .coordinatorDetails:hover{
+    border: 2px solid black;
+    color: #0F4C75;
+  }
+ .setCoordinator{
+  
+    background-color: green;
+    padding: 5% 10%;
+
+ }
+ .assignEventHeader span{
+
+  background-color: red;
+    padding: 10% 50%;
+    text-wrap: nowrap;
+    border-radius: 5px;
+  
+ } */
+ /* .setEvent{
+ 
+    background-color: green;
+    padding: 5% 10%;
+ }
+
+.hoddetails{
+  padding: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ text-align: center;
+ font-size: medium;
+ font-weight: 400;
+}
+ */
 
 
 

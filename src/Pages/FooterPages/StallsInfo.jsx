@@ -1,16 +1,123 @@
+import { Link } from "react-router-dom"
 export default function StallsInfo() {
     return (
         <div className='stallsInfo'>
-            <div className='previousCards'>
-                <img className='previousFestLogo' src='https://c8.alamy.com/comp/EXD916/stalls-selling-various-food-and-beverage-during-ramadhan-month-EXD916.jpg' alt='Sprots Image' height="200px" width="80%"></img>
-                <h1 className='previousEventHeader'>Food & Beverage Stalls</h1>
-                <p className='previousEventContent'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo harum ex nostrum id nesciunt soluta sapiente numquam unde repudiandae corporis. Perspiciatis, harum! Vel ullam distinctio harum, quasi deleniti ab at.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis id, optio quos earum cupiditate, adipisci corrupti nisi assumenda accusamus odio ullam est ab incidunt nam delectus dolorum perspiciatis autem omnis.
-                </p>
-                <p className='previousEventDetails'>Venue :</p>
-                <p className='previousEventDetails'>Start Date :</p>
-                <p className='previousEventDetails'>End Date :</p>
+
+            <p className="stalls-header">List of Stalls in Miracle Fest</p>
+            {/* <div className='main-events-header'>
+            <p className="cultural-header">Cultural Events</p>
+            </div> */}
+            <p className='main-stall-header'>Biriyani & Fast Food Stalls</p>
+
+            <div className='stalls'>
+                {/* <p className="technical-header">Technical Events</p> */}
+                <div className="biriyanifastfood-stalls">
+                    <p className="fastfood-header">Biriyani Veg & Non Veg</p>
+                    <hr></hr>
+                    <div className="content">
+
+                        <p className="event-content">Stall Name :</p>
+                        <p className="event-content">Stall Owner Name :</p>
+                        <p className="event-content">Contact Number :</p>
+                    </div>
+                    <hr></hr>
+                    <Link to="/ProCoder" className='stalls-more'></Link>
+                </div>
+                <div className="biriyanifastfood-stalls">
+                    <p className="fastfood-header">Fride Rice Veg & Non Veg</p>
+                    <hr></hr>
+                    <div className="content">
+
+                        <p className="event-content">Stall Name :</p>
+                        <p className="event-content">Stall Owner Name :</p>
+                        <p className="event-content">Contact Number :</p>
+                    </div>
+                    <hr></hr>
+                    <Link to="/ProCoder" className='stalls-more'></Link>
+                </div>
+                <div className="biriyanifastfood-stalls">
+                    <p className="fastfood-header">Noodles Veg & Non Veg</p>
+                    <hr></hr>
+                    <div className="content">
+
+                        <p className="event-content">Stall Name :</p>
+                        <p className="event-content">Stall Owner Name :</p>
+                        <p className="event-content">Contact Number :</p>
+                    </div>
+                    <hr></hr>
+                    <Link to="/ProCoder" className='stalls-more'></Link>
+                </div>
+                
+            </div>
+
+            <p className='main-stall-header'>Cool Drinks & Fruit Saladas</p>
+
+            <div className='stalls'>
+                {/* <p className="technical-header">Technical Events</p> */}
+                <div className="biriyanifastfood-stalls">
+                    <p className="fastfood-header">Cools Drinks</p>
+                    <hr></hr>
+                    <div className="content">
+
+                        <p className="event-content">Stall Name :</p>
+                        <p className="event-content">Stall Owner Name :</p>
+                        <p className="event-content">Contact Number :</p>
+                    </div>
+                    <hr></hr>
+                    <Link to="/ProCoder" className='stalls-more'></Link>
+                </div>
+
+                <div className="biriyanifastfood-stalls">
+                    <p className="fastfood-header">Cools Drinks</p>
+                    <hr></hr>
+                    <div className="content">
+
+                        <p className="event-content">Stall Name :</p>
+                        <p className="event-content">Stall Owner Name :</p>
+                        <p className="event-content">Contact Number :</p>
+                    </div>
+                    <hr></hr>
+                    <Link to="/ProCoder" className='stalls-more'></Link>
+                </div>
+
+                <div className="biriyanifastfood-stalls">
+                    <p className="fastfood-header">Fruit Juices</p>
+                    <hr></hr>
+                    <div className="content">
+
+                        <p className="event-content">Stall Name :</p>
+                        <p className="event-content">Stall Owner Name :</p>
+                        <p className="event-content">Contact Number :</p>
+                    </div>
+                    <hr></hr>
+                    <Link to="/ProCoder" className='stalls-more'></Link>
+                </div>
+                <div className="biriyanifastfood-stalls">
+                    <p className="fastfood-header">Fruits Saladas</p>
+                    <hr></hr>
+                    <div className="content">
+
+                        <p className="event-content">Stall Name :</p>
+                        <p className="event-content">Stall Owner Name :</p>
+                        <p className="event-content">Contact Number :</p>
+                    </div>
+                    <hr></hr>
+                    <Link to="/ProCoder" className='stalls-more'></Link>
+                </div>
+               
+                
             </div>
         </div>
+
     )
 }
+
+
+
+
+
+
+
+
+
+
