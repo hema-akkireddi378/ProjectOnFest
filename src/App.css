@@ -80,12 +80,13 @@
    }
    
    .register-details{
-      padding: 3% 0% 3% 15%;
-      border: 3px solid black;
+      padding: 3% 0% 3% 5%;
+      border: 2px solid black;
       border-radius: 10px;
       background-color: #393E46;
       font-size: medium;
       font-weight: 400;
+      
       
    }
    input::placeholder{
@@ -114,7 +115,8 @@
     border: 2px solid black;
     border-radius: 10px;
     text-wrap: nowrap;
-
+    font-size: medium;
+    font-weight: 400;
    }
 
    /* ======================================================= */
@@ -123,8 +125,8 @@
     background-color: #393E46;
    }
    .login-details{
-     padding: 3% 10% 3% 10%;
-      border: 3px solid black;
+     padding: 3% 3% 3% 3%;
+      border: 2px solid black;
       border-radius: 10px;
       background-color: #393E46;
       font-size: medium;
@@ -135,7 +137,7 @@
 
     .login-link{
     padding: 3% 25%;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     color: #000;
     display: flex;
@@ -1552,14 +1554,23 @@
 
 
 .my-facebook-link {
-    height: 30px;
-    width: 30px;
-    /* padding: 10px; */
-    /* background-color: lightgray; */
-    /* padding-left: 20px; */
+    
+    height: 20px;
+    width: 4%;
     border-radius: 20px;
   }
+  .my-google-link{
+    height: 20px;
+    width: 4%;
+    border-radius: 20px;
+  }
+  .facebook-link{
+    height: 20px;
+    width: 4%;
+  }
   .google-link{
+    height: 20px;
+    width: 4%;
    
   }
   
@@ -1720,6 +1731,89 @@
 
   /* footer Class */
   /* ================================================== */
+
+  /* stalls */
+  .stallsInfo{
+background-color: #393E46;
+    padding: 5%;
+    
+}
+.stalls-header{
+   font-size: x-large;
+    font-weight: 100;
+    padding-bottom: 20px;
+    color: whitesmoke;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.main-stall-header{
+  color: #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: large;
+    /* font-weight: 500px; */
+    font-family:'Times New Roman', Times, serif ;
+}
+/* .stalls{
+  display: flex;
+  flex-direction: column;
+  background-color: #00ADB5;
+  gap: 30px;
+  border-radius: 20px;
+  margin: 0px 25px 0px 25px;
+} */
+
+.stalls {
+    /* background-color: lightblue; */
+    /* display: flex;
+    flex-direction: column;
+    outline: none; */
+    /* border-radius: 20px; */
+    /* margin: 0px 25px 0px 20px;
+    border: 3px solid black;
+    gap: 20px; */
+    display: grid;
+    
+    background-color: #00ADB5;
+   
+  }
+  /* .biriyanifastfood-stalls{
+  display: flex;
+  flex-direction: column;
+  color: black;
+  padding: 10px 0px 10px 5px;
+  border: 2px solid black;
+
+} */
+.biriyanifastfood-stalls {
+    padding: 10px 0px 10px 30px;
+    font-size: large;
+    font-weight: 500;
+    color: #112D4E;
+    font-family: 'Inter',sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    outline: none;
+    
+  }
+/* .stalls {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 0px 25px 0px 25px;
+    border: 3px solid black;
+  }
+  .biriyanifastfood-stalls {
+    padding: 10px 0px 10px 30px;
+    font-size: large;
+    font-weight: 500;
+    color: #112D4E;
+    font-family: 'Inter',sans-serif;
+  } */
+
 
   .footer {
     display: flex;
@@ -2336,7 +2430,7 @@ border: 3px solid black;
 
 
 .aboutUs1{
-  padding: 50px  0px  10px 0px;
+  padding: 100px  0px  10px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -4911,11 +5005,14 @@ select{
 .event-coordinatorDetails{
   border: none;
   padding: 2% 6%;
+  gap: 30px;
   font-size: large;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 400;
   margin-left: 10%;
   margin-right: 0%;
+  font-size: x-large;
+  font-weight: 400;
   
 }
 .assignCoordinatorHeader span{
@@ -4937,10 +5034,24 @@ select{
 .assignEventHeader{
   background-color: red;
  
-  padding: 5% 40% 5% 20%;
+  padding: 5% 30% 5% 30%;
   text-wrap: nowrap;
   margin-left: 10%;
   border-radius: 5px;
+  font-size: large;
+ font-weight: 300;
+}
+.setEvent{
+  background-color: green;
+  
+  padding: 5% 30% 5% 30%;
+  text-wrap: nowrap;
+  text-align: center;
+  /* margin-right: 40; */
+  margin-left: 10%;
+  border-radius: 5px;
+ font-size: large;
+ font-weight: 400;
 }
   /* .facultyDashboard{
     display: flex;
