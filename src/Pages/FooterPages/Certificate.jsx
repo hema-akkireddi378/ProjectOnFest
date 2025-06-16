@@ -1,10 +1,13 @@
 export default function Certificate() {
     return (
-        <div>
-            <p className='holder'>HemaVinayKumar</p>
-            <div className='outer-certificate'>
-                <div className='certificate'>
-                    <p className='down'>Download the Certificate</p>
+        <div className="certificatedownload">
+            <p className="certificate-header">Here is your Certificate, user</p>
+            <div className="outer-certificate-download"> 
+                <div className="inner-certificate-download">
+                    Preview Of Certificate
+                </div>
+                <div className="certificate-download">
+                <button type="submit" className="submit">Download Certificate </button>
                 </div>
             </div>
         </div>
