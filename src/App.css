@@ -1875,9 +1875,7 @@
   
 }
 
-.faqquestion{
-  padding: 20%;
-}
+
 
 
 
@@ -2211,27 +2209,55 @@
   /* .feedbackform{
 
 } */
-  .mainFeedBackForm {
+  .feedbackform{
+   padding: 15% 10%;
+
+  }
+  .feedbackcontainer{
     display: flex;
     flex-direction: column;
-    gap: 10%;
-
+    background-color: rgb(245, 245, 245);
+    padding: 10% 0%;
   }
-
-  .mainFeedBackForm:active {
-    background-color: lightgray;
+  .feedbackform-header{
+    font-size: x-large;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3% 0%;
   }
+.feedbackform-feilds-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feedbackform-fields{
+  padding: 3% 5%;
+  margin: 5% 15%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
 
-  .yesOrNo {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+
+
+
+
 
 
 
 
   /* ======================================================================================= */
+
+  .sports{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sports-image{
+    margin: 5% 10%;
+    border-radius: 10px;
+  }
 
   .footerEventsHeader {
     padding: 10% 10% 0px 10%;
@@ -2597,14 +2623,7 @@ margin-bottom: 20px; */
   /* ========================================= */
 
 
-  .feedbackform {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    line-height: 1.8rem;
-
-  }
+  
 
   .elements {
     /* border: 1px solid black; */
@@ -3332,12 +3351,18 @@ margin-bottom: 20px; */
 
 
 
-
+/* =========================================================== */
+/* Sports */
 
   .footerEventsHeader {
     padding: 10% 10% 0px 10%;
   }
 
+  .sports-image{
+    margin: 5% 10%;
+    border-radius: 10px;
+    height: 600px;
+  }
   .footerEventContent {
     padding: 1% 10% 1% 10%;
     font-size: x-large;
@@ -5180,16 +5205,55 @@ margin-bottom: 20px; */
     padding: 20px 50px 20px 50px;
   }
 
-
-  .feedbackform {
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 40px;
-    line-height: 1.8rem;
+/* ===================================================== */
+/*Feed Back Form  */
+  
+.feedbackform{
+   padding: 5% 30%;
 
   }
+  .feedbackcontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    padding: 5% 0%;
 
+  }
+  .feedbackform-header{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3% 0%;
+  }
+.feedbackform-feilds-content{
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.feedbackform-fields{
+  padding: 3% 5%;
+  margin: 2% 25%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.feedbackform-fields:last-child{
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* =========================================== */
   .elements {
     border: 1px solid black;
     padding: 20px;
