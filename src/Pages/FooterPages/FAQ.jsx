@@ -2,7 +2,7 @@ export default function FAQ() {
     return (
         <div className='faqContent'>
             <div className="faqsectionContent">
-                <h1 className="faqheader">Frequently Asked question</h1>
+                <h1 className="faqheader">Frequently Asked Question</h1>
                 <details className="faqquestioncontainer">
                     <summary className="faqquestion">
                         <span className="qn">What is Miracle Fest</span>
