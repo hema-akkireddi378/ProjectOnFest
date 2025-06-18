@@ -107,7 +107,7 @@ export default function Sports() {
 
 
             <h1 className='footerEventsHeader'>Pubg</h1>
-            {/* <img className="sports-image" src="https://wallpapers.com/images/hd/pubg-hd-helmet-character-in-ruins-ekxoc8sumz7csigh.jpg" alt="Fest image" ></img> */}
+            <img className="sports-image" src="https://tse2.mm.bing.net/th?id=OIP.Wp2liTM_bFMo7rlt99jicwHaEo&pid=Api&P=0&h=180" alt="Fest image" height="200px" width="80%"></img>
             <p className='footerEventContent'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque quae mollitia, sunt sed commodi, quos alias cupiditate aperiam nulla fuga eos quasi dicta obcaecati, exercitationem temporibus. Recusandae magni est quae?
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ducimus officia dicta necessitatibus, soluta ipsum odio assumenda, animi repudiandae vero quaerat sequi aliquam quidem? Aspernatur itaque fugit soluta hic repellat!
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eius, veritatis molestias et eum quam magni dolores aliquam quaerat officiis explicabo culpa, vel in, omnis pariatur laboriosam nisi ullam optio!

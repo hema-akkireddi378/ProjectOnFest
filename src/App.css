@@ -112,6 +112,7 @@
     font-weight: 400;
     display: flex;
     gap: 10%;
+   
   }
 
   label span {
@@ -155,15 +156,19 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    background-color: transparent;
   }
 
+  .login-link:hover{
+    background-color: green;
+  }
   .login-button {
     font-size: large;
 
     font-weight: 400;
     border: none;
     color: #000;
-    background-color: #393E46;
+    /* background-color: #393E46; */
 
   }
 
@@ -420,7 +425,7 @@
   .event-header {
     font-size: x-large;
     font-weight: 400;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     color: #A6B1E1;
     padding-top: 20px;
     font-family: 'Inter', sans-serif;
@@ -490,6 +495,7 @@
     font-weight: 500;
     padding: 30px 0px 20px 10px;
     font-family: 'Inter', sans-serif;
+    margin-top: 20%;
   }
 
   /* content Class */
@@ -2181,6 +2187,7 @@
     display: flex;
     flex-direction: column;
     padding: 15% 10%;
+    border: 0.5px solid gray ;
   }
 
   .certificate-header {
@@ -2199,7 +2206,7 @@
     height: 40vh;
     margin: 5% 0%;
     background-color: rgb(245, 245, 245);
-    border: ;
+    border: 1px solid black;
   }
 
   .certificate-download {
@@ -2235,6 +2242,7 @@
     background-color: rgb(245, 245, 245);
     padding: 10% 0%;
     border-radius: 10px;
+    border: 4px solid black;
   }
   .feedbackform-header{
     font-size: x-large;
@@ -2274,9 +2282,16 @@
     display: flex;
     flex-direction: column;
   }
-
+.technical-images{
+  margin: 5% 10%;
+    border-radius: 10px;
+}
+.cultural-images{
+  margin: 5% 10%;
+    border-radius: 10px;
+}
   .sports-image{
-    margin: 5% 10%;
+    margin: 1% 10%;
     border-radius: 10px;
   }
 
@@ -2285,7 +2300,7 @@
   }
 
   .footerEventContent {
-    padding: 1% 10% 1% 10%;
+    padding:0% 10%;
     font-size: medium;
     font-weight: 600;
     text-indent: 20%;
@@ -2927,7 +2942,7 @@ margin-bottom: 20px; */
 
   .main-logo {
     height: 100vh;
-    background-color: #00ADB5;
+    background-color: whitesmoke;
   }
 
   .logo {
@@ -2940,6 +2955,63 @@ margin-bottom: 20px; */
     border-radius: 70%;
   }
 
+/*  ===========================================================================================================*/
+/* Emergency Contact */
+.emergencyContact{
+  display: flex;
+  flex-direction: column;
+  margin: 5% 30%;
+  
+}
+.emergency-outer-div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid gray;
+  margin: 3% 0%;
+  padding: 2%;
+  border-radius: 20px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.emergency-header{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  margin: 5% 0%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.emergency-contact-details{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 10%;
+}
+
+
+.peroson-details{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin: 0% 10%;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 400; 
+  border-bottom: 5px solid black;
+}
+.peroson-details:hover{
+  background-color: #3a8abf;
+  color: whitesmoke;
+  
+}
+.emergency-contact-info{
+  padding: 4%;
+ font-family: 'Times New Roman', Times, serif;
+}
 
   /* ============================================ */
   /* ABout Us */
@@ -2953,16 +3025,33 @@ margin-bottom: 20px; */
   padding: 50px  0px  50px 12px;
     
 } */
+
+  .moreAboutUs{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0%;
+    border: 2px solid black;
+    border-radius: 30px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+ 
   .aboutContent {
     text-align: center;
-    padding: 0px 30% 5% 30%;
     line-height: 2rem;
-    font-size: medium;
-    font-weight: 500;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .aboutContent span{
+    text-wrap: nowrap;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .moreAboutUs {
-    padding: 10% 0px 50px 10%;
+    padding: 5% 10% 5% 10%;
     line-height: 2rem;
     font-size: medium;
     font-weight: 400px;
@@ -2976,7 +3065,46 @@ margin-bottom: 20px; */
     margin: 10% 20%;
   }
 
-  .author-socialmedia {
+.authorDetails{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.authorDetailsCon{
+  display: flex;
+  flex-direction: row;
+border: 2px solid black;
+align-items: center;
+justify-content: center;
+width: 100%;
+border-radius: 10px;
+font-size: x-large;
+font-weight: 600;
+padding: 2% 0%;
+border-top: transparent;
+border-bottom: 5px solid black;
+
+}
+.authorDetailsCon .authorKey{
+  width: 40%;
+ justify-content: center;
+ padding-left: 10%;
+ font-family: 'Times New Roman', Times, serif;
+  
+}
+.authorDetailsCon .authorValue{
+  width: 70%;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 5%;
+  
+}
+.authorSocialMeadia{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-top: 5%;
+}
+  /* .author-socialmedia {
     display: flex;
     gap: 10px;
 
@@ -2985,12 +3113,12 @@ margin-bottom: 20px; */
   .my-facebook-link {
     height: 5%;
     width: 5%;
-  }
+  } */
 
-  .my-google-link {
+  /* .my-google-link {
     height: 5%;
     width: 5%;
-  }
+  } */
 
   /* .facebook-link{
   height: 300%;
@@ -3042,13 +3170,30 @@ margin-bottom: 20px; */
     flex-direction: column;
     align-items: center;
   }
-
+.admin-list h2{
+  color: rgba(6, 180, 6, 0.734);
+  padding-bottom:3% ;
+}
+.admin-list .admin-links{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+    font-weight: 400;
+}
   .gamification {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    
+    line-height: 1.8rem;
   }
+  .gamification h2{
+    color:  rgba(6, 180, 6, 0.734);
+  }
+.gamification .gamification-links{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+    font-weight: 400;
+}
 
   .gallery {
     display: flex;
@@ -3056,22 +3201,41 @@ margin-bottom: 20px; */
     align-items: center;
 
   }
-
+.gallery h2{
+  color: rgba(6, 180, 6, 0.734);
+}
+.gallery .gallery-links{
+  font-size: large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
   .support {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
   }
-
+.support h2{
+  color:  rgba(6, 180, 6, 0.734);
+}
+.support .support-links{
+  font-size: large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
   .post-fest {
     display: flex;
     flex-direction: column;
     align-items: center;
 
   }
-
+.post-fest h2{
+  color:  rgba(6, 180, 6, 0.734);
+}
+.post-fest .post-fest-links{
+  font-size: large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
   /* ============================================================================== */
   /* Home */
   /* .main-logo{
@@ -3095,7 +3259,7 @@ margin-bottom: 20px; */
     font-size: x-large;
     justify-content: center;
     align-items: center;
-    background-color: #A6B1E1;
+    background-color: #00ADB5;
   }
 
 
@@ -3105,8 +3269,13 @@ margin-bottom: 20px; */
     padding: 30px 0px 0px 20px;
     color: #fff;
     font-size: xx-large;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
+    transition: transform 0.6s ease-in-out;
+  transform-style: preserve-3d;
+  }
+  .main-header:hover{
+    transform: rotateX(180deg);
   }
 
   /* nav-elements Class */
@@ -3142,6 +3311,9 @@ margin-bottom: 20px; */
     display: flex;
     flex-direction: row;
     gap: 0px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5%;
     /* display: flex;
     flex-direction: row;
     justify-content: center;
@@ -3201,7 +3373,7 @@ margin-bottom: 20px; */
   } */
 
   .main-SignIn {
-    background-color: #393E46;
+    background-color: #3a8abf;
   }
 
 
@@ -3212,7 +3384,9 @@ margin-bottom: 20px; */
   .header-links {
     text-decoration: none;
     color: #fff;
-
+    font-size: x-large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   /* header-profile class */
@@ -3231,7 +3405,9 @@ margin-bottom: 20px; */
   .RegisterMainHeader {
     background-color: black;
   }
-
+.AboutFestMainHeader{
+  background-color: black;
+}
   .LoginMainHeader {
     background-color: black;
   }
@@ -3252,29 +3428,52 @@ margin-bottom: 20px; */
     font-family: 'Times New Roman', Times, serif;
   }
 
+.AboutFestHeader{
+    padding: 3%;
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
   .bottomFooter {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     background-color: #EEEEEE;
     width: 100%;
-    gap: 1%;
+    gap: 2%;
 
   }
+
+.page-footer-bottom-2{
+   text-decoration: none;
+    list-style: none;
+    margin: 20px 0px;
+    font-size: x-large;
+    font-weight: 500;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
   .footer-bottom-2 {
     text-decoration: none;
     list-style: none;
     margin: 20px 0px;
-    font-size: small;
+    font-size: x-large;
     font-weight: 500;
     color: black;
-
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .bottomFooter-links {
     text-decoration: none;
+     font-size: x-large;
+    font-weight: 500;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
   }
 
 
@@ -3285,7 +3484,7 @@ margin-bottom: 20px; */
   }
 
   .main-register {
-    background-color: #393E46;
+    background-color: #3a8abf;
 
   }
 
@@ -3296,12 +3495,35 @@ margin-bottom: 20px; */
     height: 100vh;
   }
 
+/* About Fest */
+/* ============================================================== */
+.aboutFest{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5% 8%;
+}
+.FestHeader{
+  font-size: xx-large;
+  font-weight: 500;
+  margin: 2% 0%;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+.about-fest-content{
+ line-height: 1.8em;
+  text-align: justify;
+}
+
   /* Event File */
   /* ================================================== */
   /* events-body Class */
   /* ================================================== */
+  
+
+
   .events-body {
-    background-color: #393E46;
+    background-color: whitesmoke;
     padding: 5%;
 
 
@@ -3313,16 +3535,16 @@ margin-bottom: 20px; */
     font-size: xx-large;
     font-weight: 100;
     padding-bottom: 20px;
-    color: whitesmoke;
+    color: black;
     padding-top: 20px;
     font-family: 'Times New Roman', Times, serif;
 
   }
 
   .main-events-header {
-    color: #EEEEEE;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: #8a2be2;
+    padding-top: 80px;
+    padding-bottom: 0px;
     font-size: x-large;
     font-weight: 500px;
   }
@@ -3331,7 +3553,7 @@ margin-bottom: 20px; */
   /* ============================================================================================================= */
   /* Stalls */
   .stallsInfo {
-    background-color: #393E46;
+    background-color: whitesmoke;
     padding: 5%;
 
   }
@@ -3340,14 +3562,14 @@ margin-bottom: 20px; */
     font-size: xx-large;
     font-weight: 100;
     padding-bottom: 20px;
-    color: whitesmoke;
+    color: black;
     padding-top: 20px;
     font-family: 'Times New Roman', Times, serif;
 
   }
 
   .main-stall-header {
-    color: #EEEEEE;
+    color: rgb(15, 14, 14);
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: x-large;
@@ -3356,13 +3578,14 @@ margin-bottom: 20px; */
   }
 
 
+
   /* ============================================================================================================ */
   /* Banner Launch */
   .bannerlaunch {
     display: flex;
     flex-direction: column;
     margin: 0% 5%;
-
+    padding: 0% 0% 5% 0%;
   }
 
   /* .footerEventsHeader{
@@ -3373,11 +3596,23 @@ margin-bottom: 20px; */
 
 
 /* =========================================================== */
+/* Cultural Event Images */
+.cultural-images{
+  margin: 5% 10%;
+    border-radius: 10px;
+    height: 600px;
+}
+
+/* ================================================== */
+
+
 /* Sports */
 
   .footerEventsHeader {
     padding: 10% 10% 0px 10%;
   }
+
+
 
   .sports-image{
     margin: 5% 10%;
@@ -3390,6 +3625,7 @@ margin-bottom: 20px; */
     font-weight: 400;
     text-indent: 20%;
     word-spacing: 10px;
+    line-height: 2rem;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
   }
@@ -3397,27 +3633,30 @@ margin-bottom: 20px; */
   .footer-event-details {
     font-size: x-large;
     font-weight: 600;
-    padding: 5% 0px 1% 10%;
+    padding: 5% 0px 0% 10%;
     color: #112D4E;
   }
 
   .footer-sub-details {
-    padding: 1% 0px 1% 15%;
+    padding: 1% 0px 0% 15%;
     font-size: medium;
     font-weight: 300;
+    font-size: large;
+    font-weight: 500;
+
   }
 
 
   .footer-event-coordinator {
     font-size: x-large;
     font-weight: 600;
-    padding: 5% 0px 1% 10%;
+    padding: 5% 0px 0% 10%;
     color: #112D4E;
 
   }
 
   .footer-event-coordinator-details {
-    padding: 1% 0px 1% 15%;
+    padding: 1% 0px 0% 15%;
     font-size: large;
     font-weight: 300;
   }
@@ -3455,8 +3694,15 @@ margin-bottom: 20px; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+   
   }
 
+  .stalls:hover{
+    transform: translateX(-5%);
+    transform: translateX(5%);
+    /* transform: translateY(-15%);
+    transform: translateY(15%); */
+  }
   .stalls-more {
     padding: 5%;
   }
@@ -3511,7 +3757,16 @@ margin-bottom: 20px; */
     flex-direction: column;
     border-radius: 15px;
     margin: 5% 5% 5% 5%;
-    border: 3px solid whitesmoke;
+    border: 3px solid gray;
+    transform: translateY(-20%);
+    transform: translateY(+20%);
+    transition: transform 0.3s ease-in-out;
+  }
+  .cricket:hover{
+    
+transform: translateX(5%);
+    transform: translateX(5%);
+animation-duration: 0.5s;
   }
 
   .biriyanifastfood-stalls {
@@ -3557,13 +3812,20 @@ margin-bottom: 20px; */
 
   /* content Class */
   /* ================================================== */
+  .content:hover{
 
+  }
   .event-content {
     padding: 8px 15px 8px 0px;
     font-size: large;
     font-weight: 500px;
+    
   }
 
+  /* .event-content:hover{
+    transform: translateX(-5%);
+    transform: translateX(5%);
+  } */
   /* more Class */
   /* ================================================== */
   .more {
@@ -3610,7 +3872,7 @@ margin-bottom: 20px; */
   .register-elements {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 
   }
 
@@ -3618,14 +3880,16 @@ margin-bottom: 20px; */
     padding: 5% 0% 5% 15%;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: #393E46;
+    background-color: #3a8abf;
     font-size: medium;
     font-weight: 400;
-
+    
   }
 
   input::placeholder {
     color: black;
+    font-size: large;
+    font-weight: 500;
 
   }
 
@@ -3633,18 +3897,27 @@ margin-bottom: 20px; */
     padding: 5% 0% 5% 15%;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: #393E46;
-    font-size: medium;
-    font-weight: 400;
+    background-color: #3a8abf;
     display: flex;
-    gap: 10%;
+    gap: 5%;
+     font-size: large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
   }
+
+  
+.register-details-verify span{
+  font-size: x-large;
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+
+}
 
   .login-details {
     padding: 3% 0% 3% 15%;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: #393E46;
+    background-color: #3a8abf;
     font-size: medium;
     font-weight: 400;
   }
@@ -3760,9 +4033,9 @@ margin-bottom: 20px; */
 
 
   .finalFest {
-    background-color: #F9F7F7;
+    /* background-color: #F9F7F7; */
     margin: 20px;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     /* border: 1px solid black;
   borde */
   }
@@ -3823,7 +4096,7 @@ margin-bottom: 20px; */
 
 
   .proCoder {
-    background-color: #F9F7F7;
+    /* background-color: #F9F7F7; */
     margin: 20px;
     padding: 20px;
     /* border: 1px solid black;
@@ -3892,7 +4165,7 @@ margin-bottom: 20px; */
 
 
   .traditional {
-    background-color: #F9F7F7;
+    /* background-color: whitesmoke; */
     margin: 20px;
     padding: 20px;
     /* border: 1px solid black;
@@ -4732,7 +5005,12 @@ margin-bottom: 20px; */
     display: block;
   }
 
-
+/* Technical Images */
+.technical-images{
+  
+  margin: 5% 10%;
+    border-radius: 10px;
+}
 
   /* ========================================================================================================================== */
   .cricket1-theme {
@@ -4781,7 +5059,7 @@ margin-bottom: 20px; */
   .register-elements {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
   }
 
   .username {
@@ -4829,12 +5107,15 @@ margin-bottom: 20px; */
   /* ================================================== */
   .sign-up {
     padding: 3% 10% 3% 10%;
-    background-color: #393E46;
-    color: gray;
+    background-color: #3a8abf;
+    color: black;
     border-radius: 10px;
+     font-size: large;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
     border: 3px solid black;
   }
-
+  
   .login-link {
     padding: 3% 10%;
     border: 3px solid black;
@@ -4845,14 +5126,18 @@ margin-bottom: 20px; */
     justify-content: center;
     text-decoration: none;
   }
-
+  .login-link:hover{
+    background-color: rgb(23, 226, 23);
+  }
   .login-button {
     font-size: large;
 
     font-weight: 400;
     border: none;
     color: #000;
-    background-color: #393E46;
+    background-color: transparent;
+    /* background-color: none; */
+  
 
   }
 
@@ -4881,7 +5166,8 @@ margin-bottom: 20px; */
     margin-left: 20px;
     font-size: large;
     font-weight: 400px;
-    color: lightslategray;
+    color: black;
+    background-color: transparent;
 
   }
 
@@ -4896,7 +5182,7 @@ margin-bottom: 20px; */
   /* other Class */
   /* ================================================== */
   .other {
-    color: gray;
+    color: black;
     text-align: center;
     padding: 20px;
     font-size: large;
@@ -4992,18 +5278,76 @@ margin-bottom: 20px; */
 } */
 
   .profile {
-    background-color: #00ADB5;
+    background-color: whitesmoke;
     /* padding: 100px 500px 100px 500px; */
   }
 
   /* inner-profile-details Class */
   /* ================================================== */
-  .inner-profile-details {
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-
+  .my-profile{
+    display: flex;
+    flex-direction: row;
+    margin: 0% 1%;
   }
+  .my-profile-pic-icon {
+    height: 300px;
+    width: 25%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+  }
+  .my-profile-details{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 20px;
+    /* padding: 5% 10% 5% 10%; */
+    padding: 3% 2%;
+    gap: 10px;
+    width: 50%; 
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+   
+  }
+  .my-profile-content{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 5px;
+   align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: large;
+    width: 100%;
+    padding-left:3% ;
+    border-bottom: 4px solid black;
+    border-top: 3px solid black;
+  }
+  .my-profile-content .festuserkey{
+    width: 40%;
+    
+     font-family: 'Times New Roman', Times, serif;
+  }
+.my-profile-content .myprofileiconcol{
+  /* padding: 0% 3%; */
+  width: 5%;
+ 
+}
+.my-profile-content .myprofileuserdata{
+  /* padding: 0% 3%; */
+  border: none;
+  padding: 0% 0%;
+  padding: 2%;
+  background-color: whitesmoke;
+  width: 60%;
+}
+
+
+
+/* ================================================================================= */
 
   .student-profile {
     padding: 20px;
@@ -5017,12 +5361,16 @@ margin-bottom: 20px; */
 
   /* inner-profile Class */
   /* ================================================== */
-  .inner-profile {
+  .my-profile {
     display: flex;
     flex-direction: row;
-    gap: 30%;
-    padding: 10% 5%;
-
+     padding: 3% 5%;
+      justify-content: center;
+    align-items: center;
+    gap: 20%;
+    /* 
+   
+    */
     /* border: 2px solid black; */
   }
 
@@ -5031,9 +5379,19 @@ margin-bottom: 20px; */
   .main-profile-details {
     display: flex;
     flex-direction: column;
-
+    border: 2px solid black;
+    border-radius: 20px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 2% 10%;
   }
 
+  /* .profile-details{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 5% 20%;
+  } */
   /* profile-image Class */
   /* ================================================== */
   .profile-image {
@@ -5141,6 +5499,7 @@ margin-bottom: 20px; */
     display: flex;
     flex-direction: column;
     padding: 5% 8%;
+    
   }
 
   .certificate-header {
@@ -5155,6 +5514,7 @@ margin-bottom: 20px; */
     height: 70vh;
     border: 2px solid black;
     margin: 0% 15%;
+    border: 1px solid gray;
   }
 
   .inner-certificate-download {
@@ -5198,6 +5558,82 @@ margin-bottom: 20px; */
   color: white;
   font-family: 'Times New Roman', Times, serif; */
   }
+  /* =========================================================================================== */
+/* Assignment Section */
+.assignment{
+  display: flex;
+  flex-direction: column;
+  margin: 2% 5%;
+}
+.assignment-header{
+  margin: 3% 0%;
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: 'Times New Roman', Times, serif;
+}
+.assignment-outer-div{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 20px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+.assignment-inner-div{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.event-assignment{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+} 
+
+.event-assignment-header{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  justify-content: space-between;
+  margin: 3%;
+  font-size: xx-large;
+  font-weight: 500;
+  border-radius: 20px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+ 
+  
+}
+.event-assignment-info{
+font-family: 'Times New Roman', Times, serif;
+padding: 3%;
+width: 75%;
+}
+.event-details{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+  justify-content: space-between;
+  margin: 1% 3%;
+  font-size: xx-large;
+  font-weight: 400;
+  border-radius: 10px;
+  
+  
+}
+.event-details:hover{
+  background-color:#3a8abf;
+}
+.event-info{
+  padding: 1% 3% ;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+}
+
+
+
 
 
 /* ============================================================================== */
@@ -5291,7 +5727,9 @@ font-size: x-large;
     flex-direction: column;
     background-color: rgb(245, 245, 245);
     padding: 5% 0%;
-    border-radius: 10px;
+    border-radius: 20px;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
 
   }
   .feedbackform-header{
@@ -5354,6 +5792,7 @@ font-size: x-large;
 
   .aboutUs {
     padding: 20px;
+  
 
   }
 
@@ -5375,32 +5814,73 @@ font-size: x-large;
     padding: 20px;
   }
 
-  .contact {
+  /* Contact Us */
+  /* =============================================================================== */
+.contact{
+  display: flex;
+  flex-direction: column;
+  margin: 10% 30% 5% 30%;
+  border: 5px solid black;
+  padding:15% 0% 5% 0%;
+  border-top-left-radius: 60% ;
+  border-top-right-radius: 60%;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.contact-header{
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: 'Times New Roman', Times, serif;
+}
+.contactUsContent{
+  display: flex;
+  flex-direction: column;
+  
+}
+.contactUsInfo{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 5% 0%;
+  
+ justify-content: start;
+ font-size: large;
+ font-weight: 400;
+ 
+}
+.contactUsInfo p{
+  font-size: x-large;
+  font-weight: 500;
+font-family: 'Times New Roman', Times, serif;
+}
+
+  /* .contact {
     text-align: center;
     color: #0F4C75;
     font-size: larger;
     font-weight: 700px;
-  }
+  } */
 
-  .contact {
+  /* .contact {
     margin: 20% 40%;
     border: 2px solid black;
-    /* padding: 20%; */
+  
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
-  }
+  } */
 
-  .contact-us {
+  /* .contact-us {
     text-align: center;
     font-size: xx-large;
     font-weight: bolder;
     margin: 30px;
     padding: 20% 10% 0px 10%;
     color: #112D4E;
-  }
+  } */
 
 
-  .contactUs {
+  /* .contactUs {
 
     display: flex;
     flex-direction: column;
@@ -5408,7 +5888,7 @@ font-size: x-large;
     padding: 10px 70% 10px 5%;
     font-size: medium;
     font-weight: 500;
-  }
+  } */
 
   /* admin-links */
 
