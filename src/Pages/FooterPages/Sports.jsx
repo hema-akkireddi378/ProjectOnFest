@@ -10,10 +10,11 @@ export default function Sports() {
 
             </p>
             <h3 className='footer-event-details'>Event Details</h3>
-            <p className='footer-sub-details'>Event Date:</p>
-            <p className='footer-sub-details'>Event Start Time :</p>
-            <p className='footer-sub-details'>Event Venue: </p>
-            <p className='footer-sub-details'>Event End Time</p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Date</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Start Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span> </p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Venue</span><span className="footerSubDetailsCol">:</span> <span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event End Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+           
             <Link to="/MensCricketRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
@@ -28,10 +29,11 @@ export default function Sports() {
 
             </p>
             <h3 className='footer-event-details'>Event Details</h3>
-            <p className='footer-sub-details'>Event Date:</p>
-            <p className='footer-sub-details'>Event Start Time :</p>
-            <p className='footer-sub-details'>Event Venue: </p>
-            <p className='footer-sub-details'>Event End Time</p>
+              <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Date</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Start Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span> </p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Venue</span><span className="footerSubDetailsCol">:</span> <span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event End Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+           
             <Link to="/MensKabaddiRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
@@ -46,10 +48,11 @@ export default function Sports() {
 
             </p>
             <h3 className='footer-event-details'>Event Details</h3>
-            <p className='footer-sub-details'>Event Date:</p>
-            <p className='footer-sub-details'>Event Start Time :</p>
-            <p className='footer-sub-details'>Event Venue: </p>
-            <p className='footer-sub-details'>Event End Time</p>
+             <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Date</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Start Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span> </p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Venue</span><span className="footerSubDetailsCol">:</span> <span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event End Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+           
             <Link to="/MensKhoKhoRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
@@ -64,10 +67,11 @@ export default function Sports() {
 
             </p>
             <h3 className='footer-event-details'>Event Details</h3>
-            <p className='footer-sub-details'>Event Date:</p>
-            <p className='footer-sub-details'>Event Start Time :</p>
-            <p className='footer-sub-details'>Event Venue: </p>
-            <p className='footer-sub-details'>Event End Time</p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Date</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Start Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span> </p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Venue</span><span className="footerSubDetailsCol">:</span> <span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event End Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+           
             <Link to="/MensVolleyBallRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
@@ -81,10 +85,11 @@ export default function Sports() {
 
             </p>
             <h3 className='footer-event-details'>Event Details</h3>
-            <p className='footer-sub-details'>Event Date:</p>
-            <p className='footer-sub-details'>Event Start Time :</p>
-            <p className='footer-sub-details'>Event Venue: </p>
-            <p className='footer-sub-details'>Event End Time</p>
+             <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Date</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Start Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span> </p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Venue</span><span className="footerSubDetailsCol">:</span> <span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event End Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+           
             <Link to="/CarromBoardRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
@@ -97,10 +102,11 @@ export default function Sports() {
 
             </p>
             <h3 className='footer-event-details'>Event Details</h3>
-            <p className='footer-sub-details'>Event Date:</p>
-            <p className='footer-sub-details'>Event Start Time :</p>
-            <p className='footer-sub-details'>Event Venue: </p>
-            <p className='footer-sub-details'>Event End Time</p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Date</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Start Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span> </p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Venue</span><span className="footerSubDetailsCol">:</span> <span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event End Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+           
             <Link to="/FreeFireRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
@@ -114,10 +120,11 @@ export default function Sports() {
 
             </p>
             <h3 className='footer-event-details'>Event Details</h3>
-            <p className='footer-sub-details'>Event Date:</p>
-            <p className='footer-sub-details'>Event Start Time :</p>
-            <p className='footer-sub-details'>Event Venue: </p>
-            <p className='footer-sub-details'>Event End Time</p>
+              <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Date</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Start Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span> </p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Venue</span><span className="footerSubDetailsCol">:</span> <span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event End Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+           
             <Link to="/PubgRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
@@ -130,10 +137,11 @@ export default function Sports() {
 
             </p>
             <h3 className='footer-event-details'>Event Details</h3>
-            <p className='footer-sub-details'>Event Date:</p>
-            <p className='footer-sub-details'>Event Start Time :</p>
-            <p className='footer-sub-details'>Event Venue: </p>
-            <p className='footer-sub-details'>Event End Time</p>
+              <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Date</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Start Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span> </p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event Venue</span><span className="footerSubDetailsCol">:</span> <span className="footerSubDetailsValue"></span></p>
+            <p className='footer-sub-details'><span className="footerSubDetailsKey">Event End Time</span><span className="footerSubDetailsCol">:</span><span className="footerSubDetailsValue"></span></p>
+           
             <Link to="/WomensThrowBallRegistration" className="footer-more1">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>

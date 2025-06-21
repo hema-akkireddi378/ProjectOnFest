@@ -1,17 +1,61 @@
+import { useState } from "react";
 export default function Sponser() {
-    return (
-        <div className='sponsers'>
-            <h3 className='sponser-header'>Our Sponsers And their Logos</h3>
-            <div className='listOfCards'>
-                <div className='sponser-cards'>
-                    <img src='https://t3.ftcdn.net/jpg/04/86/89/86/360_F_486898660_UJaOUA0MbM0HpU0JPSr3QG0bcTk6w8DJ.jpg' alt='Mss Sponsers' className='sponser-logo'></img>
-                    <p className='sponser-card-header'>MSS</p>
-                </div>
+    const role = "";
+    const [Year, setYear] = useState("2026");
 
-                <div className='sponser-main-type'>
-                    <p className='sponser-type'>Diamond Sponser</p>
+
+    switch (Year) {
+
+        case "2026":
+            return (
+                <div className='sponsers'>
+                    <div className="sponserContent">
+                        <select onChange={(e)=>setYear(e.target.value)} className="selectyear">
+                            <option value="2026"><span>2026</span></option>
+                            <option value="2025"><span>2025</span></option>
+                            <option value="2024"><span>2024</span></option>
+                            <option value="2023"><span>2023</span></option>
+                            <option value="2022"><span>2022</span></option>
+                        </select>
+                        </div>
+                       <p className="sponserLogoHeader">Sponser Logos</p>
+                       <div className="sponserDetails">
+                       <div className="bannerImage">
+                           <span>Banner</span> 
+                       </div>
+                       <div className="bannerSubImages">
+                        <div className="images">Image</div>
+                         <div className="images">Image</div>
+                          <div className="images">Image</div>
+                       </div>
+                       </div>
+                    
                 </div>
-            </div>
-        </div>
-    )
+            );
+            break;
+            case "2025":
+            return (
+                <div className='sponsers'>
+                    <div className="sponserContent">
+                        <select onChange={(e)=>setYear(e.target.value)} className="selectyear">
+                            <option value="2026"><span>2026</span></option>
+                            <option value="2025"><span>2025</span></option>
+                            <option value="2024"><span>2024</span></option>
+                            <option value="2023"><span>2023</span></option>
+                            <option value="2022"><span>2022</span></option>
+                        </select>
+                       <p className="sponserLogos">Sponser Logos</p>
+                       <div className="bannerImage">
+
+                       </div>
+                       <div className="bannerSubImages">
+                        <div className="images"></div>
+                         <div className="images"></div>
+                          <div className="images"></div>
+                       </div>
+                    </div>
+                </div>
+            );
+            break;
+    }
 }

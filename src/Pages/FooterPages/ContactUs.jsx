@@ -1,6 +1,7 @@
 export default function ContactUs() {
     return (
         <div className='contact'>
+            <img src="https://cdn-icons-png.flaticon.com/128/2967/2967883.png"></img>
             <p className='contact-header'>Contact Us</p>
             <div className='contactUsContent'>
                 <div className='contactUsInfo'>

@@ -109,7 +109,7 @@ export function Footer() {
                                     <Link to="/FacultyDashboard" className="admin-links">Faculty DashBoard</Link>
                                 </li>
                                 {/* <li ><Link to="/StudentDashboard" className="admin-links">Student Dashboard</Link></li> */}
-                                <li className="admin-list" ><Link to="/EventCoordinatorDB" className="admin-links">Event Coordinator Dashboard</Link></li>
+                                <li className="admin-list" ><Link to="/EventCoordinator" className="admin-links">Event Coordinator Dashboard</Link></li>
                                 <li className="admin-list"><Link to="/Assignment" className="admin-links">Voolenter's Assignment</Link></li>
                                 {/* <li ><Link to="/Support" className="admin-links">Support & QA</Link></li> */}
                                 <li className="admin-list"><Link to="/Certificate" className="admin-links">Album Download</Link></li>

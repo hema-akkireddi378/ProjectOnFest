@@ -16,7 +16,9 @@ export function MainHeader() {
         case "/AboutFest":
             return (
                 <header className="AboutFestMainHeader">
+                    <Link  to="/Home" className="backToHome">
                     <h1 className='AboutFestHeader'>MIRACLE</h1>
+                    </Link>
                 </header>
             )
             break;

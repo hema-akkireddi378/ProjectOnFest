@@ -14,6 +14,7 @@ import Events from "./Pages/HeaderPages/Events";
 import Register from "./Pages/HeaderPages/Register";
 import SignIn from "./Pages/HeaderPages/SignIn";
 import MyProfile from "./Pages/HeaderPages/MyProfile";
+import ProfileUpdate from "./Pages/HeaderPages/ProfileUpdate"
 
 // Event Pages
 import BannerLaunch from "./Pages/HeaderPages/BannerLaunchContent";
@@ -51,6 +52,7 @@ import { WomensThrowBallRegistration } from "./Pages/HeaderPages/EventRegistrati
 
 // Footer Pages
 import FacultyDashboard from "./Pages/FooterPages/FacultyDashboard";
+import EventCoordinator from "./Pages/HeaderPages/EventCoordinator";
 import StudentDashboard from "./Pages/FooterPages/StudentDashboard";
 import Assignment from "./Pages/FooterPages/Assignment";
 import Certificate from "./Pages/FooterPages/Certificate";
@@ -95,7 +97,7 @@ function App() {
         <Route path="/Register" element={<Register />}></Route>
         <Route path="/SignIn" element={<SignIn />}></Route>
         <Route path="/MyProfile" element={<MyProfile />}></Route>
-
+        <Route path="/ProfileUpdate" element={<ProfileUpdate/>}></Route>
         {/* Event pages */}
 
         <Route path="/BannerLaunch" element={<BannerLaunch />}></Route>
@@ -134,6 +136,7 @@ function App() {
         {/* Admin Panel */}
 
         <Route path='/FacultyDashboard' element={<FacultyDashboard />}></Route>
+        <Route path="/EventCoordinator" element={<EventCoordinator/>}></Route>
         <Route path="/StudentDashboard" element={<StudentDashboard />}></Route>
         <Route path="/Assignment" element={<Assignment />}></Route>
         <Route path="/Support" element={<Support />}></Route>

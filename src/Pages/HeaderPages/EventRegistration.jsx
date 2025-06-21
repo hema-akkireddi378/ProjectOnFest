@@ -9,16 +9,17 @@ export function ProCoderRegistration(){
                 <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Pro Coder</option>
                 </select>
-                </nav>
+               
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+               </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
             
@@ -32,21 +33,22 @@ export function GuessTheOutputRegistration(){
           
                 <p className="eventContentHeader">Guess The Output Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Guess The Output</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+        </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+            
         </div>
     )
 }
@@ -57,21 +59,22 @@ export function QuizRegistration(){
           
                 <p className="eventContentHeader">Quiz Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Quiz</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+              </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+            
         </div>
     )
 }
@@ -82,21 +85,22 @@ export function QuizRegistration(){
           
                 <p className="eventContentHeader">Essay Writing Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Essay Writing</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+               </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+           
         </div>
     )
 }
@@ -107,21 +111,22 @@ export function MensCricketRegistration(){
           
                 <p className="eventContentHeader">Men's Cricket Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Men's Cricket</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+              </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+            
         </div>
     )
 }
@@ -132,21 +137,22 @@ export function MensKabaddiRegistration(){
           
                 <p className="eventContentHeader">Men's Kabaddi Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Men's Kabaddi</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+              </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+            
         </div>
     )
 }
@@ -157,21 +163,22 @@ export function MensKhoKhoRegistration(){
           
                 <p className="eventContentHeader">Men's Kho Kho Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Men's Kho Kho</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+              </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+            
         </div>
     )
 }
@@ -182,21 +189,22 @@ export function MensVolleyBallRegistration(){
           
                 <p className="eventContentHeader">Men's VolleyBall Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Men's VolleyBall</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+               </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+           
         </div>
     )
 }
@@ -207,21 +215,22 @@ export function CarromBoardRegistration(){
           
                 <p className="eventContentHeader">CarromBoard Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>CarromBoard</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+              </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+            
         </div>
     )
 }
@@ -232,21 +241,22 @@ export function FreeFireRegistration(){
           
                 <p className="eventContentHeader">Free Fire Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Free Fire</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+              </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+            
         </div>
     )
 }
@@ -257,21 +267,22 @@ export function PubgRegistration(){
           
                 <p className="eventContentHeader">Pubg Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Pubg</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+               </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
 
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+           
         </div>
     )
 }
@@ -282,21 +293,23 @@ export function WomensThrowBallRegistration(){
           
                 <p className="eventContentHeader">Women's Throw Ball Registration Form</p>
                   <nav className="eventNav">
-                <select className='SelectOptions'>
+                <select className='EventSelectOptions'>
                     <option value="Pro Coder" className='options'>Women's Throw Ball</option>
                 </select>
                <div className="registerDetails">
-                <input type="text" className="registerCandidateDetails" placeholder="Captain Name"></input>
+                <input type="text" className="registerCandidateDetails" placeholder="Candidate Name"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Year"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Department"></input>
                 <input type="text" className="registerCandidateDetails" placeholder="Section"></input>
               </div>
+              </nav>
               <button type="submit" className="eventRegisteSubmit">Submit</button>
-
-              <p className="eventContent">For any Quaries Contact Coordinator ,</p>
+              <div className="contactCoordinator">
+              <p className="eventCoordinatorContentHeader">For any Quaries Contact Coordinator ,</p>
               <p className="eventContent">Coordinator Name :</p>
               <p className="eventContent">Coordinator Mobile : 00000-00000</p>
-            </nav>
+              </div>
+            
         </div>
     )
 }
