@@ -13,7 +13,13 @@
   /* ================================================== */
   /* Header */
   /* ================================================== */
+.header {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 0%;
 
+  }
 
 
 
@@ -71,10 +77,7 @@
   }
 
 
-  .header {
-    background-color: #222831;
-
-  }
+  
 
 
   /* ========================================== */
@@ -196,6 +199,8 @@
     /* padding: 20px 0px 5px 20px; */
     color: white;
     padding: 40px 0px 0px 10px;
+    font-size: large;
+    font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -205,7 +210,7 @@
   .nav-elements {
     display: flex;
     flex-direction: row;
-    align-items: end;
+    /* align-items: end; */
     justify-content: end;
     gap: 10px;
     padding: 0px 10px 20px 0px;
@@ -258,21 +263,23 @@
   }
 
   .RegisterHeader {
-    padding: 10%;
+    padding: 8%;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .LoginMainHeader {
     background-color: black;
-  }
 
+  }
   .LoginHeader {
     padding: 10%;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .MainPrivacyHeader {
@@ -281,9 +288,10 @@
 
   .PrivacyHeader {
     padding: 10%;
-    color: white;
-    font-size: xx-large;
+   color: white;
+    font-size: x-large;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
   }
 
 
@@ -299,9 +307,10 @@
 
   .AboutFestHeader {
     padding: 10%;
-    color: white;
-    font-size: xx-large;
+   color: white;
+    font-size: x-large;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .TermsAndConditionsMainHeader {
@@ -311,8 +320,9 @@
   .TermsAndConditionsHeader {
     padding: 10%;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .PrivacyPolicyMainHeader {
@@ -321,9 +331,10 @@
 
   .PrivacyPolicyHeader {
     padding: 10%;
-    color: white;
-    font-size: xx-large;
+   color: white;
+    font-size: x-large;
     font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   /* main-logo */
@@ -347,25 +358,149 @@
   .header-links {
     text-decoration: none;
     color: white;
+    font-size: small;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
 
   }
-
+  /* =================================================================== */
+  /* Landing Page */
+  .LandingPage{
+    background-color: #000;
+    padding: 5%;
+  }
   .landingpagecontent {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue;
-
+    color: white;
   }
+.ThemeHeader{
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 700;
+  margin: 5% 0%;
+  color: #0F4C75;
+  font-family: cursive;
+}
+.ThemeSubHeader{
+  /* text-align: center; */
+  font-size: larger;
+  font-weight: 400;
+  margin: 3% 0%;
+  padding: 0% 10% ;
+  color: #3F72AF;
+  font-family: cursive;
+}
+.ThemeContentDetails{
+  font-size: medium;
+  font-weight: 300;
+  text-align: justify;
+   padding:3% 10% 8% 10% ;
+}
+.FestTheme{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 3px #0F4C75;
+}
+.landingPageAbout{
+  display: flex;
+  flex-direction: column;
+  margin: 10% 0%;
+}
+.landingPageAboutHeader{
+  font-size: xx-large;
+  font-weight: 400;
+  color: #0F4C75;
+  text-align: center;
+  font-family: cursive;
+}
+.landingPageAboutContent{
+  color: white;
+  padding: 5% 10%;
+  text-align: center;
+}
+.Compitations{
+  display: flex;
+  flex-direction: column;
+}
+.EventTitle{
+  color: #3d6f91;
+  font-size: xx-large;
+  font-weight: 400;
+  text-align: center;
+  font-family: cursive;
+}
+.selectEvents{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Technical{
+  margin: 5% 5%;
+  padding: 60% 30%;
+border-radius: 5%;
+box-shadow: 0 0 5px 5px #00ADB5;
+}
+.Cultural{
+margin: 5% 5%;
+  padding: 60% 30%;
+border-radius: 5%;
+box-shadow: 0 0 5px 5px #00ADB5;
+}
+.Sports{
+  margin: 5% 5%;
+  padding: 60% 30%;
+border-radius: 5%;
+box-shadow: 0 0 5px 5px #00ADB5;
+}
+.PastEventGallery{
+  display: flex;
+  flex-direction: column;
+}
+.pastEventGalleryHeader{
+  font-size: xx-large;
+  font-weight: 400;
+  color: #3a8abf;
+  text-align: center;
+  font-family: cursive;
+}
+.gallery-grid{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap: 30px;
+  grid-auto-rows: 200px;
+  margin: 5%;
+}
+.gridItem{
+   border-radius: 10px;
+   box-shadow:0 0 3px 3px  #3d6f91;
+}
+.CollegeSocialMedia{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  padding: 5% 5%;
+}
 
+
+
+
+
+
+
+
+
+/* ================================================== */
   .mainHeader-nav-elements {
     display: flex;
     align-items: center;
     justify-content: end;
     gap: 2rem;
     color: white;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
   }
 
   .header-link-aboutfest {
@@ -409,9 +544,11 @@
   /* header-profile class */
   /* ================================================== */
   .header-profile {
-    margin-top: 10px;
-    padding-top: 20px;
+    /* margin-top: 10px;
+    padding-top: 20px; */
     color: #0F4C75;
+    height: 10px;
+    width: 15px;
   }
 
   /* Event File */
@@ -3301,6 +3438,7 @@ margin-bottom: 20px; */
   display: flex;
   flex-direction: column;
   background-color: #000;
+
 }
   .landingpagecontent {
     margin: 5%;
@@ -3345,7 +3483,34 @@ margin-bottom: 20px; */
   font-weight: 400;
   color: whitesmoke;
 }
-
+.landingPageAbout{
+    margin: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.landingPageAboutHeader{
+  font-size: xx-large;
+  font-weight: 400;
+  color: #3d6f91;
+  font-family: cursive;
+  text-align: center;
+}
+.landingPageAboutContent{
+  text-align: justify;
+  font-size: medium;
+  font-weight: 400;
+  color: whitesmoke;
+  padding: 3%;
+}
+.landingPageAboutFest{
+  margin-inline: 250px ;
+  box-shadow: 0 0 3px 3px #3a8abf;
+  padding: 3%;
+  border-radius: 20px;
+}
 
 .Compitations{
   display: flex;
@@ -3389,7 +3554,7 @@ box-shadow: 0 0 5px 5px #00ADB5;
 .PastEventGallery{
 display: flex;
 flex-direction: column;
-margin: 10% 5%;
+margin: 1% 5%;
 }
 .pastEventGalleryHeader{
   text-align: center;
@@ -3426,6 +3591,18 @@ margin: 10% 5%;
 .gridItem.tall{
   grid-row: span 2;
 }
+.CollegeSocialMedia{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  padding: 5% 5%;
+}
+
+
+
+
+
 
 
 /* ===================================================================================== */
