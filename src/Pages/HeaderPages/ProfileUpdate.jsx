@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 export default function EditMyProfile(){
     return(
-        <div className="profisle">
+        <div className="profile">
             <div className="my-profile">
                 <div className="my-profile-pic-icon">
                     </div>
@@ -19,9 +19,9 @@ export default function EditMyProfile(){
                          <p className="my-profile-content"><span className="festuserkey">District</span><span className="myprofileiconcol">:</span><input className="updatedmyprofileuserdata"></input></p>
                           <p className="my-profile-content"><span className="festuserkey">State</span><span className="myprofileiconcol">:</span><input className="updatedmyprofileuserdata"></input></p>
                         <div className="ProfileSaving">
-    
+                        <Link to="/MyProfile">
                           <button type="Edit" className="savingUserDetails"><span>Save</span></button>
-                         
+                        </Link>
                           </div>
                     </div>
             </div>

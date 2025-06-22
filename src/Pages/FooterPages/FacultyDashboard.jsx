@@ -216,20 +216,6 @@ export default function FacultyDashboard() {
                                 </div>
                                 <div className="facultyDetails">
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">y<span>EEE Faculty</span></span></p>
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span> Electrical</span></span></p>
-
-
-                                </div>
-                            </div>
-                        </div>
-                        <div className="facultyCard">
-                            <div className="facultyCardContent">
-                                <div className="facultyProfile">
-
-                                </div>
-                                <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span> Electrical</span></span></p>
 
@@ -258,8 +244,22 @@ export default function FacultyDashboard() {
                                 </div>
                                 <div className="facultyDetails">
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"></span></p><span>EEE Faculty</span>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span> Electrical</span></span></p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div className="facultyCard">
+                            <div className="facultyCardContent">
+                                <div className="facultyProfile">
+
+                                </div>
+                                <div className="facultyDetails">
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">EEE Faculty</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electrical</span></span></p>
 
 
                                 </div>

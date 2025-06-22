@@ -22,27 +22,7 @@ export default function AboutUs() {
                         <img src="https://img.icons8.com/?size=100&id=GNvM541FBQu7&format=png&color=000000" alt="LinkedInLogo" height="30px" width="30px"></img>
                         <img src="https://img.icons8.com/?size=100&id=ZRiAFreol5mE&format=png&color=000000" alt="Instagram" height="30px" width="30px"></img>
                     </div>
-
-
                 </div>
-                {/* <div className="our-details">
-                <p className='aboutus'>Name :</p>
-                <p className='aboutus'>Year :</p>
-                <p className='aboutus'>Branch :</p>
-                <p className='aboutus'>Section :</p>
-                <p className='aboutus'>Mobile no :</p>
-                <p className='aboutus'>Village :</p>
-                <p className='aboutus'>District :</p>
-                <p className='aboutus'>State :</p>
-                <p className='reach'>you can also reach me at,</p>
-                  </div> */}
-                {/* <div className="author-socialmedia">
-                    <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" alt="Facebook logo" className="my-facebook-link" height="20px" width="20px"></img>
-                    <img src="https://img.icons8.com/?size=100&id=GNvM541FBQu7&format=png&color=000000" alt="Google logo" className="my-google-link"></img>
-                    <img src="https://img.icons8.com/?size=100&id=ZRiAFreol5mE&format=png&color=000000" alt="Facebook logo" className="my-facebook-link" ></img>
-                    <img src="https://img.icons8.com/?size=100&id=CtrV2SV33rD9&format=png&color=000000" alt="Google logo" className="my-google-link"></img>
-                </div> */}
-
             </div>
         </div>
     )

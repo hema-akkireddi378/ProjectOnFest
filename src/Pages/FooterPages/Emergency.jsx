@@ -8,29 +8,29 @@ export default function Emergency() {
                         <p className="emergency-contact-info">
                             1 . K . Srinivasa Rao [DEAN]
                         </p>
-                        <p className="emergency-contact-info">00000-00000</p>
+                        <p className="emergency-contact-info-number">00000-00000</p>
                     </div>
                     <div className="peroson-details">
                         <p className="emergency-contact-info">
                             2 . A . Arjuna Rao [PRINCIPAL]
                         </p>
-                        <p className="emergency-contact-info">00000-00000</p>
+                        <p className="emergency-contact-info-number">00000-00000</p>
                     </div>
-                    
+
                     <div className="peroson-details">
                         <p className="emergency-contact-info">
                             3 . CSE HOD
                         </p>
 
 
-                        <p className="emergency-contact-info">00000-00000</p></div>
+                        <p className="emergency-contact-info-number">00000-00000</p></div>
                     <div className="peroson-details">
                         <p className="emergency-contact-info">
                             4 . ECE HOD
                         </p>
 
 
-                        <p className="emergency-contact-info">00000-00000</p>
+                        <p className="emergency-contact-info-number">00000-00000</p>
                     </div>
                     <div className="peroson-details">
                         <p className="emergency-contact-info">
@@ -38,7 +38,7 @@ export default function Emergency() {
                         </p>
 
 
-                        <p className="emergency-contact-info">00000-00000</p>
+                        <p className="emergency-contact-info-number">00000-00000</p>
                     </div>
                     <div className="peroson-details">
                         <p className="emergency-contact-info">
@@ -46,28 +46,28 @@ export default function Emergency() {
                         </p>
 
 
-                        <p className="emergency-contact-info">00000-00000</p>
+                        <p className="emergency-contact-info-number">00000-00000</p>
                     </div>
                     <div className="peroson-details">
                         <p className="emergency-contact-info">
                             7 . Fest Committe Head
                         </p>
 
-                        <p className="emergency-contact-info">00000-00000</p>
+                        <p className="emergency-contact-info-number">00000-00000</p>
                     </div>
                     <div className="peroson-details">
                         <p className="emergency-contact-info">
                             8 . Disciplane Committe Head
                         </p>
 
-                        <p className="emergency-contact-info">00000-00000</p>
+                        <p className="emergency-contact-info-number">00000-00000</p>
                     </div>
                     <div className="peroson-details">
 
                         <p className="emergency-contact-info">
                             9 . Main Coordinator
                         </p>
-                        <p className="emergency-contact-info">00000-00000</p>
+                        <p className="emergency-contact-info-number">00000-00000</p>
                     </div>
 
                 </div>
