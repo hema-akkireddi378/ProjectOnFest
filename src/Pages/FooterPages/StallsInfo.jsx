@@ -14,7 +14,7 @@ export default function StallsInfo() {
 
                         <p className="stalls-event-content"><span className="stallsKey">Stall Name</span><span className="stallsCol">:</span><span className="stallsValue"></span></p>
                         <p className="stalls-event-content"><span className="stallsKey">Stall Owner</span> <span className="stallsCol">:</span><span className="stallsValue"></span></p>
-                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;-Order Now</span></span></p>
+                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;&#45;Order Now</span></span></p>
 
 
                     </div>
@@ -28,7 +28,7 @@ export default function StallsInfo() {
 
                         <p className="stalls-event-content"><span className="stallsKey">Stall Name</span><span className="stallsCol">:</span><span className="stallsValue"></span></p>
                         <p className="stalls-event-content"><span className="stallsKey">Stall Owner</span> <span className="stallsCol">:</span><span className="stallsValue"></span></p>
-                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;-Order Now</span></span></p>
+                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;&#45;Order Now</span></span></p>
 
                     </div>
                     <hr></hr>
@@ -42,7 +42,7 @@ export default function StallsInfo() {
 
                         <p className="stalls-event-content"><span className="stallsKey">Stall Name</span><span className="stallsCol">:</span><span className="stallsValue"></span></p>
                         <p className="stalls-event-content"><span className="stallsKey">Stall Owner</span> <span className="stallsCol">:</span><span className="stallsValue"></span></p>
-                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;-Order Now</span></span></p>
+                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;&#45;Order Now</span></span></p>
 
                     </div>
                     <hr></hr>
@@ -61,7 +61,7 @@ export default function StallsInfo() {
                     <div className="content">
                         <p className="stalls-event-content"><span className="stallsKey">Stall Name</span><span className="stallsCol">:</span><span className="stallsValue"></span></p>
                         <p className="stalls-event-content"><span className="stallsKey">Stall Owner</span> <span className="stallsCol">:</span><span className="stallsValue"></span></p>
-                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;-Order Now</span></span></p>
+                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;&#45;Order Now</span></span></p>
                     </div>
                     <hr></hr>
                     <Link to="/ProCoder" className='stalls-more'></Link>
@@ -73,7 +73,7 @@ export default function StallsInfo() {
                     <div className="content">
                         <p className="stalls-event-content"><span className="stallsKey">Stall Name</span><span className="stallsCol">:</span><span className="stallsValue"></span></p>
                         <p className="stalls-event-content"><span className="stallsKey">Stall Owner</span> <span className="stallsCol">:</span><span className="stallsValue"></span></p>
-                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;-Order Now</span></span></p>
+                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;&#45;Order Now</span></span></p>
                     </div>
                     <hr></hr>
                     <Link to="/ProCoder" className='stalls-more'></Link>
@@ -85,7 +85,7 @@ export default function StallsInfo() {
                     <div className="content">
                         <p className="stalls-event-content"><span className="stallsKey">Stall Name</span><span className="stallsCol">:</span><span className="stallsValue"></span></p>
                         <p className="stalls-event-content"><span className="stallsKey">Stall Owner</span> <span className="stallsCol">:</span><span className="stallsValue"></span></p>
-                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;-Order Now</span></span></p>
+                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;&#45;Order Now</span></span></p>
                     </div>
                     <hr></hr>
                     <Link to="/ProCoder" className='stalls-more'></Link>
@@ -96,7 +96,7 @@ export default function StallsInfo() {
                     <div className="content">
                         <p className="stalls-event-content"><span className="stallsKey">Stall Name</span><span className="stallsCol">:</span><span className="stallsValue"></span></p>
                         <p className="stalls-event-content"><span className="stallsKey">Stall Owner</span> <span className="stallsCol">:</span><span className="stallsValue"></span></p>
-                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;-Order Now</span></span></p>
+                        <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;&#45;Order Now</span></span></p>
                     </div>
                     {/* <hr></hr> */}
                     <Link to="/ProCoder" className='stalls-more'></Link>

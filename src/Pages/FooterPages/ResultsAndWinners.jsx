@@ -1,24 +1,114 @@
+import { useState } from "react"
 export default function ResultsAndWinners() {
-    return (
-        <div>
-              <div className='assignTheCoordinators'>
-                <p className='assignEventHeader'>Assign the Events</p>
-                <select className='SelectOptions'>
-                    <option value="none" className='options'>None</option>
-                    <option value="Banner Launch" className='options'>Banner Launch</option>
-                    <option value="Traditional Day" className='options'>Traditional Day</option>
-                    <option value="Final Fest" className='options'>Final Fest</option>
-                    <option value="Men's Cricket" className='options'>Men's Cricket</option>
-                    <option value="Men's Kabaddi" className='options'>Men's Kabaddi</option>
-                    <option value="Men's Volley Ball" className='options'>Men's Volley Ball</option>
-                    <option value="Men's Kho Kho" className='options'>Men's Kho Kho</option>
-                    <option value="Carroms" className='options'>Carroms</option>
-                    <option value=" Pubg" className='options'>Pubg</option>
-                    <option value="Free Fire" className='options'>Free Fire</option>
-                    <option value="Women Throw Ball" className='options'>Women Throw Ball</option>
-                </select>
+    const role = "";
+    const [EventResults, setEventResults] = useState("Sports");
 
-            </div>
-        </div>
-    )
+    switch (EventResults) {
+        case "Sports":
+            return (
+                <div className="resultsAndWinnerDisplay">
+                    <div className='eventSelectionforWinnerDisplay'>
+                        <select className='SelectEventOptions' onChange={(e) => setEventResults(e.target.value)}>
+                            <option value="Sports" >Sports</option>
+                            <option value="Technical">Technical</option>
+
+                        </select>
+
+                    </div>
+                    <div className="resultsAndWinnersOuterDiv">
+                        <div className="resultsAndWinnerDispalyCon">
+                            <div className="resultsAndWinnersInnerDiv">
+                                <h1 className="eventName">Event Name</h1>
+                                <div className="eventImage"></div>
+                                <div className="eventWinnerDetails">
+                                    <p className="winnerDetails"><span className="winnerDetailsKey">Team</span><span className="winnerDetailsCol">:</span><span className="winnerDetailsValue">Name(captain)</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="resultsAndWinnersInnerDiv">
+                            <h1 className="eventName">Event Name</h1>
+                            <div className="eventImage"></div>
+                            <div className="eventWinnerDetails">
+                                    <p className="winnerDetails"><span className="winnerDetailsKey">Team</span><span className="winnerDetailsCol">:</span><span className="winnerDetailsValue">Name(captain)</span></p>
+                            </div>
+                        </div>
+                        <div className="resultsAndWinnersInnerDiv">
+                            <h1 className="eventName">Event Name</h1>
+                            <div className="eventImage"></div>
+                            <div className="eventWinnerDetails">
+                                    <p className="winnerDetails"><span className="winnerDetailsKey">Team</span><span className="winnerDetailsCol">:</span><span className="winnerDetailsValue">Name(captain)</span></p>
+                            </div>
+                        </div>
+                        <div className="resultsAndWinnersInnerDiv">
+                            <h1 className="eventName">Event Name</h1>
+                            <div className="eventImage"></div>
+                            <div className="eventWinnerDetails">
+                                <p><span>Team</span><span>:</span><span>Name(captain)</span></p>
+                            </div>
+                        </div>
+                        <div className="resultsAndWinnersInnerDiv">
+                            <h1 className="eventName">Event Name</h1>
+                            <div className="eventImage"></div>
+                            <div className="eventWinnerDetails">
+                                    <p className="winnerDetails"><span className="winnerDetailsKey">Team</span><span className="winnerDetailsCol">:</span><span className="winnerDetailsValue">Name(captain)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            );
+            break;
+        case "Technical":
+            return (
+               <div className="resultsAndWinnerDisplay">
+                    <div className='eventSelectionforWinnerDisplay'>
+                        <select className='SelectEventOptions' onChange={(e) => setEventResults(e.target.value)}>
+                            <option value="Sports" >Sports</option>
+                            <option value="Technical">Technical</option>
+
+                        </select>
+
+                    </div>
+                    <div className="resultsAndWinnersOuterDiv">
+                        <div className="resultsAndWinnerDispalyCon">
+                            <div className="resultsAndWinnersInnerDiv">
+                                <h1 className="eventName">Event Name</h1>
+                                <div className="eventImage"></div>
+                                <div className="eventWinnerDetails">
+                                    <p className="winnerDetails"><span className="winnerDetailsKey">Team</span><span className="winnerDetailsCol">:</span><span className="winnerDetailsValue">Name(captain)</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="resultsAndWinnersInnerDiv">
+                            <h1 className="eventName">Event Name</h1>
+                            <div className="eventImage"></div>
+                            <div className="eventWinnerDetails">
+                                    <p className="winnerDetails"><span className="winnerDetailsKey">Team</span><span className="winnerDetailsCol">:</span><span className="winnerDetailsValue">Name(captain)</span></p>
+                            </div>
+                        </div>
+                        <div className="resultsAndWinnersInnerDiv">
+                            <h1 className="eventName">Event Name</h1>
+                            <div className="eventImage"></div>
+                            <div className="eventWinnerDetails">
+                                    <p className="winnerDetails"><span className="winnerDetailsKey">Team</span><span className="winnerDetailsCol">:</span><span className="winnerDetailsValue">Name(captain)</span></p>
+                            </div>
+                        </div>
+                        <div className="resultsAndWinnersInnerDiv">
+                            <h1 className="eventName">Event Name</h1>
+                            <div className="eventImage"></div>
+                            <div className="eventWinnerDetails">
+                                <p><span>Team</span><span>:</span><span>Name(captain)</span></p>
+                            </div>
+                        </div>
+                        <div className="resultsAndWinnersInnerDiv">
+                            <h1 className="eventName">Event Name</h1>
+                            <div className="eventImage"></div>
+                            <div className="eventWinnerDetails">
+                                    <p className="winnerDetails"><span className="winnerDetailsKey">Team</span><span className="winnerDetailsCol">:</span><span className="winnerDetailsValue">Name(captain)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+    }
 }

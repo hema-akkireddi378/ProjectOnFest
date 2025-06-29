@@ -26,7 +26,7 @@ export default function FacultyDashboard() {
                                     <p className="facultyProfileCon"><span>Faculty Profile</span></p>
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Raja Sekhar</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Raja Sekhar</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>CSE HOD</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Computer Science</span></span></p>
 
@@ -41,7 +41,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>CSE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Computer Science</span></span></p>
 
@@ -55,7 +55,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>CSE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Computer Science</span></span></p>
 
@@ -69,7 +69,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>CSE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Computer Science</span></span></p>
 
@@ -83,7 +83,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>CSE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Computer Science</span></span></p>
 
@@ -97,7 +97,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>CSE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Computer Science</span></span></p>
 
@@ -111,7 +111,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">CSE Faculty</span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Computer Science</span></span></p>
 
@@ -125,7 +125,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>CSE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Computer Science</span></span></p>
 
@@ -139,7 +139,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>CSE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Computer Science</span></span></p>
                                 </div>
@@ -172,7 +172,7 @@ export default function FacultyDashboard() {
                                     <p className="facultyProfileCon"><span>Faculty Profile</span></p>
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">ECE HOD</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"> ECE Hod name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">ECE HOD</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE Hod name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE HOD</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span> Electrical</span></span></p>
 
@@ -187,7 +187,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span> Electrical</span></span></p>
 
@@ -201,7 +201,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span> Electrical</span></span></p>
 
@@ -215,7 +215,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span> Electrical</span></span></p>
 
@@ -229,7 +229,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span> Electrical</span></span></p>
 
@@ -243,7 +243,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span> Electrical</span></span></p>
 
@@ -257,7 +257,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">EEE Faculty</span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electrical</span></span></p>
 
@@ -271,7 +271,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electrical</span></span></p>
 
@@ -285,7 +285,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>EEE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electrical</span></span></p>
                                 </div>
@@ -315,7 +315,7 @@ export default function FacultyDashboard() {
                                     <p className="facultyProfileCon"><span>Faculty Profile</span></p>
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">ECE HOD</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">ECE HOD NAME</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">ECE HOD</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Ece hod name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE HOD</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electronics </span></span></p>
 
@@ -330,7 +330,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electronics </span></span></p>
 
@@ -344,7 +344,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electronics </span></span></p>
 
@@ -358,7 +358,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electronics </span></span></p>
 
@@ -372,7 +372,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electronics </span></span></p>
 
@@ -386,7 +386,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electronics </span></span></p>
 
@@ -400,7 +400,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electronics </span></span></p>
 
@@ -414,7 +414,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electronics </span></span></p>
 
@@ -428,7 +428,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">F<span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>ECE Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Electronics </span></span></p>
                                 </div>
@@ -474,7 +474,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical</span></span></p>
 
@@ -488,7 +488,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical</span></span></p>
 
@@ -502,7 +502,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical</span></span></p>
 
@@ -516,7 +516,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical</span></span></p>
 
@@ -530,7 +530,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical</span></span></p>
 
@@ -544,7 +544,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"> <span>Mechanical</span></span></p>
 
@@ -558,7 +558,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical</span></span></p>
 
@@ -572,7 +572,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Mechanical</span></span></p>
                                 </div>
@@ -620,7 +620,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil</span></span></p>
 
@@ -634,7 +634,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil</span></span></p>
 
@@ -648,7 +648,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil</span></span></p>
 
@@ -662,7 +662,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil</span></span></p>
 
@@ -676,7 +676,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil</span></span></p>
 
@@ -690,7 +690,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil</span></span></p>
 
@@ -704,7 +704,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil</span></span></p>
 
@@ -718,7 +718,7 @@ export default function FacultyDashboard() {
 
                                 </div>
                                 <div className="facultyDetails">
-                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue">Faculty Name</span></p>
+                                    <p className="facultyDetailsCon"><span className="facultyDetailsKey">Name</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Faculty Name</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Designation</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil Faculty</span></span></p>
                                     <p className="facultyDetailsCon"><span className="facultyDetailsKey">Department</span><span className="facultyDetailsCol">:</span><span className="facultyDetailsValue"><span>Civil</span></span></p>
                                 </div>

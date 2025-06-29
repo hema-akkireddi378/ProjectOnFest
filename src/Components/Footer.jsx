@@ -138,7 +138,7 @@ export function Footer() {
                             <div className="post-fest">
                                 <li className="post-fest"><h2>Post-Fest</h2></li>
                                 <li className="post-fest"><Link to="FeedbackForm" className="post-fest-links">FeedBack Form</Link></li>
-                                <li className="post-fest"><Link to="/Results" className="post-fest-links">Results & Winner Display</Link></li>
+                                <li className="post-fest"><Link to="/ResultsAndWinners" className="post-fest-links">Results & Winner Display</Link></li>
                                 {/* <li className="post-fest"><Link to="/TermsAndConditions" className="post-fest-links">Terms and Conditions</Link></li>
                                 <li className="post-fest"><Link to="/ContactUs" className="post-fest-links">Results And Winners</Link></li>
                                 <li className="post-fest"><Link to="/Privacy" className="post-fest-links">Privacy Policy</Link></li> */}

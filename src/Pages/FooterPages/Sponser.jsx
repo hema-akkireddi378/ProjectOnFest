@@ -19,6 +19,7 @@ export default function Sponser() {
                         </select>
                         </div>
                        <p className="sponserLogoHeader">Sponser Logos</p>
+                      <p className="sponserLogoYear">2026 - 2027</p>
                        <div className="sponserDetails">
                        <div className="bannerImage">
                            <span>Banner</span> 
@@ -46,6 +47,8 @@ export default function Sponser() {
                         </select>
                         </div>
                        <p className="sponserLogoHeader">Sponser Logos</p>
+                       <p className="sponserLogoYear">2025 - 2026</p>
+                      
                        <div className="sponserDetails">
                        <div className="bannerImage">
                            <span>Banner</span> 
@@ -73,6 +76,7 @@ export default function Sponser() {
                         </select>
                         </div>
                        <p className="sponserLogoHeader">Sponser Logos</p>
+                       <p className="sponserLogoYear">2024 - 2025</p>
                        <div className="sponserDetails">
                        <div className="bannerImage">
                            <span>Banner</span> 
@@ -100,6 +104,7 @@ export default function Sponser() {
                         </select>
                         </div>
                        <p className="sponserLogoHeader">Sponser Logos</p>
+                       <p className="sponserLogoYear">2023 - 2024</p>
                        <div className="sponserDetails">
                        <div className="bannerImage">
                            <span>Banner</span> 
@@ -127,6 +132,7 @@ export default function Sponser() {
                         </select>
                         </div>
                        <p className="sponserLogoHeader">Sponser Logos</p>
+                       <p className="sponserLogoYear">2022 - 2023</p>
                        <div className="sponserDetails">
                        <div className="bannerImage">
                            <span>Banner</span> 
