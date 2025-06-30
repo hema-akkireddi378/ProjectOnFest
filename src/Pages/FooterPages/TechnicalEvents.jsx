@@ -16,7 +16,7 @@ export default function TechnicalEvents() {
                 <p className='footer-sub-details'><span className="footer-sub-details-key">Event Venue</span> <span className="footer-sub-details-col">:</span><span className="footer-sub-details-value"></span> </p>
                 <p className='footer-sub-details'><span className="footer-sub-details-key">Event End Time</span><span className="footer-sub-details-col">:</span><span className="footer-sub-details-value"></span> </p>
             </div>
-            <Link to="/ProCoderEvent" className="footer-more">
+            <Link to="/ProcoderRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
 
@@ -35,7 +35,7 @@ export default function TechnicalEvents() {
                 <p className='footer-sub-details'><span className="footer-sub-details-key">Event Venue</span> <span className="footer-sub-details-col">:</span><span className="footer-sub-details-value"></span> </p>
                 <p className='footer-sub-details'><span className="footer-sub-details-key">Event End Time</span><span className="footer-sub-details-col">:</span><span className="footer-sub-details-value"></span> </p>
             </div>
-            <Link to="/GuessTheOutputEvent" className="footer-more">
+            <Link to="/GuessTheOutputRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
 
@@ -53,7 +53,7 @@ export default function TechnicalEvents() {
                 <p className='footer-sub-details'><span className="footer-sub-details-key">Event Venue</span> <span className="footer-sub-details-col">:</span><span className="footer-sub-details-value"></span> </p>
                 <p className='footer-sub-details'><span className="footer-sub-details-key">Event End Time</span><span className="footer-sub-details-col">:</span><span className="footer-sub-details-value"></span> </p>
             </div>
-            <Link to="/QuizEvent" className="footer-more">
+            <Link to="/QuizRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
 
@@ -71,7 +71,7 @@ export default function TechnicalEvents() {
                 <p className='footer-sub-details'><span className="footer-sub-details-key">Event Venue</span> <span className="footer-sub-details-col">:</span><span className="footer-sub-details-value"></span> </p>
                 <p className='footer-sub-details'><span className="footer-sub-details-key">Event End Time</span><span className="footer-sub-details-col">:</span><span className="footer-sub-details-value"></span> </p>
             </div>
-            <Link to="/EssayWritingEvent" className="footer-more">
+            <Link to="/EssayWritingRegistration" className="footer-more">
                 <button type='link' className='footer-button-link'>Register</button>
             </Link>
 

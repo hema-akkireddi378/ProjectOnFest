@@ -8,6 +8,7 @@ import { Footer } from "./Components/Footer";
 // Landing Page
 import LandingPageContent from "./Pages/HeaderPages/LandingPageContent";
 
+import AnimationPage from "./Pages/HeaderPages/AnimationPage";
 // Header Pages
 import Home from "./Pages/HeaderPages/Home";
 import Events from "./Pages/HeaderPages/Events";
@@ -90,7 +91,7 @@ function App() {
       <Routes>
         {/* Landing Page */}
         <Route path="/" element={<LandingPageContent />}></Route>
-
+        <Route path="/AnimationPage" element={<AnimationPage/>}></Route>
         {/* Header Pages */}
         <Route path="/Home" element={<Home />}></Route>
         <Route path="/Events" element={<Events />}></Route>

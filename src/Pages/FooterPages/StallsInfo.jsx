@@ -95,7 +95,7 @@ export default function StallsInfo() {
                         <p className="stalls-event-content"><span className="stallsKey">Stall Owner</span> <span className="stallsCol">:</span><span className="stallsValue"></span></p>
                         <p className="stalls-event-content"><span className="stallsKey">Mobile</span> <span className="stallsCol">:</span><span className="stallsValue">00000-00000<span className="orderItem">&lt;&#45;Order Now</span></span></p>
                     </div>
-                    {/* <hr></hr> */}
+                    <hr></hr>
                     <p className="stall-content-footer"></p>
                 </div>
 
