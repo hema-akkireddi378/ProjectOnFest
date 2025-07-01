@@ -8,7 +8,7 @@ import { Footer } from "./Components/Footer";
 // Landing Page
 import LandingPageContent from "./Pages/HeaderPages/LandingPageContent";
 
-import AnimationPage from "./Pages/HeaderPages/AnimationPage";
+// import AnimationPage from "./Pages/HeaderPages/AnimationPage";
 // Header Pages
 import Home from "./Pages/HeaderPages/Home";
 import Events from "./Pages/HeaderPages/Events";
@@ -28,7 +28,7 @@ import Quiz from "./Pages/HeaderPages/Quiz";
 import EssayWriting from "./Pages/HeaderPages/EssayWriting";
 
 import MensCricket from "./Pages/HeaderPages/MensCricket";
-import MensKabaddi from "./Pages/HeaderPages/MenKabaddi";
+// import MensKabaddi from "./Pages/HeaderPages/MenKabaddi";
 import MenKhoKho from "./Pages/HeaderPages/MenKhoKho";
 import MenVolleyball from "./Pages/HeaderPages/MenVolleyball";
 import CarromBoard from "./Pages/HeaderPages/CarromBoard";
@@ -91,7 +91,7 @@ function App() {
       <Routes>
         {/* Landing Page */}
         <Route path="/" element={<LandingPageContent />}></Route>
-        <Route path="/AnimationPage" element={<AnimationPage/>}></Route>
+        {/* <Route path="/AnimationPage" element={<AnimationPage/>}></Route> */}
         {/* Header Pages */}
         <Route path="/Home" element={<Home />}></Route>
         <Route path="/Events" element={<Events />}></Route>
@@ -110,7 +110,7 @@ function App() {
         <Route path="/EssayWriting" element={<EssayWriting />}></Route>
         {/* <Route path="/Cricket1" element={<Criket1/>}></Route> */}
         <Route path="/MensCricket" element={<MensCricket/>}></Route>
-        <Route path="/MenKabaddi" element={<MenKabaddi />}></Route>
+        {/* <Route path="/MenKabaddi" element={<MenKabaddi />}></Route> */}
         <Route path="/MenKhoKho" element={<MenKhoKho />}></Route>
         <Route path="/MenVolleyball" element={<MenVolleyball />}></Route>
         <Route path="/CarromBoard" element={<CarromBoard />}></Route>

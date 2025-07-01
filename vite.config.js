@@ -8,4 +8,5 @@ export default defineConfig({
     host: true, // OR use '0.0.0.0'
     port: 5173, // default Vite port
   },
+   base: '/', // ✅ this helps load assets relatively
 })
